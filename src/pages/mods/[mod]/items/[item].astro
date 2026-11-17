@@ -22,10 +22,12 @@ const start = Math.max(0, Math.min(same.length - 12, items.filter((i) => i.kind 
 const related = same.slice(start, start + 12);
 const desc = item.description || `${item.name} is ${kindLabel === 'Item' ? 'an item' : 'a block'} added by ${mod.data.name}.`;
 ---
-<Base title={`${item.name} (${mod.data.name})`} description={`${desc} Learn about ${item.name} from the ${mod.data.name} Minecraft mod.`} image={item.icon ?? undefined}>
+<Base title={`${item.name} (${mod.data.name})`} description={`${notes?.data.summary || desc} Learn about ${item.name} from the ${mod.data.name} Minecraft mod.`} image={item.icon ?? undefined}>
   <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / <a href={url(`/mods/${mod.id}/`)}>{mod.data.name}</a> / {kindLabel}s / {item.name}</div>
   <h1>{item.name}</h1>
-  <p class="lead">{desc}</p>
+  {/* The in-game tooltip is only shown when there's no hand-written write-up.
+      A write-up can still set its own intro line with `summary:` in its front matter. */}
+  {notes?.data.summary ? <p class="lead">{notes.data.summary}</p> : !notes && <p class="lead">{desc}</p>}
   {notes?.data.obtain && <p><strong>How to get it:</strong> {notes.data.obtain}</p>}
   {Notes ? <article class="prose"><Notes /></article> : (
     <p style="color:var(--muted)">This page doesn't have a write-up yet. See the <a href={url(`/mods/${mod.id}/`)}>{mod.data.name} overview</a> for how it fits into the mod.</p>

@@ -28,7 +28,7 @@ npm run preview    # serve the built site (search works here)
 | What | Where |
 |---|---|
 | A mod's overview page (text, images, download links, version) | `src/content/mods/<slug>.md` |
-| Notes for a single item or block (optional) | `src/content/items/<mod-slug>/<item-id>.md` (see the Spelunker's Charm helmets for examples) |
+| Notes for a single item or block (optional) | `src/content/items/<mod-slug>/<item-id>.md` (see the Spelunker's Charm helmets for examples). Front matter: `obtain:` (how to get it) and `summary:` (intro line). Without a write-up, the page shows the item's in-game tooltip instead. |
 | Images, videos | `public/mods/<slug>/media/`, linked as `/mods/<slug>/media/file.webp` |
 | Site name, social links, ads | `src/site.config.ts` |
 | Home page hero (headline, background photo or video), intro and featured mod | `home` in `src/site.config.ts` |

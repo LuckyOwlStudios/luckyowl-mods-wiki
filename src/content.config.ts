@@ -29,6 +29,7 @@ const items = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/items' }),
   schema: z.object({
     obtain: z.string().optional(),  // short "how to get it" line
+    summary: z.string().optional(), // optional intro line shown under the title
   }).passthrough(),
 });
 
