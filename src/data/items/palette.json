@@ -1,0 +1,579 @@
+{
+  "namespace": "luckys_palette",
+  "items": [
+    {
+      "id": "acacia_beam",
+      "name": "Acacia Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "acacia_lumber",
+      "name": "Acacia Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "acacia_planked_wall",
+      "name": "Acacia Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/acacia_planked_wall.png"
+    },
+    {
+      "id": "acacia_timberplate",
+      "name": "Acacia Timberplate",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/acacia_timberplate.png"
+    },
+    {
+      "id": "autumn_stained_glass",
+      "name": "Autumn Stained Glass",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/autumn_stained_glass.png"
+    },
+    {
+      "id": "autumn_stained_glass_pane",
+      "name": "Autumn Stained Glass Pane",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "autumn_stained_glass_slab",
+      "name": "Autumn Stained Glass Slab",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "autumn_stained_glass_stairs",
+      "name": "Autumn Stained Glass Stairs",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "bamboo_beam",
+      "name": "Bamboo Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "bamboo_planked_wall",
+      "name": "Bamboo Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/bamboo_planked_wall.png"
+    },
+    {
+      "id": "bamboo_stalk",
+      "name": "Bamboo Stalk",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "bamboo_timberplate",
+      "name": "Bamboo Timberplate",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/bamboo_timberplate.png"
+    },
+    {
+      "id": "birch_beam",
+      "name": "Birch Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "birch_lumber",
+      "name": "Birch Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "birch_planked_wall",
+      "name": "Birch Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/birch_planked_wall.png"
+    },
+    {
+      "id": "birch_timberplate",
+      "name": "Birch Timberplate",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/birch_timberplate.png"
+    },
+    {
+      "id": "bookshelf_slab",
+      "name": "Bookshelf Slab",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "bookshelf_stairs",
+      "name": "Bookshelf Stairs",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "cherry_beam",
+      "name": "Cherry Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "cherry_lumber",
+      "name": "Cherry Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "cherry_planked_wall",
+      "name": "Cherry Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/cherry_planked_wall.png"
+    },
+    {
+      "id": "cherry_timberplate",
+      "name": "Cherry Timberplate",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/cherry_timberplate.png"
+    },
+    {
+      "id": "crimson_beam",
+      "name": "Crimson Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "crimson_lumber",
+      "name": "Crimson Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "crimson_planked_wall",
+      "name": "Crimson Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/crimson_planked_wall.png"
+    },
+    {
+      "id": "crimson_timberplate",
+      "name": "Crimson Timberplate",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/crimson_timberplate.png"
+    },
+    {
+      "id": "dark_oak_beam",
+      "name": "Dark Oak Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "dark_oak_lumber",
+      "name": "Dark Oak Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "dark_oak_planked_wall",
+      "name": "Dark Oak Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/dark_oak_planked_wall.png"
+    },
+    {
+      "id": "dark_oak_timberplate",
+      "name": "Dark Oak Timberplate",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/dark_oak_timberplate.png"
+    },
+    {
+      "id": "glass_slab",
+      "name": "Glass Slab",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "glass_stairs",
+      "name": "Glass Stairs",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "gold_frame",
+      "name": "Gold Frame",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/gold_frame.png"
+    },
+    {
+      "id": "gold_frame_pane",
+      "name": "Gold Frame Pane",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "gold_frame_slab",
+      "name": "Gold Frame Slab",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "gold_frame_stairs",
+      "name": "Gold Frame Stairs",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "iron_frame",
+      "name": "Iron Frame",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/iron_frame.png"
+    },
+    {
+      "id": "iron_frame_pane",
+      "name": "Iron Frame Pane",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "iron_frame_slab",
+      "name": "Iron Frame Slab",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "iron_frame_stairs",
+      "name": "Iron Frame Stairs",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "jungle_beam",
+      "name": "Jungle Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "jungle_lumber",
+      "name": "Jungle Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "jungle_planked_wall",
+      "name": "Jungle Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/jungle_planked_wall.png"
+    },
+    {
+      "id": "jungle_timberplate",
+      "name": "Jungle Timberplate",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/jungle_timberplate.png"
+    },
+    {
+      "id": "mangrove_beam",
+      "name": "Mangrove Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "mangrove_lumber",
+      "name": "Mangrove Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "mangrove_planked_wall",
+      "name": "Mangrove Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/mangrove_planked_wall.png"
+    },
+    {
+      "id": "mangrove_timberplate",
+      "name": "Mangrove Timberplate",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/mangrove_timberplate.png"
+    },
+    {
+      "id": "oak_beam",
+      "name": "Oak Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "oak_lumber",
+      "name": "Oak Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/oak_lumber.png"
+    },
+    {
+      "id": "oak_planked_wall",
+      "name": "Oak Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/oak_planked_wall.png"
+    },
+    {
+      "id": "oak_timberplate",
+      "name": "Oak Timberplate",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/oak_timberplate.png"
+    },
+    {
+      "id": "spruce_beam",
+      "name": "Spruce Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "spruce_lumber",
+      "name": "Spruce Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "spruce_planked_wall",
+      "name": "Spruce Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/spruce_planked_wall.png"
+    },
+    {
+      "id": "spruce_timberplate",
+      "name": "Spruce Timberplate",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/spruce_timberplate.png"
+    },
+    {
+      "id": "stripped_acacia_beam",
+      "name": "Stripped Acacia Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_acacia_lumber",
+      "name": "Stripped Acacia Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_bamboo_beam",
+      "name": "Stripped Bamboo Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_bamboo_stalk",
+      "name": "Stripped Bamboo Stalk",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_birch_beam",
+      "name": "Stripped Birch Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_birch_lumber",
+      "name": "Stripped Birch Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_cherry_beam",
+      "name": "Stripped Cherry Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_cherry_lumber",
+      "name": "Stripped Cherry Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_crimson_beam",
+      "name": "Stripped Crimson Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_crimson_lumber",
+      "name": "Stripped Crimson Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_dark_oak_beam",
+      "name": "Stripped Dark Oak Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_dark_oak_lumber",
+      "name": "Stripped Dark Oak Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_jungle_beam",
+      "name": "Stripped Jungle Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_jungle_lumber",
+      "name": "Stripped Jungle Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_mangrove_beam",
+      "name": "Stripped Mangrove Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_mangrove_lumber",
+      "name": "Stripped Mangrove Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_oak_beam",
+      "name": "Stripped Oak Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_oak_lumber",
+      "name": "Stripped Oak Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_spruce_beam",
+      "name": "Stripped Spruce Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_spruce_lumber",
+      "name": "Stripped Spruce Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_warped_beam",
+      "name": "Stripped Warped Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "stripped_warped_lumber",
+      "name": "Stripped Warped Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "warped_beam",
+      "name": "Warped Beam",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "warped_lumber",
+      "name": "Warped Lumber",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "warped_planked_wall",
+      "name": "Warped Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/warped_planked_wall.png"
+    },
+    {
+      "id": "warped_timberplate",
+      "name": "Warped Timberplate",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/palette/items/warped_timberplate.png"
+    }
+  ]
+}

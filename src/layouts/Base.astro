@@ -1,0 +1,82 @@
+---
+import '@fontsource/pixelify-sans/600.css';
+import '../styles/global.css';
+import AdSlot from '../components/AdSlot.astro';
+import { site, ads } from '../site.config';
+import { allMods, url } from '../lib';
+
+interface Props { title?: string; description?: string; image?: string; wide?: boolean }
+const { title, description = site.description, image, wide = false } = Astro.props;
+const fullTitle = title ? `${title} | ${site.name}` : site.name;
+const mods = await allMods();
+const path = Astro.url.pathname;
+const canonical = new URL(path, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <link rel="icon" href={url('/favicon.png')} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonical} />
+  {image && <meta property="og:image" content={new URL(url(image), Astro.site)} />}
+  <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+  {ads.enabled && ads.client && (
+    <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ads.client}`} crossorigin="anonymous"></script>
+  )}
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href={url('/')}><img src={url('/favicon.png')} alt="" width="28" height="28" /> {site.shortName}</a>
+    <form class="search" action={url('/search/')} method="get" role="search">
+      <input type="search" name="q" placeholder="Search items, blocks, features…" aria-label="Search the wiki" />
+    </form>
+    <nav class="toplinks">
+      <a href={url('/mods/')}>All mods</a>
+      {site.links.github && <a href={site.links.github} rel="noopener">GitHub</a>}
+    </nav>
+    <button class="menu-btn" aria-label="Open menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
+  </header>
+
+  <div class="shell">
+    <aside class="sidebar">
+      <p class="sidebar-label">Mods</p>
+      <ul>
+        {mods.map((m) => {
+          const href = url(`/mods/${m.id}/`);
+          return (
+            <li><a href={href} class={path.startsWith(href) ? 'active' : ''}>
+              {m.data.icon && <img src={url(m.data.icon)} alt="" width="20" height="20" />}{m.data.name}
+            </a></li>
+          );
+        })}
+      </ul>
+    </aside>
+
+    <main class:list={['content', { wide }]} data-pagefind-body>
+      <AdSlot slot="header" />
+      <slot />
+      <AdSlot slot="footer" />
+    </main>
+
+    {!wide && (
+      <aside class="rail">
+        <slot name="rail" />
+        <div class="sticky-ad"><AdSlot slot="sidebar" format="vertical" /></div>
+      </aside>
+    )}
+  </div>
+
+  <footer class="footer">
+    <p>{site.name} · Made by {site.author}</p>
+    <p><a href={url('/privacy/')}>Privacy</a> · <a href={url('/mods/')}>All mods</a>{site.links.github && <> · <a href={site.links.github}>GitHub</a></>}</p>
+    <p class="fine">Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,229 @@
+{
+  "namespace": "luckysarmory",
+  "items": [
+    {
+      "id": "heavy_diamond_boots",
+      "name": "Heavy Diamond Boots",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_diamond_boots.png"
+    },
+    {
+      "id": "heavy_diamond_chestplate",
+      "name": "Heavy Diamond Chestplate",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_diamond_chestplate.png"
+    },
+    {
+      "id": "heavy_diamond_helmet",
+      "name": "Heavy Diamond Helmet",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_diamond_helmet.png"
+    },
+    {
+      "id": "heavy_diamond_leggings",
+      "name": "Heavy Diamond Leggings",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_diamond_leggings.png"
+    },
+    {
+      "id": "heavy_golden_boots",
+      "name": "Heavy Golden Boots",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_golden_boots.png"
+    },
+    {
+      "id": "heavy_golden_chestplate",
+      "name": "Heavy Golden Chestplate",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_golden_chestplate.png"
+    },
+    {
+      "id": "heavy_golden_helmet",
+      "name": "Heavy Golden Helmet",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_golden_helmet.png"
+    },
+    {
+      "id": "heavy_golden_leggings",
+      "name": "Heavy Golden Leggings",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_golden_leggings.png"
+    },
+    {
+      "id": "heavy_iron_boots",
+      "name": "Heavy Iron Boots",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_iron_boots.png"
+    },
+    {
+      "id": "heavy_iron_chestplate",
+      "name": "Heavy Iron Chestplate",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_iron_chestplate.png"
+    },
+    {
+      "id": "heavy_iron_helmet",
+      "name": "Heavy Iron Helmet",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_iron_helmet.png"
+    },
+    {
+      "id": "heavy_iron_leggings",
+      "name": "Heavy Iron Leggings",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_iron_leggings.png"
+    },
+    {
+      "id": "heavy_netherite_boots",
+      "name": "Heavy Netherite Boots",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_netherite_boots.png"
+    },
+    {
+      "id": "heavy_netherite_chestplate",
+      "name": "Heavy Netherite Chestplate",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_netherite_chestplate.png"
+    },
+    {
+      "id": "heavy_netherite_helmet",
+      "name": "Heavy Netherite Helmet",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_netherite_helmet.png"
+    },
+    {
+      "id": "heavy_netherite_leggings",
+      "name": "Heavy Netherite Leggings",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/heavy_netherite_leggings.png"
+    },
+    {
+      "id": "light_diamond_boots",
+      "name": "Light Diamond Boots",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "light_diamond_chestplate",
+      "name": "Light Diamond Chestplate",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/light_diamond_chestplate.png"
+    },
+    {
+      "id": "light_diamond_helmet",
+      "name": "Light Diamond Helmet",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "light_diamond_leggings",
+      "name": "Light Diamond Leggings",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/light_diamond_leggings.png"
+    },
+    {
+      "id": "light_golden_boots",
+      "name": "Light Golden Boots",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "light_golden_chestplate",
+      "name": "Light Golden Chestplate",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/light_golden_chestplate.png"
+    },
+    {
+      "id": "light_golden_helmet",
+      "name": "Light Golden Helmet",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "light_golden_leggings",
+      "name": "Light Golden Leggings",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/light_golden_leggings.png"
+    },
+    {
+      "id": "light_iron_boots",
+      "name": "Light Iron Boots",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "light_iron_chestplate",
+      "name": "Light Iron Chestplate",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/light_iron_chestplate.png"
+    },
+    {
+      "id": "light_iron_helmet",
+      "name": "Light Iron Helmet",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "light_iron_leggings",
+      "name": "Light Iron Leggings",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/light_iron_leggings.png"
+    },
+    {
+      "id": "light_netherite_boots",
+      "name": "Light Netherite Boots",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "light_netherite_chestplate",
+      "name": "Light Netherite Chestplate",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/light_netherite_chestplate.png"
+    },
+    {
+      "id": "light_netherite_helmet",
+      "name": "Light Netherite Helmet",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "light_netherite_leggings",
+      "name": "Light Netherite Leggings",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/armory/items/light_netherite_leggings.png"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../lib';
+---
+<Base title="Search" wide>
+  <h1>Search</h1>
+  <div id="search" data-bundle={url('/pagefind/')}></div>
+  <noscript>Search needs JavaScript.</noscript>
+  <link href={url('/pagefind/pagefind-ui.css')} rel="stylesheet" />
+  <script is:inline src={url('/pagefind/pagefind-ui.js')}></script>
+  <script is:inline>
+    const el = document.getElementById('search');
+    if (window.PagefindUI) {
+      const ui = new PagefindUI({ element: '#search', bundlePath: el.dataset.bundle, showSubResults: true, showImages: false });
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) ui.triggerSearch(q);
+    } else {
+      el.textContent = 'Search is built with the site. Run "npm run build" then "npm run preview" to try it locally.';
+    }
+  </script>
+  <style is:global>
+    #search { --pagefind-ui-primary: #f2b631; --pagefind-ui-text: #ece3d6; --pagefind-ui-background: #251e17; --pagefind-ui-border: #3d3226; --pagefind-ui-tag: #2f261d; --pagefind-ui-font: system-ui, sans-serif; }
+  </style>
+</Base>

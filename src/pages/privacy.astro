@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import { site, ads } from '../site.config';
+---
+<Base title="Privacy policy" wide>
+  <h1>Privacy policy</h1>
+  <p>This page explains what data {site.name} collects. Last updated: November 17, 2026.</p>
+  <h2>What we collect</h2>
+  <p>The wiki itself has no accounts, comments or forms, and stores no personal information. The hosting provider may keep standard server logs (such as IP address and pages visited) for security and reliability.</p>
+  <h2>Advertising</h2>
+  {ads.enabled
+    ? <p>This site shows ads served by Google AdSense. Google and its partners use cookies to serve ads based on your prior visits to this and other websites. You can opt out of personalized advertising at <a href="https://adssettings.google.com">Google Ads Settings</a>, and learn more at <a href="https://policies.google.com/technologies/ads">How Google uses information from sites that use its services</a>.</p>
+    : <p>This site does not currently show ads. If that changes, this page will be updated to describe the ad provider and its use of cookies before any ads appear.</p>}
+  <h2>Contact</h2>
+  <p>Questions about this policy can be raised on <a href={site.links.github}>GitHub</a>.</p>
+</Base>

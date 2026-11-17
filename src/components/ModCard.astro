@@ -1,0 +1,16 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { url, itemsFor } from '../lib';
+interface Props { mod: CollectionEntry<'mods'> }
+const { mod } = Astro.props;
+const count = itemsFor(mod).length;
+const statusLabel = { released: '', beta: 'Beta', 'in-development': 'In development', legacy: 'Legacy' }[mod.data.status];
+---
+<a class="mod-card" href={url(`/mods/${mod.id}/`)}>
+  <div class="mod-card-icon">{mod.data.icon ? <img src={url(mod.data.icon)} alt="" loading="lazy" /> : <span>{mod.data.name[0]}</span>}</div>
+  <div class="mod-card-body">
+    <h3>{mod.data.name} {statusLabel && <span class="badge">{statusLabel}</span>}</h3>
+    <p>{mod.data.tagline}</p>
+    <p class="meta">{mod.data.loaders.join(' · ')} · MC {mod.data.minecraft}{count ? ` · ${count} items & blocks` : ''}</p>
+  </div>
+</a>

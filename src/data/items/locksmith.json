@@ -1,0 +1,61 @@
+{
+  "namespace": "locksmith",
+  "items": [
+    {
+      "id": "golden_key",
+      "name": "Golden Key",
+      "kind": "item",
+      "description": "Unlocks Golden Locks",
+      "icon": "/mods/locksmith/items/golden_key.png"
+    },
+    {
+      "id": "golden_lock",
+      "name": "Golden Lock",
+      "kind": "item",
+      "description": "Used to add Golden Locks to Containers",
+      "icon": "/mods/locksmith/items/golden_lock.png"
+    },
+    {
+      "id": "key",
+      "name": "Key",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/locksmith/items/key.png"
+    },
+    {
+      "id": "trial_lock",
+      "name": "Trial Lock",
+      "kind": "item",
+      "description": "Used to add Trial Locks to Containers",
+      "icon": "/mods/locksmith/items/trial_lock.png"
+    },
+    {
+      "id": "golden_chest",
+      "name": "Golden Chest",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "golden_trapped_chest",
+      "name": "Golden Trapped Chest",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "iron_chest",
+      "name": "Iron Chest",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "iron_trapped_chest",
+      "name": "Iron Trapped Chest",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    }
+  ]
+}

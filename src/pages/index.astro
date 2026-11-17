@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import ModCard from '../components/ModCard.astro';
+import { site } from '../site.config';
+import { allMods, itemsFor, url } from '../lib';
+const mods = await allMods();
+const featured = mods[0];
+const totalItems = mods.reduce((n, m) => n + itemsFor(m).length, 0);
+---
+<Base wide>
+  <section class="hero">
+    <h1>{site.name}</h1>
+    <p class="lead">Guides, items, blocks and config options for every mod by LuckyOwl. {mods.length} mods and {totalItems} items and blocks documented so far.</p>
+  </section>
+
+  {featured && featured.data.banner && (
+    <a href={url(`/mods/${featured.id}/`)} class="featured">
+      <img class="mod-banner" src={url(featured.data.banner)} alt={`${featured.data.name}`} />
+    </a>
+  )}
+
+  <h2>Mods</h2>
+  <div class="mod-cards">
+    {mods.map((m) => <ModCard mod={m} />)}
+  </div>
+</Base>

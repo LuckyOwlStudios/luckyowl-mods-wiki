@@ -1,0 +1,670 @@
+{
+  "namespace": "cozyhome",
+  "items": [
+    {
+      "id": "black_cushion",
+      "name": "Black Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/cozyhome/items/black_cushion.png"
+    },
+    {
+      "id": "blue_cushion",
+      "name": "Blue Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/cozyhome/items/blue_cushion.png"
+    },
+    {
+      "id": "brown_cushion",
+      "name": "Brown Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "cyan_cushion",
+      "name": "Cyan Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "gray_cushion",
+      "name": "Gray Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "green_cushion",
+      "name": "Green Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "hay_cushion",
+      "name": "Hay Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "light_blue_cushion",
+      "name": "Light Blue Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "light_gray_cushion",
+      "name": "Light Gray Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "lime_cushion",
+      "name": "Lime Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "magenta_cushion",
+      "name": "Magenta Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "orange_cushion",
+      "name": "Orange Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "pink_cushion",
+      "name": "Pink Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "purple_cushion",
+      "name": "Purple Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "red_cushion",
+      "name": "Red Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/cozyhome/items/red_cushion.png"
+    },
+    {
+      "id": "trader_cushion",
+      "name": "Trader Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "white_cushion",
+      "name": "White Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/cozyhome/items/white_cushion.png"
+    },
+    {
+      "id": "yellow_cushion",
+      "name": "Yellow Cushion",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "acacia_counter",
+      "name": "Acacia Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/acacia_counter.png"
+    },
+    {
+      "id": "acacia_planked_wall",
+      "name": "Acacia Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/acacia_planked_wall.png"
+    },
+    {
+      "id": "acacia_railing",
+      "name": "Acacia Railing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/acacia_railing.png"
+    },
+    {
+      "id": "acacia_short_table",
+      "name": "Acacia Short Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/acacia_short_table.png"
+    },
+    {
+      "id": "acacia_sink_counter",
+      "name": "Acacia Sink Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/acacia_sink_counter.png"
+    },
+    {
+      "id": "acacia_storage_counter",
+      "name": "Acacia Storage Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/acacia_storage_counter.png"
+    },
+    {
+      "id": "acacia_table",
+      "name": "Acacia Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/acacia_table.png"
+    },
+    {
+      "id": "bamboo_counter",
+      "name": "Bamboo Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/bamboo_counter.png"
+    },
+    {
+      "id": "bamboo_planked_wall",
+      "name": "Bamboo Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/bamboo_planked_wall.png"
+    },
+    {
+      "id": "bamboo_railing",
+      "name": "Bamboo Railing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/bamboo_railing.png"
+    },
+    {
+      "id": "bamboo_short_table",
+      "name": "Bamboo Short Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/bamboo_short_table.png"
+    },
+    {
+      "id": "bamboo_sink_counter",
+      "name": "Bamboo Sink Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/bamboo_sink_counter.png"
+    },
+    {
+      "id": "bamboo_storage_counter",
+      "name": "Bamboo Storage Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/bamboo_storage_counter.png"
+    },
+    {
+      "id": "bamboo_table",
+      "name": "Bamboo Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/bamboo_table.png"
+    },
+    {
+      "id": "birch_counter",
+      "name": "Birch Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/birch_counter.png"
+    },
+    {
+      "id": "birch_planked_wall",
+      "name": "Birch Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/birch_planked_wall.png"
+    },
+    {
+      "id": "birch_railing",
+      "name": "Birch Railing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/birch_railing.png"
+    },
+    {
+      "id": "birch_short_table",
+      "name": "Birch Short Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/birch_short_table.png"
+    },
+    {
+      "id": "birch_sink_counter",
+      "name": "Birch Sink Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/birch_sink_counter.png"
+    },
+    {
+      "id": "birch_storage_counter",
+      "name": "Birch Storage Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/birch_storage_counter.png"
+    },
+    {
+      "id": "birch_table",
+      "name": "Birch Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/birch_table.png"
+    },
+    {
+      "id": "cherry_counter",
+      "name": "Cherry Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/cherry_counter.png"
+    },
+    {
+      "id": "cherry_planked_wall",
+      "name": "Cherry Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/cherry_planked_wall.png"
+    },
+    {
+      "id": "cherry_railing",
+      "name": "Cherry Railing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/cherry_railing.png"
+    },
+    {
+      "id": "cherry_short_table",
+      "name": "Cherry Short Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/cherry_short_table.png"
+    },
+    {
+      "id": "cherry_sink_counter",
+      "name": "Cherry Sink Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/cherry_sink_counter.png"
+    },
+    {
+      "id": "cherry_storage_counter",
+      "name": "Cherry Storage Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/cherry_storage_counter.png"
+    },
+    {
+      "id": "cherry_table",
+      "name": "Cherry Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/cherry_table.png"
+    },
+    {
+      "id": "crimson_counter",
+      "name": "Crimson Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/crimson_counter.png"
+    },
+    {
+      "id": "crimson_planked_wall",
+      "name": "Crimson Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/crimson_planked_wall.png"
+    },
+    {
+      "id": "crimson_railing",
+      "name": "Crimson Railing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/crimson_railing.png"
+    },
+    {
+      "id": "crimson_short_table",
+      "name": "Crimson Short Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/crimson_short_table.png"
+    },
+    {
+      "id": "crimson_sink_counter",
+      "name": "Crimson Sink Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/crimson_sink_counter.png"
+    },
+    {
+      "id": "crimson_storage_counter",
+      "name": "Crimson Storage Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/crimson_storage_counter.png"
+    },
+    {
+      "id": "crimson_table",
+      "name": "Crimson Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/crimson_table.png"
+    },
+    {
+      "id": "dark_oak_counter",
+      "name": "Dark Oak Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/dark_oak_counter.png"
+    },
+    {
+      "id": "dark_oak_planked_wall",
+      "name": "Dark Oak Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/dark_oak_planked_wall.png"
+    },
+    {
+      "id": "dark_oak_railing",
+      "name": "Dark Oak Railing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/dark_oak_railing.png"
+    },
+    {
+      "id": "dark_oak_short_table",
+      "name": "Dark Oak Short Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/dark_oak_short_table.png"
+    },
+    {
+      "id": "dark_oak_sink_counter",
+      "name": "Dark Oak Sink Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/dark_oak_sink_counter.png"
+    },
+    {
+      "id": "dark_oak_storage_counter",
+      "name": "Dark Oak Storage Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/dark_oak_storage_counter.png"
+    },
+    {
+      "id": "dark_oak_table",
+      "name": "Dark Oak Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/dark_oak_table.png"
+    },
+    {
+      "id": "jungle_counter",
+      "name": "Jungle Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/jungle_counter.png"
+    },
+    {
+      "id": "jungle_planked_wall",
+      "name": "Jungle Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/jungle_planked_wall.png"
+    },
+    {
+      "id": "jungle_railing",
+      "name": "Jungle Railing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/jungle_railing.png"
+    },
+    {
+      "id": "jungle_short_table",
+      "name": "Jungle Short Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/jungle_short_table.png"
+    },
+    {
+      "id": "jungle_sink_counter",
+      "name": "Jungle Sink Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/jungle_sink_counter.png"
+    },
+    {
+      "id": "jungle_storage_counter",
+      "name": "Jungle Storage Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/jungle_storage_counter.png"
+    },
+    {
+      "id": "jungle_table",
+      "name": "Jungle Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/jungle_table.png"
+    },
+    {
+      "id": "mangrove_counter",
+      "name": "Mangrove Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/mangrove_counter.png"
+    },
+    {
+      "id": "mangrove_planked_wall",
+      "name": "Mangrove Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/mangrove_planked_wall.png"
+    },
+    {
+      "id": "mangrove_railing",
+      "name": "Mangrove Railing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/mangrove_railing.png"
+    },
+    {
+      "id": "mangrove_short_table",
+      "name": "Mangrove Short Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/mangrove_short_table.png"
+    },
+    {
+      "id": "mangrove_sink_counter",
+      "name": "Mangrove Sink Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/mangrove_sink_counter.png"
+    },
+    {
+      "id": "mangrove_storage_counter",
+      "name": "Mangrove Storage Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/mangrove_storage_counter.png"
+    },
+    {
+      "id": "mangrove_table",
+      "name": "Mangrove Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/mangrove_table.png"
+    },
+    {
+      "id": "oak_counter",
+      "name": "Oak Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/oak_counter.png"
+    },
+    {
+      "id": "oak_planked_wall",
+      "name": "Oak Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/oak_planked_wall.png"
+    },
+    {
+      "id": "oak_railing",
+      "name": "Oak Railing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/oak_railing.png"
+    },
+    {
+      "id": "oak_short_table",
+      "name": "Oak Short Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/oak_short_table.png"
+    },
+    {
+      "id": "oak_sink_counter",
+      "name": "Oak Sink Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/oak_sink_counter.png"
+    },
+    {
+      "id": "oak_storage_counter",
+      "name": "Oak Storage Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/oak_storage_counter.png"
+    },
+    {
+      "id": "oak_table",
+      "name": "Oak Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/oak_table.png"
+    },
+    {
+      "id": "spruce_counter",
+      "name": "Spruce Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/spruce_counter.png"
+    },
+    {
+      "id": "spruce_planked_wall",
+      "name": "Spruce Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/spruce_planked_wall.png"
+    },
+    {
+      "id": "spruce_railing",
+      "name": "Spruce Railing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/spruce_railing.png"
+    },
+    {
+      "id": "spruce_short_table",
+      "name": "Spruce Short Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/spruce_short_table.png"
+    },
+    {
+      "id": "spruce_sink_counter",
+      "name": "Spruce Sink Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/spruce_sink_counter.png"
+    },
+    {
+      "id": "spruce_storage_counter",
+      "name": "Spruce Storage Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/spruce_storage_counter.png"
+    },
+    {
+      "id": "spruce_table",
+      "name": "Spruce Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/spruce_table.png"
+    },
+    {
+      "id": "warped_counter",
+      "name": "Warped Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/warped_counter.png"
+    },
+    {
+      "id": "warped_planked_wall",
+      "name": "Warped Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/warped_planked_wall.png"
+    },
+    {
+      "id": "warped_railing",
+      "name": "Warped Railing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/warped_railing.png"
+    },
+    {
+      "id": "warped_short_table",
+      "name": "Warped Short Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/warped_short_table.png"
+    },
+    {
+      "id": "warped_sink_counter",
+      "name": "Warped Sink Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/warped_sink_counter.png"
+    },
+    {
+      "id": "warped_storage_counter",
+      "name": "Warped Storage Counter",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/warped_storage_counter.png"
+    },
+    {
+      "id": "warped_table",
+      "name": "Warped Table",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/warped_table.png"
+    }
+  ]
+}

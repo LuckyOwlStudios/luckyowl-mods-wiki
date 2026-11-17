@@ -1,0 +1,355 @@
+{
+  "namespace": "luckyswardrobe",
+  "items": [
+    {
+      "id": "bee_hat",
+      "name": "Bee Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/bee_hat.png"
+    },
+    {
+      "id": "blacksmith_mask",
+      "name": "Blacksmith's Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/blacksmith_mask.png"
+    },
+    {
+      "id": "broken_barrel",
+      "name": "Broken Barrel",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/broken_barrel.png"
+    },
+    {
+      "id": "butchers_apron",
+      "name": "Butcher's Apron",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/butchers_apron.png"
+    },
+    {
+      "id": "chef_hat",
+      "name": "Chef Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/chef_hat.png"
+    },
+    {
+      "id": "chiton",
+      "name": "Chiton",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/chiton.png"
+    },
+    {
+      "id": "clerics_apron",
+      "name": "Cleric's Apron",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/clerics_apron.png"
+    },
+    {
+      "id": "desert_hat",
+      "name": "Desert Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/desert_hat.png"
+    },
+    {
+      "id": "desert_pants",
+      "name": "Desert Pants",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/desert_pants.png"
+    },
+    {
+      "id": "desert_robe",
+      "name": "Desert Robe",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/desert_robe.png"
+    },
+    {
+      "id": "desert_sandals",
+      "name": "Desert Sandals",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/desert_sandals.png"
+    },
+    {
+      "id": "entertainers_hat",
+      "name": "Entertainer's Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/entertainers_hat.png"
+    },
+    {
+      "id": "entertainers_pants",
+      "name": "Entertainer's Pants",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/entertainers_pants.png"
+    },
+    {
+      "id": "entertainers_shirt",
+      "name": "Entertainer's Shirt",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/entertainers_shirt.png"
+    },
+    {
+      "id": "entertainers_shoes",
+      "name": "Entertainer's Shoes",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/entertainers_shoes.png"
+    },
+    {
+      "id": "explorers_hat",
+      "name": "Explorer's Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/explorers_hat.png"
+    },
+    {
+      "id": "farmer_hat",
+      "name": "Farmer's Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/farmer_hat.png"
+    },
+    {
+      "id": "fishing_apron",
+      "name": "Fishing Apron",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/fishing_apron.png"
+    },
+    {
+      "id": "fox_hat",
+      "name": "Fox Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/fox_hat.png"
+    },
+    {
+      "id": "hardened_leather_apron",
+      "name": "Hardened Leather Apron",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/hardened_leather_apron.png"
+    },
+    {
+      "id": "hat",
+      "name": "Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/hat.png"
+    },
+    {
+      "id": "jungle_pants",
+      "name": "Jungle Pants",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/jungle_pants.png"
+    },
+    {
+      "id": "jungle_robe",
+      "name": "Jungle Robe",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/jungle_robe.png"
+    },
+    {
+      "id": "jungle_sandals",
+      "name": "Jungle Sandals",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/jungle_sandals.png"
+    },
+    {
+      "id": "leather_apron",
+      "name": "Leather Apron",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/leather_apron.png"
+    },
+    {
+      "id": "masons_apron",
+      "name": "Mason's Apron",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/masons_apron.png"
+    },
+    {
+      "id": "panda_hat",
+      "name": "Panda Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/panda_hat.png"
+    },
+    {
+      "id": "savanna_floral_crown",
+      "name": "Savanna Floral Crown",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/savanna_floral_crown.png"
+    },
+    {
+      "id": "savanna_pants",
+      "name": "Savanna Pants",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/savanna_pants.png"
+    },
+    {
+      "id": "savanna_robe",
+      "name": "Savanna Robe",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/savanna_robe.png"
+    },
+    {
+      "id": "savanna_sandals",
+      "name": "Savanna Sandals",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/savanna_sandals.png"
+    },
+    {
+      "id": "scarf",
+      "name": "Scarf",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/scarf.png"
+    },
+    {
+      "id": "snow_fox_hat",
+      "name": "Snow Fox Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/snow_fox_hat.png"
+    },
+    {
+      "id": "snowy_boots",
+      "name": "Snowy Boots",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/snowy_boots.png"
+    },
+    {
+      "id": "snowy_coat",
+      "name": "Snowy Coat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/snowy_coat.png"
+    },
+    {
+      "id": "snowy_hat",
+      "name": "Snowy Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/snowy_hat.png"
+    },
+    {
+      "id": "snowy_hood",
+      "name": "Snowy Hood",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/snowy_hood.png"
+    },
+    {
+      "id": "snowy_pants",
+      "name": "Snowy Pants",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/snowy_pants.png"
+    },
+    {
+      "id": "swampy_hat",
+      "name": "Swampy Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/swampy_hat.png"
+    },
+    {
+      "id": "swampy_pants",
+      "name": "Swampy Pants",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/swampy_pants.png"
+    },
+    {
+      "id": "swampy_robe",
+      "name": "Swampy Robe",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/swampy_robe.png"
+    },
+    {
+      "id": "swampy_shoes",
+      "name": "Swampy Shoes",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/swampy_shoes.png"
+    },
+    {
+      "id": "taiga_boots",
+      "name": "Taiga Boots",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/taiga_boots.png"
+    },
+    {
+      "id": "taiga_coat",
+      "name": "Taiga Coat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/taiga_coat.png"
+    },
+    {
+      "id": "taiga_hood",
+      "name": "Taiga Hood",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/taiga_hood.png"
+    },
+    {
+      "id": "taiga_pants",
+      "name": "Taiga Pants",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/taiga_pants.png"
+    },
+    {
+      "id": "top_hat",
+      "name": "Top Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/top_hat.png"
+    },
+    {
+      "id": "witch_hat",
+      "name": "Witch's Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/witch_hat.png"
+    },
+    {
+      "id": "wolf_hat",
+      "name": "Wolf Hat",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/wolf_hat.png"
+    },
+    {
+      "id": "wool_vest",
+      "name": "Wool Vest",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/wardrobe/items/wool_vest.png"
+    }
+  ]
+}

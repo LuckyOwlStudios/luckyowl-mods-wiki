@@ -1,0 +1,64 @@
+---
+import { render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import ItemGrid from '../../../components/ItemGrid.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+import { allMods, itemsFor, url } from '../../../lib';
+
+export async function getStaticPaths() {
+  return (await allMods()).map((mod) => ({ params: { mod: mod.id }, props: { mod } }));
+}
+const { mod } = Astro.props;
+const d = mod.data;
+const { Content, headings } = await render(mod);
+const items = itemsFor(mod);
+const itemList = items.filter((i) => i.kind === 'item');
+const blockList = items.filter((i) => i.kind === 'block');
+const toc = [
+  ...headings.filter((h) => h.depth <= 3),
+  ...(itemList.length ? [{ depth: 2, slug: 'items', text: 'Items' }] : []),
+  ...(blockList.length ? [{ depth: 2, slug: 'blocks', text: 'Blocks' }] : []),
+];
+const statusLabel = { released: 'Released', beta: 'Beta', 'in-development': 'In development', legacy: 'Legacy' }[d.status];
+---
+<Base title={d.name} description={`${d.name}: ${d.tagline} Wiki with every item, block and feature.`} image={d.banner || d.icon}>
+  <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / <a href={url('/mods/')}>Mods</a> / {d.name}</div>
+  <section class="hero">
+    <h1 data-pagefind-weight="10">{d.name} {d.status !== 'released' && <span class="badge">{statusLabel}</span>}</h1>
+    <p class="lead">{d.tagline}</p>
+    {d.banner && <img class="mod-banner" src={url(d.banner)} alt={`${d.name} banner`} />}
+  </section>
+
+  <article class="prose"><Content /></article>
+
+  <AdSlot slot="inContent" />
+
+  <ItemGrid modSlug={mod.id} items={itemList} title="Items" />
+  <ItemGrid modSlug={mod.id} items={blockList} title="Blocks" />
+
+  <Fragment slot="rail">
+    <div class="infobox">
+      {d.icon && <div class="big-icon"><img class="pixel" src={url(d.icon)} alt="" width="96" height="96" /></div>}
+      <h2>{d.name}</h2>
+      <dl>
+        <dt>Minecraft</dt><dd>{d.minecraft}</dd>
+        <dt>Loader</dt><dd>{d.loaders.join(', ')}</dd>
+        {d.version && <><dt>Version</dt><dd>{d.version}</dd></>}
+        <dt>Status</dt><dd>{statusLabel}</dd>
+        {d.requires.length > 0 && <><dt>Requires</dt><dd>{d.requires.map((r, i) => <>{i > 0 && ', '}{r.url ? <a href={r.url}>{r.name}</a> : r.name}</>)}</dd></>}
+        {items.length > 0 && <><dt>Content</dt><dd>{itemList.length} items, {blockList.length} blocks</dd></>}
+      </dl>
+      <div class="btn-row">
+        {d.downloads.curseforge && <a class="btn" href={d.downloads.curseforge}>CurseForge</a>}
+        {d.downloads.modrinth && <a class="btn" href={d.downloads.modrinth}>Modrinth</a>}
+        {d.downloads.github && <a class="btn alt" href={d.downloads.github}>Source</a>}
+      </div>
+    </div>
+    {toc.length > 1 && (
+      <nav class="toc" style="margin-top:1.5rem">
+        <h2>On this page</h2>
+        <ul>{toc.map((h) => <li class={`d${h.depth}`}><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul>
+      </nav>
+    )}
+  </Fragment>
+</Base>

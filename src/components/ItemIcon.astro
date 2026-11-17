@@ -1,0 +1,10 @@
+---
+import { url, type Item } from '../lib';
+interface Props { item: Item; size?: number }
+const { item, size = 48 } = Astro.props;
+---
+<span class="item-icon" style={`--s:${size}px`}>
+  {item.icon
+    ? <img src={url(item.icon)} alt="" width={size} height={size} loading="lazy" />
+    : <span class="item-icon-missing" aria-hidden="true">?</span>}
+</span>

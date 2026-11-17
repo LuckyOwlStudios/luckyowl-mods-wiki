@@ -1,0 +1,16 @@
+---
+// Reserved ad space. Renders nothing live until ads.enabled is true in site.config.ts;
+// in `npm run dev` it shows a dashed placeholder so you can see the layout.
+import { ads } from '../site.config';
+interface Props { slot: keyof typeof ads.slots; format?: 'horizontal' | 'vertical' | 'rectangle' }
+const { slot, format = 'horizontal' } = Astro.props;
+const live = ads.enabled && ads.client && ads.slots[slot];
+const preview = !ads.enabled && import.meta.env.DEV;
+---
+{live && (
+  <div class={`ad ad-${format}`} aria-label="Advertisement">
+    <ins class="adsbygoogle" style="display:block" data-ad-client={ads.client} data-ad-slot={ads.slots[slot]} data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+)}
+{preview && <div class={`ad ad-${format} ad-preview`}>Ad slot: {slot}</div>}

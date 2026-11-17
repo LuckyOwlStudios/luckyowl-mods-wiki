@@ -1,0 +1,26 @@
+{
+  "namespace": "luckysshowcase",
+  "items": [
+    {
+      "id": "pedestal",
+      "name": "Pedestal",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/showcase/items/pedestal.png"
+    },
+    {
+      "id": "tool_rack",
+      "name": "Tool Rack",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/showcase/items/tool_rack.png"
+    },
+    {
+      "id": "weapon_stand",
+      "name": "Weapon Stand",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/showcase/items/weapon_stand.png"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+---
+import ItemIcon from './ItemIcon.astro';
+import { url, type Item } from '../lib';
+interface Props { modSlug: string; items: Item[]; title: string }
+const { modSlug, items, title } = Astro.props;
+---
+{items.length > 0 && (
+  <section class="item-section">
+    <h2 id={title.toLowerCase()}>{title} <span class="count">{items.length}</span></h2>
+    <ul class="item-grid">
+      {items.map((it) => (
+        <li>
+          <a href={url(`/mods/${modSlug}/items/${it.id}/`)} title={it.description || it.name}>
+            <ItemIcon item={it} />
+            <span>{it.name}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

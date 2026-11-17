@@ -1,0 +1,110 @@
+{
+  "namespace": "blockysiege",
+  "items": [
+    {
+      "id": "boom_banner_pattern",
+      "name": "Banner Pattern",
+      "kind": "item",
+      "description": "Boom",
+      "icon": "/mods/blocky-siege/items/boom_banner_pattern.png"
+    },
+    {
+      "id": "fort_banner_pattern",
+      "name": "Banner Pattern (Fort)",
+      "kind": "item",
+      "description": "Fort",
+      "icon": "/mods/blocky-siege/items/fort_banner_pattern.png"
+    },
+    {
+      "id": "bullet",
+      "name": "Bullet",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/blocky-siege/items/bullet.png"
+    },
+    {
+      "id": "ballista_block",
+      "name": "Ballista",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/blocky-siege/items/ballista_block.png"
+    },
+    {
+      "id": "multi_cannon",
+      "name": "Burst-Cannon",
+      "kind": "block",
+      "description": "Four-round burst cannon",
+      "icon": "/mods/blocky-siege/items/multi_cannon.png"
+    },
+    {
+      "id": "cannon",
+      "name": "Cannon",
+      "kind": "block",
+      "description": "Fires powerful cannon rounds",
+      "icon": "/mods/blocky-siege/items/cannon.png"
+    },
+    {
+      "id": "cannonball",
+      "name": "Cannonball",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/blocky-siege/items/cannonball.png"
+    },
+    {
+      "id": "explosive_barrel",
+      "name": "Explosive Barrel",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/blocky-siege/items/explosive_barrel.png"
+    },
+    {
+      "id": "explosive_keg",
+      "name": "Explosive Keg",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "fire_bomb",
+      "name": "Fire Bomb",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/blocky-siege/items/fire_bomb.png"
+    },
+    {
+      "id": "frost_bomb",
+      "name": "Frost Bomb",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/blocky-siege/items/frost_bomb.png"
+    },
+    {
+      "id": "shoot",
+      "name": "SHOOT!",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "spewer_cannon",
+      "name": "Spewer",
+      "kind": "block",
+      "description": "Shoots and spreads liquid in a large area",
+      "icon": "/mods/blocky-siege/items/spewer_cannon.png"
+    },
+    {
+      "id": "volley_rack",
+      "name": "Volley Rack",
+      "kind": "block",
+      "description": "Shoots a volley of projectiles",
+      "icon": "/mods/blocky-siege/items/volley_rack.png"
+    },
+    {
+      "id": "wind_bomb",
+      "name": "Wind Bomb",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/blocky-siege/items/wind_bomb.png"
+    }
+  ]
+}

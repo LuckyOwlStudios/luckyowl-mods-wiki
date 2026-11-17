@@ -1,0 +1,58 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../../../layouts/Base.astro';
+import ItemIcon from '../../../../components/ItemIcon.astro';
+import AdSlot from '../../../../components/AdSlot.astro';
+import { allMods, itemsFor, namespaceFor, url } from '../../../../lib';
+
+export async function getStaticPaths() {
+  const mods = await allMods();
+  return mods.flatMap((mod) => {
+    const items = itemsFor(mod);
+    return items.map((item, i) => ({ params: { mod: mod.id, item: item.id }, props: { mod, item, items, index: i } }));
+  });
+}
+const { mod, item, items, index } = Astro.props;
+const notes = await getEntry('items', `${mod.id}/${item.id}`);
+const Notes = notes ? (await render(notes)).Content : null;
+const kindLabel = item.kind === 'block' ? 'Block' : 'Item';
+// Neighbours of the same kind, for "more from this mod" links.
+const same = items.filter((i) => i.kind === item.kind && i.id !== item.id);
+const start = Math.max(0, Math.min(same.length - 12, items.filter((i) => i.kind === item.kind).indexOf(item) - 6));
+const related = same.slice(start, start + 12);
+const desc = item.description || `${item.name} is ${kindLabel === 'Item' ? 'an item' : 'a block'} added by ${mod.data.name}.`;
+---
+<Base title={`${item.name} (${mod.data.name})`} description={`${desc} Learn about ${item.name} from the ${mod.data.name} Minecraft mod.`} image={item.icon ?? undefined}>
+  <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / <a href={url(`/mods/${mod.id}/`)}>{mod.data.name}</a> / {kindLabel}s / {item.name}</div>
+  <h1>{item.name}</h1>
+  <p class="lead">{desc}</p>
+  {notes?.data.obtain && <p><strong>How to get it:</strong> {notes.data.obtain}</p>}
+  {Notes ? <article class="prose"><Notes /></article> : (
+    <p style="color:var(--muted)">This page doesn't have a write-up yet. See the <a href={url(`/mods/${mod.id}/`)}>{mod.data.name} overview</a> for how it fits into the mod.</p>
+  )}
+
+  <AdSlot slot="inContent" />
+
+  {related.length > 0 && (
+    <section class="item-section" data-pagefind-ignore>
+      <h2>More {kindLabel.toLowerCase()}s from {mod.data.name}</h2>
+      <ul class="item-grid">
+        {related.map((it) => <li><a href={url(`/mods/${mod.id}/items/${it.id}/`)}><ItemIcon item={it} /><span>{it.name}</span></a></li>)}
+      </ul>
+      <p><a href={url(`/mods/${mod.id}/#${kindLabel.toLowerCase()}s`)}>See all {items.length} items and blocks →</a></p>
+    </section>
+  )}
+
+  <Fragment slot="rail">
+    <div class="infobox">
+      <div class="big-icon"><ItemIcon item={item} size={96} /></div>
+      <h2>{item.name}</h2>
+      <dl>
+        <dt>Type</dt><dd>{kindLabel}</dd>
+        <dt>Mod</dt><dd><a href={url(`/mods/${mod.id}/`)}>{mod.data.name}</a></dd>
+        <dt>ID</dt><dd><code>{namespaceFor(mod)}:{item.id}</code></dd>
+        <dt>Minecraft</dt><dd>{mod.data.minecraft}</dd>
+      </dl>
+    </div>
+  </Fragment>
+</Base>
