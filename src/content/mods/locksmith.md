@@ -26,7 +26,3 @@ downloads:
   <img src="/mods/locksmith/media/trial.webp" alt="A trial locked chest" />
   <img src="/mods/locksmith/media/dye_chest.webp" alt="Dyed iron chests" />
 </div>
-
-## Chests
-
-**Iron Chests** and **Golden Chests**, with trapped versions of both.
