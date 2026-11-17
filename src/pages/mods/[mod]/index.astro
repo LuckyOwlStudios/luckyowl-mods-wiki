@@ -21,7 +21,7 @@ const toc = [
 ];
 const statusLabel = { released: 'Released', beta: 'Beta', 'in-development': 'In development', legacy: 'Legacy' }[d.status];
 ---
-<Base title={d.name} description={`${d.name}: ${d.tagline} Wiki with every item, block and feature.`} image={d.banner || d.icon}>
+<Base mod={mod} title={d.name} description={`${d.name}: ${d.tagline} Wiki with every item, block and feature.`} image={d.banner || d.icon}>
   <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / <a href={url('/mods/')}>Mods</a> / {d.name}</div>
   <section class="hero">
     <h1 data-pagefind-weight="10">{d.name} {d.status !== 'released' && <span class="badge">{statusLabel}</span>}</h1>
@@ -54,11 +54,6 @@ const statusLabel = { released: 'Released', beta: 'Beta', 'in-development': 'In 
         {d.downloads.github && <a class="btn alt" href={d.downloads.github}>Source</a>}
       </div>
     </div>
-    {toc.length > 1 && (
-      <nav class="toc" style="margin-top:1.5rem">
-        <h2>On this page</h2>
-        <ul>{toc.map((h) => <li class={`d${h.depth}`}><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul>
-      </nav>
-    )}
+
   </Fragment>
 </Base>

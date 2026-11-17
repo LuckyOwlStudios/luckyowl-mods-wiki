@@ -1,9 +1,39 @@
 ---
-import { url } from '../lib';
-interface Props { nav: { label: string; items: { label: string; href: string }[] }[]; mods: any[]; path: string; mobileOnly?: boolean }
-const { nav, mods, path, mobileOnly = false } = Astro.props;
+// Left sidebar. On a mod's pages it shows that mod's own sections
+// (Overview, its guide headings, Items, Blocks); elsewhere it lists all mods.
+import { render, type CollectionEntry } from 'astro:content';
+import { url, itemsFor } from '../lib';
+import ItemIcon from './ItemIcon.astro';
+interface Props {
+  nav: { label: string; items: { label: string; href: string }[] }[];
+  mods: CollectionEntry<'mods'>[];
+  path: string;
+  mod?: CollectionEntry<'mods'>;
+  mobileOnly?: boolean;
+}
+const { nav, mods, path, mod, mobileOnly = false } = Astro.props;
+
+let modNav: null | {
+  base: string;
+  guide: { slug: string; text: string }[];
+  groups: { label: string; anchor: string; items: ReturnType<typeof itemsFor> }[];
+} = null;
+if (mod) {
+  const base = url(`/mods/${mod.id}/`);
+  const { headings } = await render(mod);
+  const items = itemsFor(mod);
+  modNav = {
+    base,
+    guide: headings.filter((h) => h.depth === 2),
+    groups: [
+      { label: 'Items', anchor: 'items', items: items.filter((i) => i.kind === 'item') },
+      { label: 'Blocks', anchor: 'blocks', items: items.filter((i) => i.kind === 'block') },
+    ].filter((g) => g.items.length),
+  };
+}
+const onOverview = modNav && path === modNav.base;
 ---
-    <aside class:list={["sidebar", { "mobile-only": mobileOnly }]}>
+<aside class:list={['sidebar', { 'mobile-only': mobileOnly }]}>
   <div class="mobile-nav">
     {nav.slice(1).map((group) => (
       <>
@@ -12,15 +42,58 @@ const { nav, mods, path, mobileOnly = false } = Astro.props;
       </>
     ))}
   </div>
-  <p class="sidebar-label">Mods</p>
-  <ul>
-    {mods.map((m) => {
-      const href = url(`/mods/${m.id}/`);
-      return (
-        <li><a href={href} class={path.startsWith(href) ? 'active' : ''}>
-          {m.data.icon && <img src={url(m.data.icon)} alt="" width="20" height="20" />}{m.data.name}
-        </a></li>
-      );
-    })}
-  </ul>
+
+  {mod && modNav ? (
+    <nav class="modnav" aria-label={`${mod.data.name} pages`}>
+      <a class="modnav-title" href={modNav.base}>
+        {mod.data.icon && <img src={url(mod.data.icon)} alt="" width="28" height="28" />}
+        <span>{mod.data.name}</span>
+      </a>
+      <ul>
+        <li><a href={modNav.base} class={onOverview ? 'active' : ''}>Overview</a></li>
+      </ul>
+
+      {modNav.guide.length > 0 && (
+        <details class="modnav-group" open={onOverview || undefined}>
+          <summary>Features &amp; guide <span class="count">{modNav.guide.length}</span></summary>
+          <ul>{modNav.guide.map((h) => <li><a href={`${modNav!.base}#${h.slug}`}>{h.text}</a></li>)}</ul>
+        </details>
+      )}
+
+      {modNav.groups.map((g) => {
+        const open = g.items.some((i) => path === url(`/mods/${mod.id}/items/${i.id}/`));
+        return (
+          <details class="modnav-group" open={open || undefined}>
+            <summary>{g.label} <span class="count">{g.items.length}</span></summary>
+            <ul class="modnav-items">
+              {g.items.map((i) => {
+                const href = url(`/mods/${mod.id}/items/${i.id}/`);
+                return <li><a href={href} class={path === href ? 'active' : ''} aria-current={path === href ? 'page' : undefined}><ItemIcon item={i} size={20} /><span>{i.name}</span></a></li>;
+              })}
+            </ul>
+          </details>
+        );
+      })}
+
+      <a class="modnav-back" href={url('/mods/')}>← All mods</a>
+    </nav>
+  ) : (
+    <>
+      <p class="sidebar-label">Mods</p>
+      <ul>
+        {mods.map((m) => {
+          const href = url(`/mods/${m.id}/`);
+          return (
+            <li><a href={href} class={path.startsWith(href) ? 'active' : ''}>
+              {m.data.icon && <img src={url(m.data.icon)} alt="" width="20" height="20" />}{m.data.name}
+            </a></li>
+          );
+        })}
+      </ul>
+    </>
+  )}
 </aside>
+<script>
+  // Keep the current item in view inside a long list.
+  document.querySelector('.modnav-items a.active')?.scrollIntoView({ block: 'center' });
+</script>

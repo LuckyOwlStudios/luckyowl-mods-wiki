@@ -4,12 +4,13 @@ import '@fontsource/pixelify-sans/600.css';
 import '../styles/global.css';
 import AdSlot from '../components/AdSlot.astro';
 import Sidebar from '../components/Sidebar.astro';
+import type { CollectionEntry } from 'astro:content';
 import { site, ads } from '../site.config';
 import { allMods, url } from '../lib';
 
-interface Props { title?: string; description?: string; image?: string; wide?: boolean; bare?: boolean }
+interface Props { title?: string; description?: string; image?: string; wide?: boolean; bare?: boolean; mod?: CollectionEntry<'mods'> }
 // bare: full-width page with no sidebars (used by the home page)
-const { title, description = site.description, image, wide = false, bare = false } = Astro.props;
+const { title, description = site.description, image, wide = false, bare = false, mod } = Astro.props;
 const fullTitle = title ? `${title} | ${site.name}` : site.name;
 const mods = await allMods();
 const path = Astro.url.pathname;
@@ -101,7 +102,7 @@ const nav: { label: string; items: NavItem[] }[] = [
     <><Sidebar nav={nav} mods={mods} path={path} mobileOnly /><main class="bare" data-pagefind-body><slot /></main></>
   ) : (
   <div class="shell">
-    <Sidebar nav={nav} mods={mods} path={path} />
+    <Sidebar nav={nav} mods={mods} path={path} mod={mod} />
 
     <main class:list={['content', { wide }]} data-pagefind-body>
       <AdSlot slot="header" />

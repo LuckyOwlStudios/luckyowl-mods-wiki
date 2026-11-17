@@ -22,7 +22,7 @@ const start = Math.max(0, Math.min(same.length - 12, items.filter((i) => i.kind 
 const related = same.slice(start, start + 12);
 const desc = item.description || `${item.name} is ${kindLabel === 'Item' ? 'an item' : 'a block'} added by ${mod.data.name}.`;
 ---
-<Base title={`${item.name} (${mod.data.name})`} description={`${notes?.data.summary || desc} Learn about ${item.name} from the ${mod.data.name} Minecraft mod.`} image={item.icon ?? undefined}>
+<Base mod={mod} title={`${item.name} (${mod.data.name})`} description={`${notes?.data.summary || desc} Learn about ${item.name} from the ${mod.data.name} Minecraft mod.`} image={item.icon ?? undefined}>
   <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / <a href={url(`/mods/${mod.id}/`)}>{mod.data.name}</a> / {kindLabel}s / {item.name}</div>
   <h1>{item.name}</h1>
   {/* The in-game tooltip is only shown when there's no hand-written write-up.
