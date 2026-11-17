@@ -120,7 +120,7 @@ const nav: { label: string; items: NavItem[] }[] = [
 
   <footer class="footer">
     <p>{site.name} · Made by {site.author}</p>
-    <p><a href={url('/privacy/')}>Privacy</a> · <a href={url('/mods/')}>All mods</a>{site.links.github && <> · <a href={site.links.github}>GitHub</a></>}</p>
+    <p><a href={url('/privacy/')}>Privacy</a> · <a href={url('/mods/')}>All mods</a>{site.links.discord && <> · <a href={site.links.discord}>Discord</a></>}{site.links.github && <> · <a href={site.links.github}>GitHub</a></>}</p>
     <p class="fine">Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.</p>
   </footer>
   <script>
