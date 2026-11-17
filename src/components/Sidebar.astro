@@ -1,0 +1,26 @@
+---
+import { url } from '../lib';
+interface Props { nav: { label: string; items: { label: string; href: string }[] }[]; mods: any[]; path: string; mobileOnly?: boolean }
+const { nav, mods, path, mobileOnly = false } = Astro.props;
+---
+    <aside class:list={["sidebar", { "mobile-only": mobileOnly }]}>
+  <div class="mobile-nav">
+    {nav.slice(1).map((group) => (
+      <>
+        <p class="sidebar-label">{group.label}</p>
+        <ul>{group.items.map((it) => <li><a href={it.href}>{it.label}</a></li>)}</ul>
+      </>
+    ))}
+  </div>
+  <p class="sidebar-label">Mods</p>
+  <ul>
+    {mods.map((m) => {
+      const href = url(`/mods/${m.id}/`);
+      return (
+        <li><a href={href} class={path.startsWith(href) ? 'active' : ''}>
+          {m.data.icon && <img src={url(m.data.icon)} alt="" width="20" height="20" />}{m.data.name}
+        </a></li>
+      );
+    })}
+  </ul>
+</aside>

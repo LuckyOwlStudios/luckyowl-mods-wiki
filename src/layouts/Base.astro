@@ -1,12 +1,16 @@
 ---
-import '@fontsource/pixelify-sans/600.css';
+import '@fontsource/cormorant-garamond/500.css';
+import '@fontsource/cormorant-garamond/500-italic.css';
+import '@fontsource/cormorant-garamond/600.css';
 import '../styles/global.css';
 import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
 import { site, ads } from '../site.config';
 import { allMods, url } from '../lib';
 
-interface Props { title?: string; description?: string; image?: string; wide?: boolean }
-const { title, description = site.description, image, wide = false } = Astro.props;
+interface Props { title?: string; description?: string; image?: string; wide?: boolean; bare?: boolean }
+// bare: full-width page with no sidebars (used by the home page)
+const { title, description = site.description, image, wide = false, bare = false } = Astro.props;
 const fullTitle = title ? `${title} | ${site.name}` : site.name;
 const mods = await allMods();
 const path = Astro.url.pathname;
@@ -67,14 +71,14 @@ const nav: { label: string; items: NavItem[] }[] = [
     <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ads.client}`} crossorigin="anonymous"></script>
   )}
 </head>
-<body>
+<body class:list={[{ 'is-bare': bare }]}>
   <header class="topbar">
-    <a class="brand" href={url('/')}><img src={url('/favicon.png')} alt="" width="28" height="28" /> <span>{site.shortName}</span></a>
+    <a class="brand" href={url('/')}><img src={url('/favicon.png')} alt="" width="30" height="30" /> <span>LuckyOwl</span></a>
 
     <nav class="mainnav" aria-label="Main">
       {nav.map((group) => (
         <div class="dd">
-          <button class="dd-btn" aria-haspopup="true" aria-expanded="false">{group.label} <span class="caret" aria-hidden="true">▾</span></button>
+          <button class="dd-btn" aria-haspopup="true" aria-expanded="false">{group.label} <svg class="caret" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></button>
           <div class="dd-menu" role="menu">
             {group.items.map((it) => (
               <a role="menuitem" href={it.href} class={path === it.href ? 'active' : ''} {...(it.external ? { rel: 'noopener', target: '_blank' } : {})}>
@@ -88,33 +92,17 @@ const nav: { label: string; items: NavItem[] }[] = [
     </nav>
 
     <form class="search" action={url('/search/')} method="get" role="search">
-      <input type="search" name="q" placeholder="Search the wiki…" aria-label="Search the wiki" />
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.4"/></svg>
+      <input type="search" name="q" placeholder="Search the wiki" aria-label="Search the wiki" />
     </form>
     <button class="menu-btn" aria-label="Open menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
   </header>
 
+  {bare ? (
+    <><Sidebar nav={nav} mods={mods} path={path} mobileOnly /><main class="bare" data-pagefind-body><slot /></main></>
+  ) : (
   <div class="shell">
-    <aside class="sidebar">
-      <div class="mobile-nav">
-        {nav.slice(1).map((group) => (
-          <>
-            <p class="sidebar-label">{group.label}</p>
-            <ul>{group.items.map((it) => <li><a href={it.href}>{it.label}</a></li>)}</ul>
-          </>
-        ))}
-      </div>
-      <p class="sidebar-label">Mods</p>
-      <ul>
-        {mods.map((m) => {
-          const href = url(`/mods/${m.id}/`);
-          return (
-            <li><a href={href} class={path.startsWith(href) ? 'active' : ''}>
-              {m.data.icon && <img src={url(m.data.icon)} alt="" width="20" height="20" />}{m.data.name}
-            </a></li>
-          );
-        })}
-      </ul>
-    </aside>
+    <Sidebar nav={nav} mods={mods} path={path} />
 
     <main class:list={['content', { wide }]} data-pagefind-body>
       <AdSlot slot="header" />
@@ -129,6 +117,7 @@ const nav: { label: string; items: NavItem[] }[] = [
       </aside>
     )}
   </div>
+  )}
 
   <footer class="footer">
     <p>{site.name} · Made by {site.author}</p>

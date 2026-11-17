@@ -32,3 +32,32 @@ export const ads = {
     footer: '',   // above the footer, every page
   },
 };
+
+// ---- Home page ---------------------------------------------------------------
+export const home = {
+  hero: {
+    eyebrow: 'Minecraft mods by LuckyOwl',
+    title: 'Worlds worth',
+    titleItalic: 'exploring',
+    tagline: 'Deeper caves, handmade outfits, siege engines and cozy builds, all made to feel like they were always part of the game.',
+    // Background. Drop a landscape video in public/home/ and set `video` to
+    // e.g. '/home/hero.mp4'; the image is then used as the poster/fallback.
+    image: '/home/hero.webp',
+    video: '',
+  },
+  intro: {
+    title: 'The official wiki',
+    text: 'Every item, block, feature and config option from LuckyOwl\'s mods, documented in one place and kept in sync with the mods themselves. Find out how things work, where to find them, and what to build next.',
+  },
+  // The spotlight under the intro. Point `mod` at a mod slug (its file name in
+  // src/content/mods), or leave `mod` empty and fill in title/text/link for news.
+  featured: {
+    label: 'Most downloaded',
+    mod: 'wardrobe',
+    title: '',      // defaults to the mod's name
+    text: 'Over 500,000 downloads and counting. Dress for every biome with snowy coats, desert robes, animal hats, work aprons and more, all drawn in Minecraft\'s own style.',
+    image: '/home/featured-wardrobe.webp',
+    link: '',       // defaults to the mod's wiki page
+    linkLabel: 'Explore the wardrobe',
+  },
+};

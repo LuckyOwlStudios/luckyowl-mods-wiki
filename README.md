@@ -31,6 +31,9 @@ npm run preview    # serve the built site (search works here)
 | Notes for a single item or block (optional) | `src/content/items/<mod-slug>/<item-id>.md` (see the Spelunker's Charm helmets for examples) |
 | Images, videos | `public/mods/<slug>/media/`, linked as `/mods/<slug>/media/file.webp` |
 | Site name, social links, ads | `src/site.config.ts` |
+| Home page hero (headline, background photo or video), intro and featured mod | `home` in `src/site.config.ts` |
+| Top menu tabs | `nav` in `src/layouts/Base.astro` |
+| About page | `src/pages/about.astro` |
 | Colors and layout | `src/styles/global.css` |
 
 Adding a new mod: create `src/content/mods/<slug>.md` (copy an existing one), add the repo to `scripts/mods.json`, then run `npm run import-all -- <slug>`.
