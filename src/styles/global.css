@@ -10,7 +10,7 @@
   --gold-2: #7c4f12;
   --orange: #a8512b;
   --link: #93591a;
-  --serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --serif: 'Pixelify Sans', ui-monospace, monospace;
   --pixel: var(--serif);
   --radius: 4px;
   --header-h: 72px;
@@ -241,8 +241,8 @@ main.bare { display: block; }
 .home-hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(20, 14, 8, .78) 0%, rgba(20, 14, 8, .35) 45%, rgba(20, 14, 8, .15) 100%); }
 .home-hero-text { position: relative; z-index: 1; padding: 0 2.5rem 5.5rem; max-width: 900px; }
 .home-hero .eyebrow { color: rgba(255, 255, 255, .8); }
-.home-hero h1 { font-family: var(--serif); font-weight: 500; font-size: clamp(3.2rem, 9vw, 7.5rem); line-height: .95; color: #fff; margin: 0 0 1.5rem; letter-spacing: -.01em; }
-.home-hero h1 em { font-style: italic; font-weight: 500; display: block; }
+.home-hero h1 { font-family: var(--serif); font-weight: 500; font-size: clamp(3rem, 8vw, 6.5rem); line-height: 1; color: #fff; margin: 0 0 1.5rem; letter-spacing: -.01em; }
+.home-hero h1 em { font-style: normal; display: block; color: #ffd56a; }
 .home-hero p.tagline { font-size: clamp(1.05rem, 1.6vw, 1.35rem); max-width: 34em; color: rgba(255, 255, 255, .88); margin: 0; line-height: 1.55; }
 .scroll-cue { position: absolute; z-index: 1; right: 2.5rem; bottom: 2.2rem; color: rgba(255, 255, 255, .75); font-family: system-ui, sans-serif; font-size: .72rem; letter-spacing: .24em; text-transform: uppercase; text-decoration: none; }
 .scroll-cue:hover { color: #fff; }
