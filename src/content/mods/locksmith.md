@@ -40,7 +40,3 @@ Some locks don't take a key code. They open for one special key, and the key is 
 ![Iron chests dyed red, blue and purple](/mods/locksmith/media/dye_chest.webp)
 
 **Iron Chests** and **Golden Chests** (and their trapped versions) can be dyed. Use any dye on the chest to change its color, and use a different dye to change it again. Great for color-coding your storage room.
-
-## Chests
-
-**Iron Chests** and **Golden Chests**, with trapped versions of both.
