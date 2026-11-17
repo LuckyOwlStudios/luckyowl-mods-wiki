@@ -4,11 +4,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --open",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "import-mod": "node scripts/import-mod.mjs",
-    "import-all": "node scripts/import-all.mjs"
+    "import-all": "node scripts/import-all.mjs",
+    "build-preview": "npm run build && astro preview --open"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.9",

@@ -4,6 +4,18 @@ A fast, static wiki for LuckyOwl's Minecraft mods, built with [Astro](https://as
 
 ## Run it locally
 
+### In IntelliJ IDEA
+
+Shared run configurations live in `.run/` and appear in the run dropdown at the top of the window:
+
+- **Wiki - Install dependencies**: run this once after cloning (and after pulling changes to `package.json`).
+- **Wiki - Run dev server**: starts the site at http://localhost:4321 and opens your browser. Edits to content and styles show up instantly. Search doesn't work in this mode.
+- **Wiki - Preview built site (with search)**: builds the real site and serves it, including search.
+
+These need [Node.js 22 or newer](https://nodejs.org) and IntelliJ IDEA Ultimate (or WebStorm). If IntelliJ asks for a Node interpreter, pick the installed Node under Settings → Languages & Frameworks → Node.js. On IntelliJ Community, run the commands below in IntelliJ's Terminal tab instead.
+
+### From a terminal
+
 ```bash
 npm install
 npm run dev        # http://localhost:4321, live reload, shows ad slot placeholders
