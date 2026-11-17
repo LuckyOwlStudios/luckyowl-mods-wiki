@@ -1,0 +1,39 @@
+---
+// ✏️ This page is yours to write. Replace the draft text below with your own story.
+import Base from '../layouts/Base.astro';
+import ModCard from '../components/ModCard.astro';
+import { site } from '../site.config';
+import { allMods, url } from '../lib';
+const mods = await allMods();
+---
+<Base title="About LuckyOwl" description="About LuckyOwl (Lucky Owl Studios), the maker of Spelunker's Charm, Lucky's Wardrobe, Blocky Siege and more Minecraft mods." wide>
+  <div class="about-hero">
+    <img class="pixel" src={url('/favicon.png')} alt="" width="96" height="96" />
+    <div>
+      <h1>About LuckyOwl</h1>
+      <p class="lead">Minecraft modder behind Lucky Owl Studios.</p>
+    </div>
+  </div>
+
+  <article class="prose">
+    <p>Hi, I'm LuckyOwl. I make Minecraft mods that add to the game while keeping the vanilla look and feel: deeper caves to explore, clothes to dress up in, siege weapons, furniture, building blocks and more.</p>
+    <p>Lucky's Wardrobe alone has passed 500,000 downloads, and every mod on this wiki is built for current Minecraft versions on NeoForge and Fabric.</p>
+
+    <h2>How I got started</h2>
+    <p><em>Write a few lines here about how you got into modding, what tools you use (Blockbench, IntelliJ, NeoForge…) and what inspires your mods.</em></p>
+
+    <h2>What I'm working on</h2>
+    <p><em>Tease upcoming mods or updates here. Pages people come back to are great for ads and SEO.</em></p>
+
+    <h2>Get in touch</h2>
+    <ul>
+      {site.links.curseforge && <li><a href={site.links.curseforge}>CurseForge</a></li>}
+      {site.links.modpack && <li><a href={site.links.modpack}>The official LuckyOwl modpack</a> on CurseForge</li>}
+      {site.links.discord && <li><a href={site.links.discord}>Discord</a></li>}
+      <li><a href={site.links.github}>GitHub</a> for source code and bug reports</li>
+    </ul>
+  </article>
+
+  <h2>My mods</h2>
+  <div class="mod-cards">{mods.map((m) => <ModCard mod={m} />)}</div>
+</Base>

@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allMods, url } from '../../lib';
+const mods = (await allMods()).filter((m) => m.data.downloads.github);
+---
+<Base title="Report a bug" description="How to report a bug or suggest a feature for LuckyOwl's Minecraft mods.">
+  <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / Community / Report a bug</div>
+  <h1>Report a bug</h1>
+  <p class="lead">Found something broken, or have an idea? Bug reports go on each mod's GitHub page.</p>
+  <article class="prose">
+    <h2>Before you report</h2>
+    <ul>
+      <li>Make sure you're on the latest version of the mod and its required mods.</li>
+      <li>Try it with only that mod (and its requirements) installed, to rule out conflicts.</li>
+    </ul>
+    <h2>What to include</h2>
+    <ul>
+      <li>Minecraft version, loader (NeoForge or Fabric) and the mod's version.</li>
+      <li>What you did, what you expected, and what happened instead.</li>
+      <li>Your crash report or <code>logs/latest.log</code>, uploaded to a site like <a href="https://mclo.gs">mclo.gs</a>.</li>
+    </ul>
+    <h2>Where to report</h2>
+    <ul>
+      {mods.map((m) => <li><a href={`${m.data.downloads.github}/issues`}>{m.data.name} issues</a></li>)}
+    </ul>
+  </article>
+</Base>

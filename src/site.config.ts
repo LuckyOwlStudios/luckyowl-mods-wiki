@@ -5,8 +5,10 @@ export const site = {
   shortName: 'LuckyOwl Wiki',
   description: "The official wiki for LuckyOwl's Minecraft mods: every item, block, feature and config option.",
   author: 'LuckyOwl (Lucky Owl Studios)',
-  links: {
+  // Links shown in the Community menu. Uncomment and fill in to add more.
+  links: <Record<string, string | undefined>>{
     github: 'https://github.com/LuckyOwlStudios',
+    modpack: 'https://www.curseforge.com/minecraft/modpacks/official-luckyowl-modpack',
     // curseforge: 'https://www.curseforge.com/members/<you>/projects',
     // discord: 'https://discord.gg/xxxx',
     // kofi: 'https://ko-fi.com/xxxx',

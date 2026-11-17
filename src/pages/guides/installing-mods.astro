@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allMods, url } from '../../lib';
+const mods = await allMods();
+const neo = mods.filter((m) => m.data.loaders.includes('NeoForge'));
+const fabric = mods.filter((m) => m.data.loaders.includes('Fabric'));
+---
+<Base title="How to install LuckyOwl's mods" description="Step-by-step guide to installing LuckyOwl's Minecraft mods with NeoForge or Fabric, using the CurseForge app or the vanilla launcher.">
+  <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / Guides / Installing mods</div>
+  <h1>Installing mods</h1>
+  <p class="lead">Every mod on this wiki runs on Minecraft Java Edition with a mod loader. Here's how to get them running.</p>
+
+  <article class="prose">
+    <h2>Check which loader a mod needs</h2>
+    <p>Each mod page lists its loader and Minecraft version in the box on the right.</p>
+    <ul>
+      <li><strong>NeoForge:</strong> {neo.map((m, i) => <>{i > 0 && ', '}<a href={url(`/mods/${m.id}/`)}>{m.data.name}</a></>)}</li>
+      <li><strong>Fabric:</strong> {fabric.map((m, i) => <>{i > 0 && ', '}<a href={url(`/mods/${m.id}/`)}>{m.data.name}</a></>)}</li>
+    </ul>
+    <p>Some mods also need other mods. For example, Spelunker's Charm needs TerraBlender. Those are listed under <em>Requires</em> on the mod page.</p>
+
+    <h2>The easy way: the CurseForge app</h2>
+    <ol>
+      <li>Install the <a href="https://www.curseforge.com/download/app">CurseForge app</a> and open the Minecraft section.</li>
+      <li>Click <strong>Create Custom Profile</strong>, pick the Minecraft version (1.21.1) and the loader the mod needs.</li>
+      <li>Open the profile, click <strong>Add Content</strong>, search for the mod and install it. Required mods are installed automatically.</li>
+      <li>Press <strong>Play</strong>.</li>
+    </ol>
+    <p>Prefer one click? The official LuckyOwl modpack bundles the mods together.</p>
+
+    <h2>The manual way: vanilla launcher</h2>
+    <ol>
+      <li>Install the loader: <a href="https://neoforged.net/">NeoForge</a> or <a href="https://fabricmc.net/use/installer/">Fabric</a> (Fabric mods also need the Fabric API mod). Run the installer and choose <strong>Install client</strong>.</li>
+      <li>Open the Minecraft Launcher once with the new NeoForge or Fabric profile, then close the game.</li>
+      <li>Download the mod's <code>.jar</code> file (and any required mods) for the same Minecraft version and loader.</li>
+      <li>Put the jars in your <code>mods</code> folder: <code>%appdata%\.minecraft\mods</code> on Windows, <code>~/Library/Application Support/minecraft/mods</code> on macOS, <code>~/.minecraft/mods</code> on Linux.</li>
+      <li>Launch the game with the loader's profile.</li>
+    </ol>
+
+    <h2>Servers</h2>
+    <p>Most of these mods add blocks, items or world generation, so they must be installed on <strong>both the server and every player's game</strong>. Use the loader's server installer and drop the same jars in the server's <code>mods</code> folder.</p>
+
+    <h2>Something not working?</h2>
+    <p>Check that the Minecraft version, loader and required mods all match. If it still crashes, see <a href={url('/guides/report-a-bug/')}>how to report a bug</a>.</p>
+  </article>
+</Base>

@@ -11,6 +11,42 @@ const fullTitle = title ? `${title} | ${site.name}` : site.name;
 const mods = await allMods();
 const path = Astro.url.pathname;
 const canonical = new URL(path, Astro.site);
+
+// Top navigation dropdowns. Add or reorder tabs here.
+type NavItem = { label: string; href: string; icon?: string; hint?: string; external?: boolean };
+const nav: { label: string; items: NavItem[] }[] = [
+  {
+    label: 'Collections',
+    items: [
+      ...mods.map((m) => ({ label: m.data.name, href: url(`/mods/${m.id}/`), icon: m.data.icon ? url(m.data.icon) : undefined })),
+      { label: 'All mods', href: url('/mods/'), hint: 'Overview of every mod' },
+    ],
+  },
+  {
+    label: 'Guides',
+    items: [
+      { label: 'Installing mods', href: url('/guides/installing-mods/'), hint: 'NeoForge, Fabric and launchers' },
+      { label: 'Search the wiki', href: url('/search/'), hint: 'Items, blocks, features' },
+    ],
+  },
+  {
+    label: 'Community',
+    items: [
+      ...(site.links.curseforge ? [{ label: 'CurseForge', href: site.links.curseforge, external: true }] : []),
+      ...(site.links.modpack ? [{ label: 'Official LuckyOwl Modpack', href: site.links.modpack, external: true }] : []),
+      ...(site.links.discord ? [{ label: 'Discord', href: site.links.discord, external: true }] : []),
+      { label: 'GitHub', href: site.links.github, hint: 'Source code and bug reports', external: true },
+      { label: 'Report a bug', href: url('/guides/report-a-bug/') },
+    ],
+  },
+  {
+    label: 'About',
+    items: [
+      { label: 'About LuckyOwl', href: url('/about/'), hint: 'Who makes these mods' },
+      { label: 'Privacy', href: url('/privacy/') },
+    ],
+  },
+];
 ---
 <!doctype html>
 <html lang="en">
@@ -33,19 +69,40 @@ const canonical = new URL(path, Astro.site);
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href={url('/')}><img src={url('/favicon.png')} alt="" width="28" height="28" /> {site.shortName}</a>
-    <form class="search" action={url('/search/')} method="get" role="search">
-      <input type="search" name="q" placeholder="Search items, blocks, features…" aria-label="Search the wiki" />
-    </form>
-    <nav class="toplinks">
-      <a href={url('/mods/')}>All mods</a>
-      {site.links.github && <a href={site.links.github} rel="noopener">GitHub</a>}
+    <a class="brand" href={url('/')}><img src={url('/favicon.png')} alt="" width="28" height="28" /> <span>{site.shortName}</span></a>
+
+    <nav class="mainnav" aria-label="Main">
+      {nav.map((group) => (
+        <div class="dd">
+          <button class="dd-btn" aria-haspopup="true" aria-expanded="false">{group.label} <span class="caret" aria-hidden="true">▾</span></button>
+          <div class="dd-menu" role="menu">
+            {group.items.map((it) => (
+              <a role="menuitem" href={it.href} class={path === it.href ? 'active' : ''} {...(it.external ? { rel: 'noopener', target: '_blank' } : {})}>
+                {it.icon && <img src={it.icon} alt="" width="20" height="20" />}
+                <span>{it.label}{it.hint && <small>{it.hint}</small>}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
     </nav>
+
+    <form class="search" action={url('/search/')} method="get" role="search">
+      <input type="search" name="q" placeholder="Search the wiki…" aria-label="Search the wiki" />
+    </form>
     <button class="menu-btn" aria-label="Open menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
   </header>
 
   <div class="shell">
     <aside class="sidebar">
+      <div class="mobile-nav">
+        {nav.slice(1).map((group) => (
+          <>
+            <p class="sidebar-label">{group.label}</p>
+            <ul>{group.items.map((it) => <li><a href={it.href}>{it.label}</a></li>)}</ul>
+          </>
+        ))}
+      </div>
       <p class="sidebar-label">Mods</p>
       <ul>
         {mods.map((m) => {
@@ -78,5 +135,16 @@ const canonical = new URL(path, Astro.site);
     <p><a href={url('/privacy/')}>Privacy</a> · <a href={url('/mods/')}>All mods</a>{site.links.github && <> · <a href={site.links.github}>GitHub</a></>}</p>
     <p class="fine">Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.</p>
   </footer>
+  <script>
+    // Dropdowns: open on hover (desktop) via CSS, and on click/keyboard here.
+    const dds = [...document.querySelectorAll('.dd')];
+    const close = (except) => dds.forEach((d) => { if (d !== except) { d.classList.remove('open'); d.querySelector('.dd-btn').setAttribute('aria-expanded', 'false'); } });
+    dds.forEach((dd) => {
+      const btn = dd.querySelector('.dd-btn');
+      btn.addEventListener('click', (e) => { e.stopPropagation(); const open = !dd.classList.contains('open'); close(dd); dd.classList.toggle('open', open); btn.setAttribute('aria-expanded', String(open)); });
+    });
+    document.addEventListener('click', () => close());
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+  </script>
 </body>
 </html>
