@@ -3,7 +3,7 @@
   "items": [
     {
       "id": "boom_banner_pattern",
-      "name": "Banner Pattern",
+      "name": "Banner Pattern (Boom)",
       "kind": "item",
       "description": "Boom",
       "icon": "/mods/blocky-siege/items/boom_banner_pattern.png"

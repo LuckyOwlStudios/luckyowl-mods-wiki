@@ -110,9 +110,9 @@ for (const [key, name] of Object.entries(lang)) {
   items.push({ id, name: clean(name), kind, description: clean(desc.join(' ')), icon: file ? `/mods/${slug}/items/${id}.png` : null, _file: file });
 }
 // Same display name twice (e.g. two "Banner Pattern"s): add the description to tell them apart.
-for (const it of items) {
-  if (it.description && items.filter((o) => o.name === it.name).length > 1) it.name = `${it.name} (${it.description})`;
-}
+const nameCount = {};
+for (const it of items) nameCount[it.name] = (nameCount[it.name] || 0) + 1;
+for (const it of items) if (it.description && nameCount[it.name] > 1) it.name = `${it.name} (${it.description})`;
 items.sort((a, b) => (a.kind === b.kind ? a.name.localeCompare(b.name) : a.kind === 'item' ? -1 : 1));
 
 // ---- write output
