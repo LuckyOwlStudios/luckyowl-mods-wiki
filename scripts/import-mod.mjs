@@ -107,7 +107,8 @@ for (const [key, name] of Object.entries(lang)) {
   let file = tex && textureFile(tex);
   if (!file) file = findAsset(path.join(ns, 'textures', 'item', id + '.png')) || findAsset(path.join(ns, 'textures', 'block', id + '.png'));
 
-  items.push({ id, name: clean(name), kind, description: clean(desc.join(' ')), icon: file ? `/mods/${slug}/items/${id}.png` : null, _file: file });
+  const manual = !file && fs.existsSync(path.join(wikiRoot, 'public', 'mods', slug, 'items', id + '.png'));
+  items.push({ id, name: clean(name), kind, description: clean(desc.join(' ')), icon: file || manual ? `/mods/${slug}/items/${id}.png` : null, _file: file });
 }
 // Same display name twice (e.g. two "Banner Pattern"s): add the description to tell them apart.
 const nameCount = {};
@@ -117,7 +118,7 @@ items.sort((a, b) => (a.kind === b.kind ? a.name.localeCompare(b.name) : a.kind 
 
 // ---- write output
 const iconDir = path.join(wikiRoot, 'public', 'mods', slug, 'items');
-fs.rmSync(iconDir, { recursive: true, force: true });
+// Existing icons are kept, so hand-made icons (e.g. for 3D blocks) survive a re-import.
 fs.mkdirSync(iconDir, { recursive: true });
 for (const it of items) { if (it._file) fs.copyFileSync(it._file, path.join(iconDir, it.id + '.png')); delete it._file; }
 fs.mkdirSync(path.join(wikiRoot, 'src', 'data', 'items'), { recursive: true });
