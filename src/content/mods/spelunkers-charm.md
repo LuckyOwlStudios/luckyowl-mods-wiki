@@ -3,7 +3,7 @@ name: "Spelunker's Charm"
 tagline: "Caves deserve more. Makes going underground feel alive, dangerous and worth the trip."
 order: 1
 icon: /mods/spelunkers-charm/logo.png
-banner: /mods/spelunkers-charm/media/logo.png
+banner: /mods/spelunkers-charm/media/banner.png
 loaders: [NeoForge]
 minecraft: "1.21.1"
 version: "5.1.1"
@@ -21,7 +21,12 @@ Everything sits alongside vanilla and other mods. Features place themselves acro
 
 ## Boulders
 
-![A cracked boulder full of raw gold in a deepslate cave](/mods/spelunkers-charm/media/boulders.webp)
+<div class="renders">
+  <figure><img src="/mods/spelunkers-charm/media/boulder.webp" alt="Boulder" /><figcaption>Boulder</figcaption></figure>
+  <figure><img src="/mods/spelunkers-charm/media/iron_boulder.webp" alt="Cracked open: raw iron inside" /><figcaption>Cracked open: raw iron inside</figcaption></figure>
+  <figure><img src="/mods/spelunkers-charm/media/lush_boulder.webp" alt="Lush Boulder" /><figcaption>Lush Boulder</figcaption></figure>
+  <figure><img src="/mods/spelunkers-charm/media/hanging_boulder.webp" alt="Hanging from a chain" /><figcaption>Hanging from a chain</figcaption></figure>
+</div>
 
 Huge 3×3×3 boulders sit on cave floors. Crack one open and you might find a jackpot of **raw iron**, **raw copper** or **raw gold** at its core, or nothing but stone.
 
@@ -55,8 +60,6 @@ The deeper you go, the less stable the ground gets.
 
 ## Spider Cave
 
-![The Spider Cave biome](/mods/spelunkers-charm/media/spider-cave.webp)
-
 A new underground biome (via TerraBlender) that's dark, quiet and crawling.
 
 - Walls and ceilings are coated in **web veins**, **packed webs** and **hanging webs**.
@@ -73,7 +76,10 @@ A new underground biome (via TerraBlender) that's dark, quiet and crawling.
 
 ## Equipment
 
-![New equipment](/mods/spelunkers-charm/media/equipment.png)
+<div class="renders">
+  <figure><img src="/mods/spelunkers-charm/media/candle_helmet.png" alt="Candle Helmet" /><figcaption>Candle Helmet</figcaption></figure>
+  <figure><img src="/mods/spelunkers-charm/media/mining_helmet.png" alt="Mining Helmet" /><figcaption>Mining Helmet</figcaption></figure>
+</div>
 
 - **Candle Helmet.** A craftable helmet with a candle on top. The flame follows your head and goes out in water or rain, then relights when you're dry again.
 - **Mining Helmet.** A sturdier helmet with a bright lamp that works underwater. It adds explosion knockback resistance. You can't craft it: buy it from the **Wandering Trader** as a rare trade.
@@ -90,8 +96,6 @@ Brew an **Awkward Potion** with a **Cave Mushroom** to get a Potion of Haste. Ad
 
 ## Biome stone (experimental)
 
-![Cave biome stones](/mods/spelunkers-charm/media/cave-biomes.webp)
-
 Off by default. With `stoneReplacers` turned on, the stone underground changes to match the biome above it:
 
 - **Dunestone** under deserts, savannas and badlands
@@ -100,7 +104,7 @@ Off by default. With `stoneReplacers` turned on, the stone underground changes t
 
 Each stone comes with cobbled, brick and chiseled variants, stairs, slabs and walls, plus its own versions of every vanilla ore. There's also a set of **Polished Amethyst** and **Amethyst Brick** blocks. This changes world generation in big ways, so it needs a game restart and is best turned on in a new world.
 
-![New ore variants](/mods/spelunkers-charm/media/newOres.png)
+<figure class="pixel-figure"><img class="pixel" src="/mods/spelunkers-charm/media/ores.png" alt="Every vanilla ore in Stone, Dunestone, Wildstone and Permafrost" /><figcaption>Every vanilla ore, in Stone, Dunestone, Wildstone and Permafrost.</figcaption></figure>
 
 ## In development
 

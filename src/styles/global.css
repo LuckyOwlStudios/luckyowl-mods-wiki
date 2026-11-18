@@ -304,3 +304,10 @@ main.bare { display: block; }
 .modnav-items { max-height: 55vh; overflow-y: auto; }
 .modnav-items .item-icon { flex-basis: 20px; }
 .modnav-back { margin-top: 1rem; color: var(--muted) !important; font-size: .88rem !important; }
+
+/* Transparent renders (boulders, helmets…) shown on a soft tile, no frame */
+.renders { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1rem; margin: 1.25rem 0 1.5rem; }
+.renders figure { margin: 0; background: radial-gradient(circle at 50% 40%, var(--panel-2), var(--panel) 70%); border-radius: var(--radius); padding: 1.25rem 1rem .8rem; text-align: center; }
+.prose .renders img { border: 0; margin: 0 auto .6rem; max-height: 180px; width: auto; object-fit: contain; filter: drop-shadow(0 10px 14px rgba(0,0,0,.45)); }
+.renders figcaption { font-size: .85rem; color: var(--muted); }
+.prose .pixel-figure img { border: 0; max-width: 560px; }
