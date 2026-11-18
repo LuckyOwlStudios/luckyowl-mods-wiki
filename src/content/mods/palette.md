@@ -7,6 +7,7 @@ loaders: [Fabric]
 minecraft: "1.21.1"
 version: "1.0.1"
 downloads:
+  modrinth: https://modrinth.com/mod/luckys-palette
   github: https://github.com/LuckyOwlStudios/luckys-palette
 ---
 

@@ -7,6 +7,7 @@ loaders: [Fabric, NeoForge]
 minecraft: "1.21.1"
 version: "1.1.20"
 downloads:
+  modrinth: https://modrinth.com/mod/cozy-home
   github: https://github.com/LuckyOwlStudios/luckys-cozyhome
 ---
 

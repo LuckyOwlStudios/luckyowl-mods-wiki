@@ -38,6 +38,7 @@ const nav: { label: string; items: NavItem[] }[] = [
     items: [
       ...(site.links.curseforge ? [{ label: 'CurseForge', href: site.links.curseforge, external: true }] : []),
       ...(site.links.modpack ? [{ label: 'Official LuckyOwl Modpack', href: site.links.modpack, external: true }] : []),
+      ...(site.links.modrinth ? [{ label: 'Modrinth', href: site.links.modrinth, external: true }] : []),
       ...(site.links.discord ? [{ label: 'Discord', href: site.links.discord, external: true }] : []),
       { label: 'GitHub', href: site.links.github, hint: 'Source code and bug reports', external: true },
       { label: 'Report a bug', href: url('/guides/report-a-bug/') },

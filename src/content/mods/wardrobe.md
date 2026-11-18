@@ -7,6 +7,7 @@ loaders: [NeoForge]
 minecraft: "1.21.1"
 version: "2.0.1 (Restitched)"
 downloads:
+  modrinth: https://modrinth.com/mod/luckyowls-wardrobe
   github: https://github.com/LuckyOwlStudios/luckys-wardrobe
 ---
 

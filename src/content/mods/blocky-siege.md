@@ -8,6 +8,7 @@ minecraft: "1.21.1"
 version: "3.0.0"
 hideItems: [shoot]
 downloads:
+  modrinth: https://modrinth.com/mod/luckys-blocky-siege
   github: https://github.com/LuckyOwlStudios/Luckys-Blocky-Siege
 ---
 

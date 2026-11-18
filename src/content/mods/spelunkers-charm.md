@@ -12,6 +12,7 @@ requires:
   - name: TerraBlender
     url: https://modrinth.com/mod/terrablender
 downloads:
+  modrinth: https://modrinth.com/mod/spelunkers-charm-ii
   curseforge: https://www.curseforge.com/minecraft/mc-mods/spelunkers-charm-ii
   github: https://github.com/LuckyOwlStudios/luckys-spelunkers-charm
 ---

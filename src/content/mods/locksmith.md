@@ -8,6 +8,7 @@ loaders: [NeoForge]
 minecraft: "1.21.1"
 version: "1.0.3"
 downloads:
+  modrinth: https://modrinth.com/mod/luckys-locksmith
   github: https://github.com/LuckyOwlStudios/luckys-locksmith
 ---
 

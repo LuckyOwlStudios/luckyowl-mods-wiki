@@ -7,6 +7,7 @@ loaders: [NeoForge]
 minecraft: "1.21.1"
 version: "1.0.1"
 downloads:
+  modrinth: https://modrinth.com/mod/luckys-armory-reforged
   curseforge: https://www.curseforge.com/minecraft/mc-mods/luckys-armory
   github: https://github.com/LuckyOwlStudios/luckys-armory
 ---

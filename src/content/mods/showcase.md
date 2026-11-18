@@ -6,6 +6,7 @@ icon: /mods/showcase/logo.png
 loaders: [Fabric, Forge, NeoForge]
 minecraft: "1.21.1"
 downloads:
+  modrinth: https://modrinth.com/mod/luckys-showcase
   github: https://github.com/LuckyOwlStudios/luckys-showcase
 ---
 

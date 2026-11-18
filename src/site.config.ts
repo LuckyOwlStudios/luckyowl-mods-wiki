@@ -10,6 +10,7 @@ export const site = {
     github: 'https://github.com/LuckyOwlStudios',
     modpack: 'https://www.curseforge.com/minecraft/modpacks/official-luckyowl-modpack',
     // curseforge: 'https://www.curseforge.com/members/<you>/projects',
+    modrinth: 'https://modrinth.com/user/LuckyOwl',
     discord: 'https://discord.com/invite/Hk8PdBRsrp',
     // kofi: 'https://ko-fi.com/xxxx',
   },
