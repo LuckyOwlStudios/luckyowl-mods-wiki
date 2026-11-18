@@ -314,3 +314,4 @@ main.bare { display: block; }
 .banner-title { margin: .25rem 0 .75rem; line-height: 0; }
 .banner-title img { display: block; width: 100%; max-width: 760px; height: auto; filter: drop-shadow(0 8px 16px rgba(0,0,0,.5)); }
 .mod-banner { border: 0 !important; }
+.prose img.update-logo { border: 0; max-width: 420px; width: 100%; margin: .5rem 0 1rem; image-rendering: pixelated; }

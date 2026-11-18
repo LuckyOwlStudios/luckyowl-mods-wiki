@@ -86,6 +86,13 @@
       "icon": null
     },
     {
+      "id": "acacia_planked_wall",
+      "name": "Acacia Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/acacia_planked_wall.png"
+    },
+    {
       "id": "acacia_sink_counter",
       "name": "Acacia Sink Counter",
       "kind": "block",
@@ -219,6 +226,13 @@
       "icon": null
     },
     {
+      "id": "bamboo_planked_wall",
+      "name": "Bamboo Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/bamboo_planked_wall.png"
+    },
+    {
       "id": "bamboo_sink_counter",
       "name": "Bamboo Sink Counter",
       "kind": "block",
@@ -315,6 +329,13 @@
       "kind": "block",
       "description": "",
       "icon": null
+    },
+    {
+      "id": "birch_planked_wall",
+      "name": "Birch Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/birch_planked_wall.png"
     },
     {
       "id": "birch_sink_counter",
@@ -520,6 +541,13 @@
       "icon": null
     },
     {
+      "id": "cherry_planked_wall",
+      "name": "Cherry Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/cherry_planked_wall.png"
+    },
+    {
       "id": "cherry_sink_counter",
       "name": "Cherry Sink Counter",
       "kind": "block",
@@ -618,6 +646,13 @@
       "icon": null
     },
     {
+      "id": "crimson_planked_wall",
+      "name": "Crimson Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/crimson_planked_wall.png"
+    },
+    {
       "id": "crimson_sink_counter",
       "name": "Crimson Sink Counter",
       "kind": "block",
@@ -714,6 +749,13 @@
       "kind": "block",
       "description": "",
       "icon": null
+    },
+    {
+      "id": "dark_oak_planked_wall",
+      "name": "Dark Oak Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/dark_oak_planked_wall.png"
     },
     {
       "id": "dark_oak_sink_counter",
@@ -1073,6 +1115,13 @@
       "icon": null
     },
     {
+      "id": "jungle_planked_wall",
+      "name": "Jungle Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/jungle_planked_wall.png"
+    },
+    {
       "id": "jungle_sink_counter",
       "name": "Jungle Sink Counter",
       "kind": "block",
@@ -1169,6 +1218,13 @@
       "kind": "block",
       "description": "",
       "icon": null
+    },
+    {
+      "id": "mangrove_planked_wall",
+      "name": "Mangrove Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/mangrove_planked_wall.png"
     },
     {
       "id": "mangrove_sink_counter",
@@ -1372,6 +1428,13 @@
       "kind": "block",
       "description": "",
       "icon": null
+    },
+    {
+      "id": "oak_planked_wall",
+      "name": "Oak Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/oak_planked_wall.png"
     },
     {
       "id": "oak_sink_counter",
@@ -1689,6 +1752,13 @@
       "icon": null
     },
     {
+      "id": "spruce_planked_wall",
+      "name": "Spruce Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/spruce_planked_wall.png"
+    },
+    {
       "id": "spruce_sink_counter",
       "name": "Spruce Sink Counter",
       "kind": "block",
@@ -1897,6 +1967,13 @@
       "kind": "block",
       "description": "",
       "icon": null
+    },
+    {
+      "id": "warped_planked_wall",
+      "name": "Warped Planked Wall",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/cozyhome/items/warped_planked_wall.png"
     },
     {
       "id": "warped_sink_counter",
