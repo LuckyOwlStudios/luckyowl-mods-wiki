@@ -11,6 +11,6 @@ const statusLabel = { released: '', beta: 'Beta', 'in-development': 'In developm
   <div class="mod-card-body">
     <h3>{mod.data.name} {statusLabel && <span class="badge">{statusLabel}</span>}</h3>
     <p>{mod.data.tagline}</p>
-    <p class="meta">{mod.data.loaders.join(' · ')} · MC {mod.data.minecraft}{count ? ` · ${count} items & blocks` : ''}</p>
+    <p class="meta">{mod.data.loaders.join(' · ')} · MC {mod.data.minecraft}{count ? ` · ${count} ${count === 1 ? 'entry' : 'items & blocks'}` : ''}</p>
   </div>
 </a>

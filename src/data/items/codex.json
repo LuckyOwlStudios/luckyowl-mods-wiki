@@ -1,0 +1,12 @@
+{
+  "namespace": "codex",
+  "items": [
+    {
+      "id": "potion_scroll",
+      "name": "Potion Scroll",
+      "kind": "item",
+      "description": "Use to learn a random brewing recipe",
+      "icon": "/mods/codex/items/potion_scroll.png"
+    }
+  ]
+}

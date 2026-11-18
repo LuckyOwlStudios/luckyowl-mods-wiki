@@ -57,7 +57,7 @@ const statusLabel = { released: 'Released', beta: 'Beta', 'in-development': 'In 
         {d.version && <><dt>Version</dt><dd>{d.version}</dd></>}
         <dt>Status</dt><dd>{statusLabel}</dd>
         {d.requires.length > 0 && <><dt>Requires</dt><dd>{d.requires.map((r, i) => <>{i > 0 && ', '}{r.url ? <a href={r.url}>{r.name}</a> : r.name}</>)}</dd></>}
-        {items.length > 0 && <><dt>Content</dt><dd>{itemList.length} items, {blockList.length} blocks</dd></>}
+        {items.length > 0 && <><dt>Content</dt><dd>{[itemList.length && `${itemList.length} item${itemList.length === 1 ? '' : 's'}`, blockList.length && `${blockList.length} block${blockList.length === 1 ? '' : 's'}`].filter(Boolean).join(', ')}</dd></>}
       </dl>
       <div class="btn-row">
         {d.downloads.curseforge && <a class="btn" href={d.downloads.curseforge}>CurseForge</a>}

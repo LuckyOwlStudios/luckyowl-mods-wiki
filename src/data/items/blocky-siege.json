@@ -33,14 +33,14 @@
       "id": "multi_cannon",
       "name": "Burst-Cannon",
       "kind": "block",
-      "description": "Four-round burst cannon",
+      "description": "Shoots any Item",
       "icon": "/mods/blocky-siege/items/multi_cannon.png"
     },
     {
       "id": "cannon",
       "name": "Cannon",
       "kind": "block",
-      "description": "Fires powerful cannon rounds",
+      "description": "Shoots any Block",
       "icon": "/mods/blocky-siege/items/cannon.png"
     },
     {
@@ -89,7 +89,7 @@
       "id": "spewer_cannon",
       "name": "Spewer",
       "kind": "block",
-      "description": "Shoots and spreads liquid in a large area",
+      "description": "Shoots any liquid.",
       "icon": "/mods/blocky-siege/items/spewer_cannon.png"
     },
     {
