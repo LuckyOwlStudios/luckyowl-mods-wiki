@@ -2,7 +2,7 @@
 name: "Spelunker's Charm"
 tagline: "Caves deserve more. Makes going underground feel alive, dangerous and worth the trip."
 order: 1
-icon: /mods/spelunkers-charm/media/mining_helmet.png
+icon: /mods/spelunkers-charm/logo.png
 banner: /mods/spelunkers-charm/media/logo.png
 loaders: [NeoForge]
 minecraft: "1.21.1"
