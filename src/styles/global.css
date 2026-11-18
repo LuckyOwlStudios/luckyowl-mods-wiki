@@ -311,3 +311,6 @@ main.bare { display: block; }
 .prose .renders img { border: 0; margin: 0 auto .6rem; max-height: 180px; width: auto; object-fit: contain; filter: drop-shadow(0 10px 14px rgba(0,0,0,.45)); }
 .renders figcaption { font-size: .85rem; color: var(--muted); }
 .prose .pixel-figure img { border: 0; max-width: 560px; }
+.banner-title { margin: .25rem 0 .75rem; line-height: 0; }
+.banner-title img { display: block; width: 100%; max-width: 760px; height: auto; filter: drop-shadow(0 8px 16px rgba(0,0,0,.5)); }
+.mod-banner { border: 0 !important; }

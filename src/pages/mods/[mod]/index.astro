@@ -24,9 +24,20 @@ const statusLabel = { released: 'Released', beta: 'Beta', 'in-development': 'In 
 <Base mod={mod} title={d.name} description={`${d.name}: ${d.tagline} Wiki with every item, block and feature.`} image={d.banner || d.icon}>
   <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / <a href={url('/mods/')}>Mods</a> / {d.name}</div>
   <section class="hero">
-    <h1 data-pagefind-weight="10">{d.name} {d.status !== 'released' && <span class="badge">{statusLabel}</span>}</h1>
-    <p class="lead">{d.tagline}</p>
-    {d.banner && <img class="mod-banner" src={url(d.banner)} alt={`${d.name} banner`} />}
+    {d.bannerIsTitle && d.banner ? (
+      <>
+        {/* The banner already shows the mod's name, so it replaces the text title. */}
+        <h1 class="banner-title" data-pagefind-weight="10"><img src={url(d.banner)} alt={d.name} /></h1>
+        {d.status !== 'released' && <span class="badge">{statusLabel}</span>}
+        <p class="lead">{d.tagline}</p>
+      </>
+    ) : (
+      <>
+        <h1 data-pagefind-weight="10">{d.name} {d.status !== 'released' && <span class="badge">{statusLabel}</span>}</h1>
+        <p class="lead">{d.tagline}</p>
+        {d.banner && <img class="mod-banner" src={url(d.banner)} alt={`${d.name} banner`} />}
+      </>
+    )}
   </section>
 
   <article class="prose"><Content /></article>

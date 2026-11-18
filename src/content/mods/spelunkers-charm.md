@@ -4,6 +4,7 @@ tagline: "Caves deserve more. Makes going underground feel alive, dangerous and 
 order: 1
 icon: /mods/spelunkers-charm/logo.png
 banner: /mods/spelunkers-charm/media/banner.png
+bannerIsTitle: true
 loaders: [NeoForge]
 minecraft: "1.21.1"
 version: "5.1.1"
