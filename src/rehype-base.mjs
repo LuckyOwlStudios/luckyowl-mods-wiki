@@ -11,6 +11,11 @@ export default function rehypeBase(base = '/') {
           if (typeof v === 'string' && v.startsWith('/') && !v.startsWith('//') && !v.startsWith(prefix + '/')) node.properties[attr] = prefix + v;
         }
       }
+      // Raw HTML written inside markdown (e.g. <div class="renders"><img src="/mods/...">).
+      if (node.type === 'raw' && typeof node.value === 'string') {
+        node.value = node.value.replace(/\b(src|href|poster)="\/(?!\/)/g, (m, attr, off, str) =>
+          str.startsWith(prefix + '/', off + attr.length + 2) ? m : `${attr}="${prefix}/`);
+      }
       (node.children || []).forEach(visit);
     };
     visit(tree);
