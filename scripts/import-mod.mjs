@@ -25,9 +25,9 @@ const wikiRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), '
 function walk(dir, depth, out) {
   if (depth < 0 || !fs.existsSync(dir)) return out;
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (!e.isDirectory() || ['build', '.git', '.gradle', 'run', 'node_modules', 'bin', 'out'].includes(e.name)) continue;
+    if (!e.isDirectory() || ['build', '.git', '.gradle', 'run', 'node_modules', 'bin', 'out', 'archive'].includes(e.name)) continue;
     const p = path.join(dir, e.name);
-    if (e.name === 'assets' && path.basename(dir) === 'resources') out.push(p);
+    if (e.name === 'assets' && ['resources', 'generated'].includes(path.basename(dir))) out.push(p);
     else walk(p, depth - 1, out);
   }
   return out;

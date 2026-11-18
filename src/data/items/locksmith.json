@@ -2,6 +2,13 @@
   "namespace": "locksmith",
   "items": [
     {
+      "id": "dungeon_slime_spawn_egg",
+      "name": "Dungeon Slime Spawn Egg",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
       "id": "golden_key",
       "name": "Golden Key",
       "kind": "item",

@@ -41,21 +41,21 @@
       "name": "Autumn Stained Glass Pane",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/palette/items/autumn_stained_glass_pane.png"
     },
     {
       "id": "autumn_stained_glass_slab",
       "name": "Autumn Stained Glass Slab",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/palette/items/autumn_stained_glass_slab.png"
     },
     {
       "id": "autumn_stained_glass_stairs",
       "name": "Autumn Stained Glass Stairs",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/palette/items/autumn_stained_glass_stairs.png"
     },
     {
       "id": "bamboo_beam",
@@ -216,14 +216,14 @@
       "name": "Glass Slab",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/palette/items/glass_slab.png"
     },
     {
       "id": "glass_stairs",
       "name": "Glass Stairs",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/palette/items/glass_stairs.png"
     },
     {
       "id": "gold_frame",
@@ -237,21 +237,21 @@
       "name": "Gold Frame Pane",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/palette/items/gold_frame_pane.png"
     },
     {
       "id": "gold_frame_slab",
       "name": "Gold Frame Slab",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/palette/items/gold_frame_slab.png"
     },
     {
       "id": "gold_frame_stairs",
       "name": "Gold Frame Stairs",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/palette/items/gold_frame_stairs.png"
     },
     {
       "id": "iron_frame",
@@ -265,21 +265,21 @@
       "name": "Iron Frame Pane",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/palette/items/iron_frame_pane.png"
     },
     {
       "id": "iron_frame_slab",
       "name": "Iron Frame Slab",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/palette/items/iron_frame_slab.png"
     },
     {
       "id": "iron_frame_stairs",
       "name": "Iron Frame Stairs",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/palette/items/iron_frame_stairs.png"
     },
     {
       "id": "jungle_beam",
