@@ -1,10 +1,19 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ModCard from '../../components/ModCard.astro';
-import { allMods } from '../../lib';
+import { allMods, isUpcoming } from '../../lib';
 const mods = await allMods();
+const released = mods.filter((m) => !isUpcoming(m));
+const upcoming = mods.filter(isUpcoming);
 ---
 <Base title="All mods" description="Every Minecraft mod made by LuckyOwl, with wiki pages for each." wide>
   <h1>All mods</h1>
-  <div class="mod-cards">{mods.map((m) => <ModCard mod={m} />)}</div>
+  <div class="mod-cards">{released.map((m) => <ModCard mod={m} />)}</div>
+  {upcoming.length > 0 && (
+    <>
+      <h2 id="upcoming">Upcoming mods</h2>
+      <p>Mods that are still being made. Details may change before release.</p>
+      <div class="mod-cards">{upcoming.map((m) => <ModCard mod={m} />)}</div>
+    </>
+  )}
 </Base>

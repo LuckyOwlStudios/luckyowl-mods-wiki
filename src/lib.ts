@@ -10,8 +10,12 @@ export function itemsFor(mod: CollectionEntry<'mods'>): Item[] {
   return file.default.items.filter((i) => !mod.data.hideItems.includes(i.id));
 }
 
+export const isUpcoming = (m: CollectionEntry<'mods'>) => m.data.status === 'upcoming';
+
+/** Every mod: released ones first (by order), then upcoming ones. */
 export async function allMods() {
-  return (await getCollection('mods')).sort((a, b) => a.data.order - b.data.order || a.data.name.localeCompare(b.data.name));
+  return (await getCollection('mods')).sort((a, b) =>
+    Number(isUpcoming(a)) - Number(isUpcoming(b)) || a.data.order - b.data.order || a.data.name.localeCompare(b.data.name));
 }
 
 /** Prefix a site-absolute path with the configured base (needed on GitHub Pages project sites). */

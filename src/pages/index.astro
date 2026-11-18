@@ -3,9 +3,11 @@ import Base from '../layouts/Base.astro';
 import ModCard from '../components/ModCard.astro';
 import AdSlot from '../components/AdSlot.astro';
 import { site, home } from '../site.config';
-import { allMods, itemsFor, url } from '../lib';
+import { allMods, isUpcoming, itemsFor, url } from '../lib';
 
-const mods = await allMods();
+const all = await allMods();
+const mods = all.filter((m) => !isUpcoming(m));
+const upcoming = all.filter(isUpcoming);
 const totalItems = mods.reduce((n, m) => n + itemsFor(m).length, 0);
 const { hero, intro, featured } = home;
 const fMod = featured.mod ? mods.find((m) => m.id === featured.mod) : undefined;
@@ -63,4 +65,13 @@ const f = {
     </div>
     <div class="mod-cards">{mods.map((m) => <ModCard mod={m} />)}</div>
   </section>
+
+  {upcoming.length > 0 && (
+    <section class="home-section home-collections">
+      <div class="head">
+        <h2>Coming soon</h2>
+      </div>
+      <div class="mod-cards">{upcoming.map((m) => <ModCard mod={m} />)}</div>
+    </section>
+  )}
 </Base>

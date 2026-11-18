@@ -6,11 +6,11 @@ import AdSlot from '../components/AdSlot.astro';
 import Sidebar from '../components/Sidebar.astro';
 import type { CollectionEntry } from 'astro:content';
 import { site, ads } from '../site.config';
-import { allMods, url } from '../lib';
+import { allMods, isUpcoming, url } from '../lib';
 
-interface Props { title?: string; description?: string; image?: string; wide?: boolean; bare?: boolean; mod?: CollectionEntry<'mods'> }
+interface Props { title?: string; description?: string; image?: string; wide?: boolean; bare?: boolean; noindex?: boolean; mod?: CollectionEntry<'mods'> }
 // bare: full-width page with no sidebars (used by the home page)
-const { title, description = site.description, image, wide = false, bare = false, mod } = Astro.props;
+const { title, description = site.description, image = '/favicon.png', wide = false, bare = false, noindex = false, mod } = Astro.props;
 const fullTitle = title ? `${title} | ${site.name}` : site.name;
 const mods = await allMods();
 const path = Astro.url.pathname;
@@ -22,7 +22,7 @@ const nav: { label: string; items: NavItem[] }[] = [
   {
     label: 'Collections',
     items: [
-      ...mods.map((m) => ({ label: m.data.name, href: url(`/mods/${m.id}/`), icon: m.data.icon ? url(m.data.icon) : undefined })),
+      ...mods.map((m) => ({ label: m.data.name, href: url(`/mods/${m.id}/`), icon: m.data.icon ? url(m.data.icon) : undefined, hint: isUpcoming(m) ? 'Upcoming' : undefined })),
       { label: 'All mods', href: url('/mods/'), hint: 'Overview of every mod' },
     ],
   },
@@ -61,6 +61,10 @@ const nav: { label: string; items: NavItem[] }[] = [
   <title>{fullTitle}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
+  <link rel="sitemap" href={url('/sitemap-index.xml')} />
+  {noindex && <meta name="robots" content="noindex" />}
+  {site.googleSiteVerification && <meta name="google-site-verification" content={site.googleSiteVerification} />}
+  <meta property="og:site_name" content={site.name} />
   <link rel="icon" href={url('/favicon.png')} />
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={description} />

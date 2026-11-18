@@ -19,7 +19,7 @@ const toc = [
   ...(itemList.length ? [{ depth: 2, slug: 'items', text: 'Items' }] : []),
   ...(blockList.length ? [{ depth: 2, slug: 'blocks', text: 'Blocks' }] : []),
 ];
-const statusLabel = { released: 'Released', beta: 'Beta', 'in-development': 'In development', legacy: 'Legacy' }[d.status];
+const statusLabel = { released: 'Released', beta: 'Beta', 'in-development': 'In development', upcoming: 'Upcoming', legacy: 'Legacy' }[d.status];
 ---
 <Base mod={mod} title={d.name} description={`${d.name}: ${d.tagline} Wiki with every item, block and feature.`} image={d.banner || d.icon}>
   <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / <a href={url('/mods/')}>Mods</a> / {d.name}</div>

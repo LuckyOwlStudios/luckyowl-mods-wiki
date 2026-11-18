@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { url } from '../lib';
 ---
-<Base title="Search" wide>
+<Base title="Search" wide noindex>
   <h1>Search</h1>
   <div id="search" data-bundle={url('/pagefind/')}></div>
   <noscript>Search needs JavaScript.</noscript>

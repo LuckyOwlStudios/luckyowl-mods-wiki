@@ -5,6 +5,8 @@ export const site = {
   shortName: 'LuckyOwl Wiki',
   description: "The official wiki for LuckyOwl's Minecraft mods: every item, block, feature and config option.",
   author: 'LuckyOwl (Lucky Owl Studios)',
+  // Google Search Console > Add property > URL prefix > HTML tag: paste only the content="..." value here.
+  googleSiteVerification: '',
   // Links shown in the Community menu. Uncomment and fill in to add more.
   links: <Record<string, string | undefined>>{
     github: 'https://github.com/LuckyOwlStudios',

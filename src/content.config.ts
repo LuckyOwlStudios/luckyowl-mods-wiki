@@ -7,14 +7,14 @@ const mods = defineCollection({
   schema: z.object({
     name: z.string(),
     tagline: z.string(),
-    order: z.number().default(100),          // lower = earlier on the home page
+    order: z.number().default(100),          // upcoming mods are always listed after released ones          // lower = earlier on the home page
     icon: z.string().optional(),              // path under /public
     banner: z.string().optional(),
     bannerIsTitle: z.boolean().default(false), // banner shows the mod's name: use it in place of the text title
     loaders: z.array(z.string()).default(['NeoForge']),
     minecraft: z.string().default('1.21.1'),
     version: z.string().optional(),
-    status: z.enum(['released', 'beta', 'in-development', 'legacy']).default('released'),
+    status: z.enum(['released', 'beta', 'in-development', 'upcoming', 'legacy']).default('released'),
     requires: z.array(z.object({ name: z.string(), url: z.string().optional() })).default([]),
     downloads: z.object({
       curseforge: z.string().optional(),

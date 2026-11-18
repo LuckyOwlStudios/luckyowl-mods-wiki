@@ -4,7 +4,7 @@ import { url, itemsFor } from '../lib';
 interface Props { mod: CollectionEntry<'mods'> }
 const { mod } = Astro.props;
 const count = itemsFor(mod).length;
-const statusLabel = { released: '', beta: 'Beta', 'in-development': 'In development', legacy: 'Legacy' }[mod.data.status];
+const statusLabel = { released: '', beta: 'Beta', 'in-development': 'In development', upcoming: 'Upcoming', legacy: 'Legacy' }[mod.data.status];
 ---
 <a class="mod-card" href={url(`/mods/${mod.id}/`)}>
   <div class="mod-card-icon">{mod.data.icon ? <img src={url(mod.data.icon)} alt="" loading="lazy" /> : <span>{mod.data.name[0]}</span>}</div>

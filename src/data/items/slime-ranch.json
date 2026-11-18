@@ -1,0 +1,68 @@
+{
+  "namespace": "slimeranch",
+  "items": [
+    {
+      "id": "bouncy_slime_ball",
+      "name": "Bouncy Slime Ball",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/slime-ranch/items/bouncy_slime_ball.png"
+    },
+    {
+      "id": "bouncy_slime_spawn_egg",
+      "name": "Bouncy Slime Spawn Egg",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/slime-ranch/items/bouncy_slime_spawn_egg.png"
+    },
+    {
+      "id": "cave_slime_spawn_egg",
+      "name": "Cave Slime Spawn Egg",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "ice_cube_spawn_egg",
+      "name": "Ice Cube Spawn Egg",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "mooshroom_milk",
+      "name": "Mooshroom Milk",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/slime-ranch/items/mooshroom_milk.png"
+    },
+    {
+      "id": "pinky_spawn_egg",
+      "name": "Pinky Spawn Egg",
+      "kind": "item",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "bouncy_piston",
+      "name": "Bouncy Piston",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/slime-ranch/items/bouncy_piston.png"
+    },
+    {
+      "id": "bouncy_piston_head",
+      "name": "Bouncy Piston Head",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "bouncy_slime_block",
+      "name": "Bouncy Slime Block",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/slime-ranch/items/bouncy_slime_block.png"
+    }
+  ]
+}
