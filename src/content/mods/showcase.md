@@ -2,7 +2,7 @@
 name: "Lucky's Showcase"
 tagline: "Neat ways to display your items: tool racks, weapon stands and pedestals."
 order: 6
-icon: /mods/showcase/items/weapon_stand.png
+icon: /mods/showcase/logo.png
 loaders: [Fabric, Forge, NeoForge]
 minecraft: "1.21.1"
 downloads:
