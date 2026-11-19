@@ -6,7 +6,7 @@
       "name": "Dungeon Slime Spawn Egg",
       "kind": "item",
       "description": "",
-      "icon": null
+      "icon": "/mods/locksmith/items/dungeon_slime_spawn_egg.png"
     },
     {
       "id": "golden_key",
@@ -41,28 +41,28 @@
       "name": "Golden Chest",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/locksmith/items/golden_chest.png"
     },
     {
       "id": "golden_trapped_chest",
       "name": "Golden Trapped Chest",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/locksmith/items/golden_trapped_chest.png"
     },
     {
       "id": "iron_chest",
       "name": "Iron Chest",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/locksmith/items/iron_chest.png"
     },
     {
       "id": "iron_trapped_chest",
       "name": "Iron Trapped Chest",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/locksmith/items/iron_trapped_chest.png"
     }
   ]
 }
