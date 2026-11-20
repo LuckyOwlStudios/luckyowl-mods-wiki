@@ -50,6 +50,10 @@ npm run import-mod -- wardrobe ../luckys-wardrobe   # from a local checkout (wor
 
 This rewrites `src/data/items/<slug>.json` and `public/mods/<slug>/items/`. Your hand-written notes in `src/content/items/` are never touched. To hide something the importer picks up, add its id to `hideItems` in the mod's front matter.
 
+`import-all` also imports recipes (`npm run import-recipes -- [slug]` does just that). Every crafting, furnace, stonecutter, smithing and sawmill recipe shows up as a recipe card on the page of the item it makes, and under "Used to make" on its ingredients' pages. Vanilla ingredients get their names and icons in `src/data/vanilla.json` and `public/vanilla/`.
+
+Block icons are 3D: `npm run render-blocks -- <slug>` draws them from the block models into `public/mods/<slug>/renders/` (needs Playwright: `npm i -D playwright && npx playwright install chromium`). A photo for a block's page goes in `public/mods/<slug>/photos/<id>.png`.
+
 ## Ads
 
 Ad slots are already placed on every page (under the header, in the right column, mid-page and above the footer). They render nothing until you switch them on:

@@ -1,0 +1,33 @@
+[
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:paper"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:nether_wart"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:glass_bottle"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "codex:potion_scroll",
+   "count": 1
+  }
+ }
+]

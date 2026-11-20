@@ -19,3 +19,5 @@ for (const [slug, repo] of Object.entries(mods)) {
   execFileSync('git', ['clone', '--quiet', '--depth', '1', `https://github.com/${repo}.git`, dir], { stdio: 'inherit' });
   execFileSync('node', [path.join(here, 'import-mod.mjs'), slug, dir], { stdio: 'inherit' });
 }
+// Recipes last, so ingredients from any mod can link to their pages.
+execFileSync('node', [path.join(here, 'import-recipes.mjs'), ...only], { stdio: 'inherit' });

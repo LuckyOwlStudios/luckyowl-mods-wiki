@@ -10,7 +10,8 @@
     "import-mod": "node scripts/import-mod.mjs",
     "import-all": "node scripts/import-all.mjs",
     "build-preview": "npm run build && astro preview --open",
-    "render-blocks": "node scripts/render-blocks.mjs"
+    "render-blocks": "node scripts/render-blocks.mjs",
+    "import-recipes": "node scripts/import-recipes.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.9",

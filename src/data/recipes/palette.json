@@ -1,0 +1,3943 @@
+[
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:acacia_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:acacia_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:acacia_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:acacia_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:acacia_planked_wall",
+   "count": 3
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:acacia_timberplate",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:bamboo_block"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:bamboo_block"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:bamboo_block"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:bamboo_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:bamboo_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:bamboo_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:bamboo_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:bamboo_planked_wall",
+   "count": 3
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:bamboo_block"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:bamboo_block"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:bamboo_block"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:bamboo_stalk",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:bamboo_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:bamboo_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:bamboo_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:bamboo_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:bamboo_timberplate",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:birch_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:birch_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:birch_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:birch_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:birch_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:birch_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:birch_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:birch_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:birch_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:birch_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:birch_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:birch_planked_wall",
+   "count": 3
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:birch_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:birch_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:birch_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:birch_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:birch_timberplate",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:bookshelf"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:bookshelf"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:bookshelf"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:bookshelf_slab",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:bookshelf"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:bookshelf"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:bookshelf"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:bookshelf"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:bookshelf"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:bookshelf"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckys_palette:bookshelf_stairs",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:crimson_stem"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:crimson_stem"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:crimson_stem"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:crimson_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:crimson_stem"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:crimson_stem"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:crimson_stem"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:crimson_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:crimson_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:crimson_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:crimson_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:crimson_planked_wall",
+   "count": 3
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:crimson_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:crimson_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:crimson_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:crimson_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:crimson_timberplate",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:dark_oak_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:dark_oak_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:dark_oak_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:dark_oak_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:dark_oak_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:dark_oak_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:dark_oak_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:dark_oak_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:dark_oak_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:dark_oak_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:dark_oak_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:dark_oak_planked_wall",
+   "count": 3
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:dark_oak_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:dark_oak_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:dark_oak_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:dark_oak_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:dark_oak_timberplate",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:glass"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:glass"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:glass"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:glass_slab",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:glass"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:glass"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:glass"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:glass"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:glass"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:glass"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckys_palette:glass_stairs",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_nugget"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:gold_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckys_palette:gold_frame",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:gold_frame_pane",
+   "count": 16
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:gold_frame_slab",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:gold_frame"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckys_palette:gold_frame_stairs",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckys_palette:iron_frame",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:iron_frame_pane",
+   "count": 16
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:iron_frame_slab",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   },
+   {
+    "ids": [
+     "luckys_palette:iron_frame"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckys_palette:iron_frame_stairs",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:jungle_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:jungle_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:jungle_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:jungle_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:jungle_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:jungle_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:jungle_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:jungle_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:jungle_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:jungle_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:jungle_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:jungle_planked_wall",
+   "count": 3
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:jungle_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:jungle_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:jungle_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:jungle_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:jungle_timberplate",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:mangrove_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:mangrove_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:mangrove_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:mangrove_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:mangrove_planked_wall",
+   "count": 3
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:mangrove_timberplate",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:oak_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:oak_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:oak_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:oak_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:oak_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:oak_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:oak_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:oak_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:oak_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:oak_planked_wall",
+   "count": 3
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:oak_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:oak_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:oak_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:oak_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:oak_timberplate",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:spruce_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:spruce_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:spruce_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:spruce_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:spruce_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:spruce_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:spruce_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:spruce_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:spruce_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:spruce_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:spruce_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:spruce_planked_wall",
+   "count": 3
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:spruce_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:spruce_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:spruce_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:spruce_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:spruce_timberplate",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_acacia_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_acacia_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_acacia_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_acacia_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_acacia_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_acacia_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_acacia_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_acacia_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_bamboo_block"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_bamboo_block"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_bamboo_block"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_bamboo_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_bamboo_block"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_bamboo_block"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_bamboo_block"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_bamboo_stalk",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_birch_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_birch_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_birch_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_birch_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_birch_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_birch_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_birch_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_birch_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_cherry_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_cherry_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_cherry_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_cherry_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_cherry_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_cherry_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_cherry_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_cherry_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_crimson_stem"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_crimson_stem"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_crimson_stem"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_crimson_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_crimson_stem"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_crimson_stem"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_crimson_stem"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_crimson_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_dark_oak_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_dark_oak_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_dark_oak_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_dark_oak_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_dark_oak_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_dark_oak_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_dark_oak_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_dark_oak_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_jungle_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_jungle_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_jungle_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_jungle_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_jungle_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_jungle_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_jungle_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_jungle_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_mangrove_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_mangrove_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_mangrove_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_mangrove_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_mangrove_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_mangrove_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_mangrove_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_mangrove_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_oak_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_oak_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_oak_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_oak_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_oak_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_oak_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_oak_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_oak_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_spruce_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_spruce_log"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_spruce_log"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_spruce_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_spruce_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_spruce_log"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_spruce_log"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_spruce_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_warped_stem"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_warped_stem"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_warped_stem"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_warped_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:stripped_warped_stem"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_warped_stem"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stripped_warped_stem"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:stripped_warped_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:warped_stem"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:warped_stem"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:warped_stem"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:warped_beam",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:warped_stem"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:warped_stem"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:warped_stem"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:warped_lumber",
+   "count": 12
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:warped_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:warped_planks"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:warped_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:warped_planked_wall",
+   "count": 3
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:warped_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:warped_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:warped_planks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:warped_planks"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "luckys_palette:warped_timberplate",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:acacia_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:acacia_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:acacia_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:acacia_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:acacia_planked_wall"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:acacia_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:acacia_timberplate"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:acacia_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_acacia_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:acacia_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_acacia_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:acacia_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:bamboo_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:bamboo_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:bamboo_planked_wall"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:bamboo_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:bamboo_stalk"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:bamboo_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:bamboo_timberplate"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:bamboo_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_bamboo_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:bamboo_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_bamboo_stalk"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:bamboo_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:birch_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:birch_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:birch_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:birch_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:birch_planked_wall"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:birch_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:birch_timberplate"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:birch_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_birch_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:birch_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_birch_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:birch_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:cherry_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:cherry_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:cherry_planked_wall"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:cherry_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:cherry_timberplate"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:cherry_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_cherry_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:cherry_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_cherry_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:cherry_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:crimson_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:crimson_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:crimson_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:crimson_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:crimson_planked_wall"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:crimson_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:crimson_timberplate"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:crimson_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_crimson_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:crimson_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_crimson_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:crimson_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:dark_oak_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:dark_oak_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:dark_oak_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:dark_oak_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:dark_oak_planked_wall"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:dark_oak_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:dark_oak_timberplate"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:dark_oak_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_dark_oak_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:dark_oak_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_dark_oak_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:dark_oak_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:jungle_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:jungle_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:jungle_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:jungle_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:jungle_planked_wall"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:jungle_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:jungle_timberplate"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:jungle_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_jungle_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:jungle_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_jungle_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:jungle_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:mangrove_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:mangrove_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:mangrove_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:mangrove_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:mangrove_planked_wall"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:mangrove_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:mangrove_timberplate"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:mangrove_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_mangrove_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:mangrove_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_mangrove_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:mangrove_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:oak_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:oak_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:oak_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:oak_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:oak_planked_wall"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:oak_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:oak_timberplate"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:oak_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_oak_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:oak_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_oak_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:oak_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:spruce_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:spruce_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:spruce_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:spruce_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:spruce_planked_wall"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:spruce_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:spruce_timberplate"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:spruce_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_spruce_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:spruce_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_spruce_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:spruce_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_warped_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:warped_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:stripped_warped_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:warped_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:warped_beam"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:warped_planks",
+   "count": 2
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:warped_lumber"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:warped_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:warped_planked_wall"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:warped_planks",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "luckys_palette:warped_timberplate"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:warped_planks",
+   "count": 1
+  }
+ }
+]

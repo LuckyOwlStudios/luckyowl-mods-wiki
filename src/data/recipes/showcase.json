@@ -1,0 +1,147 @@
+[
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:stone_bricks"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stone_bricks"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stone_bricks"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:stone_bricks"
+    ]
+   },
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysshowcase:pedestal",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysshowcase:tool_rack",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:stone"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysshowcase:weapon_stand",
+   "count": 1
+  }
+ }
+]

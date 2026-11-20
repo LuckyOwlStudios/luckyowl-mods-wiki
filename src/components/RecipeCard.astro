@@ -1,0 +1,49 @@
+---
+import Slot from './Slot.astro';
+import { lookup, tagName, url, type Recipe } from '../lib';
+interface Props { recipe: Recipe }
+const { recipe: r } = Astro.props;
+const STATION: Record<string, { name: string; icon?: string }> = {
+  crafting: { name: 'Crafting Table', icon: 'crafting_table' },
+  smelting: { name: 'Furnace', icon: 'furnace' },
+  blasting: { name: 'Blast Furnace', icon: 'blast_furnace' },
+  smoking: { name: 'Smoker', icon: 'smoker' },
+  campfire: { name: 'Campfire', icon: 'campfire' },
+  stonecutting: { name: 'Stonecutter', icon: 'stonecutter' },
+  smithing: { name: 'Smithing Table', icon: 'smithing_table' },
+  woodcutting: { name: 'Sawmill' },
+};
+const st = STATION[r.station];
+const cooking = ['smelting', 'blasting', 'smoking', 'campfire'].includes(r.station);
+// Ingredient list for the line under the card: "3 × Iron Ingot + Stick".
+const parts = new Map<string, number>();
+for (const ing of [...(r.grid ?? []), ...(r.inputs ?? [])]) {
+  if (!ing) continue;
+  const name = ing.tag ? tagName(ing.tag) : lookup(ing.ids[0]).name;
+  parts.set(name, (parts.get(name) ?? 0) + (ing.count ?? 1));
+}
+const result = { ids: [r.result.id] };
+---
+<figure class="recipe">
+  <figcaption class="recipe-head">
+    {st.icon && lookup(`minecraft:${st.icon}`).icon && <img src={url(lookup(`minecraft:${st.icon}`).icon!)} alt="" />}
+    <span>{st.name}</span>
+    {r.shapeless && <em title="The ingredients can go in any slots">Shapeless</em>}
+    {r.station === 'woodcutting' && <em>Needs the Sawmill mod</em>}
+  </figcaption>
+  <div class="recipe-body">
+    {r.grid ? (
+      <div class="recipe-grid">{r.grid.map((ing) => <Slot ing={ing} />)}</div>
+    ) : cooking ? (
+      <div class="recipe-cook"><Slot ing={r.inputs![0]} /><span class="flame" aria-hidden="true"></span></div>
+    ) : (
+      <div class="recipe-row">{r.inputs!.map((ing) => <Slot ing={ing} />)}</div>
+    )}
+    <span class="recipe-arrow" aria-label="makes"></span>
+    <Slot ing={result} count={r.result.count} big />
+  </div>
+  <p class="recipe-ings">
+    {[...parts].map(([name, n], i) => <>{i > 0 && ' + '}{n > 1 && `${n} × `}{name}</>)}
+    {cooking && <span class="recipe-meta"> · {r.time} s{r.xp ? ` · ${r.xp} XP` : ''}{r.alsoBlasting && ' · also in a Blast Furnace, twice as fast'}</span>}
+  </p>
+</figure>

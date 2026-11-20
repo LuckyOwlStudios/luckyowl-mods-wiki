@@ -1,0 +1,1513 @@
+[
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:blacksmith_mask",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:butchers_apron",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:chef_hat",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:chiton",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:purple_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:purple_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:clerics_apron",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:orange_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:orange_wool"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:desert_hat",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:green_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:green_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:green_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:green_wool"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:desert_pants",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:orange_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:orange_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:orange_wool"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:desert_robe",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:green_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:green_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:desert_sandals",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:fishing_apron",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:hardened_leather_apron",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:hat",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:jungle_pants",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:jungle_leaves"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:jungle_leaves"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:jungle_leaves"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:jungle_robe",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:jungle_sandals",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:leather_apron",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:gray_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gray_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:masons_apron",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:acacia_leaves"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:acacia_leaves"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:acacia_leaves"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:savanna_floral_crown",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:savanna_pants",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:red_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:red_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:red_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:red_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:red_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:acacia_leaves"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:acacia_leaves"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:acacia_leaves"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:savanna_robe",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:savanna_sandals",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:scarf",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:snowy_boots",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:cyan_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:cyan_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:cyan_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:snowy_coat",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:snowy_hat",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:cyan_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:cyan_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:cyan_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:cyan_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:cyan_wool"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:snowy_hood",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:snowy_pants",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_leaves"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:mangrove_leaves"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:mangrove_leaves"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:swampy_hat",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:mangrove_leaves"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:mangrove_leaves"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:swampy_pants",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:purple_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:purple_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:purple_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:purple_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:purple_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:mangrove_leaves"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:mangrove_leaves"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:mangrove_leaves"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:swampy_robe",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:swampy_shoes",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:taiga_boots",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:taiga_coat",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:taiga_hood",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:black_wool"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:taiga_pants",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckyswardrobe:top_hat",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:white_wool"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:lead"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckyswardrobe:wool_vest",
+   "count": 1
+  }
+ }
+]

@@ -1,0 +1,165 @@
+[
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:chest"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "locksmith:golden_chest",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "locksmith:golden_chest"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:tripwire_hook"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "locksmith:golden_trapped_chest",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:chest"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "locksmith:iron_chest",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "locksmith:iron_chest"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:tripwire_hook"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "locksmith:iron_trapped_chest",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   null,
+   null,
+   {
+    "ids": [
+     "minecraft:iron_nugget"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "locksmith:key",
+   "count": 1
+  }
+ }
+]

@@ -1,0 +1,932 @@
+[
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond_boots"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_diamond_boots",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond_chestplate"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_diamond_chestplate",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond_helmet"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_diamond_helmet",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond_leggings"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_diamond_leggings",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:golden_boots"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_golden_boots",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:golden_chestplate"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_golden_chestplate",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:golden_helmet"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_golden_helmet",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:golden_leggings"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_golden_leggings",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_boots"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_iron_boots",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_chestplate"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_iron_chestplate",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_helmet"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_iron_helmet",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_leggings"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_iron_leggings",
+   "count": 1
+  }
+ },
+ {
+  "station": "smithing",
+  "inputs": [
+   {
+    "ids": [
+     "minecraft:netherite_upgrade_smithing_template"
+    ]
+   },
+   {
+    "ids": [
+     "luckysarmory:heavy_diamond_boots"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:netherite_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_netherite_boots",
+   "count": 1
+  }
+ },
+ {
+  "station": "smithing",
+  "inputs": [
+   {
+    "ids": [
+     "minecraft:netherite_upgrade_smithing_template"
+    ]
+   },
+   {
+    "ids": [
+     "luckysarmory:heavy_diamond_chestplate"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:netherite_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_netherite_chestplate",
+   "count": 1
+  }
+ },
+ {
+  "station": "smithing",
+  "inputs": [
+   {
+    "ids": [
+     "minecraft:netherite_upgrade_smithing_template"
+    ]
+   },
+   {
+    "ids": [
+     "luckysarmory:heavy_diamond_helmet"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:netherite_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_netherite_helmet",
+   "count": 1
+  }
+ },
+ {
+  "station": "smithing",
+  "inputs": [
+   {
+    "ids": [
+     "minecraft:netherite_upgrade_smithing_template"
+    ]
+   },
+   {
+    "ids": [
+     "luckysarmory:heavy_diamond_leggings"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:netherite_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:heavy_netherite_leggings",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:light_diamond_chestplate",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:diamond"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:light_diamond_leggings",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:light_golden_chestplate",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:gold_ingot"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:light_golden_leggings",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:light_iron_chestplate",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:leather"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "luckysarmory:light_iron_leggings",
+   "count": 1
+  }
+ },
+ {
+  "station": "smithing",
+  "inputs": [
+   {
+    "ids": [
+     "minecraft:netherite_upgrade_smithing_template"
+    ]
+   },
+   {
+    "ids": [
+     "luckysarmory:light_diamond_chestplate"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:netherite_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:light_netherite_chestplate",
+   "count": 1
+  }
+ },
+ {
+  "station": "smithing",
+  "inputs": [
+   {
+    "ids": [
+     "minecraft:netherite_upgrade_smithing_template"
+    ]
+   },
+   {
+    "ids": [
+     "luckysarmory:light_diamond_leggings"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:netherite_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "luckysarmory:light_netherite_leggings",
+   "count": 1
+  }
+ }
+]

@@ -1,0 +1,1770 @@
+[
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "spelunkers_charm:basalt_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:basalt_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:basalt_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:basalt_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:basalt_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:basalt_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:basalt_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:basalt_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:basalt_rock"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:basalt",
+   "count": 1
+  }
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:dunestone_coal_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:coal",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:permafrost_coal_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:coal",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:wildstone_coal_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:coal",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "spelunkers_charm:deepslate_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:deepslate_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:deepslate_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:deepslate_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:deepslate_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:deepslate_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:deepslate_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:deepslate_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:deepslate_rock"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:cobbled_deepslate",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "spelunkers_charm:rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:rock"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:cobblestone",
+   "count": 1
+  }
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:dunestone_copper_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:copper_ingot",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.7,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:permafrost_copper_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:copper_ingot",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.7,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:wildstone_copper_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:copper_ingot",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.7,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:dunestone_diamond_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:diamond",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:permafrost_diamond_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:diamond",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:wildstone_diamond_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:diamond",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "spelunkers_charm:dripstone_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:dripstone_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:dripstone_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:dripstone_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:dripstone_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:dripstone_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:dripstone_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:dripstone_rock"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:dripstone_rock"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:dripstone_block",
+   "count": 1
+  }
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:dunestone_emerald_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:emerald",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:permafrost_emerald_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:emerald",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:wildstone_emerald_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:emerald",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:dunestone_gold_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:gold_ingot",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:permafrost_gold_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:gold_ingot",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:wildstone_gold_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:gold_ingot",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 1,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:dunestone_iron_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:iron_ingot",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.7,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:permafrost_iron_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:iron_ingot",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.7,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:wildstone_iron_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:iron_ingot",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.7,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:dunestone_lapis_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:lapis_lazuli",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.2,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:permafrost_lapis_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:lapis_lazuli",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.2,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:wildstone_lapis_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:lapis_lazuli",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.2,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:dunestone_redstone_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:redstone",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.7,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:permafrost_redstone_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:redstone",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.7,
+  "alsoBlasting": true
+ },
+ {
+  "station": "smelting",
+  "inputs": [
+   {
+    "ids": [
+     "spelunkers_charm:wildstone_redstone_ore"
+    ]
+   }
+  ],
+  "result": {
+   "id": "minecraft:redstone",
+   "count": 1
+  },
+  "time": 10,
+  "xp": 0.7,
+  "alsoBlasting": true
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "spelunkers_charm:packed_web"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "minecraft:string",
+   "count": 9
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:amethyst_block"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:amethyst_block"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:amethyst_block"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:amethyst_block"
+    ]
+   },
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "spelunkers_charm:amethyst_bricks",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:dark_oak_log",
+     "minecraft:dark_oak_wood",
+     "minecraft:stripped_dark_oak_log",
+     "minecraft:stripped_dark_oak_wood",
+     "minecraft:oak_log",
+     "minecraft:oak_wood",
+     "minecraft:stripped_oak_log",
+     "minecraft:stripped_oak_wood",
+     "minecraft:acacia_log",
+     "minecraft:acacia_wood",
+     "minecraft:stripped_acacia_log",
+     "minecraft:stripped_acacia_wood",
+     "minecraft:birch_log",
+     "minecraft:birch_wood",
+     "minecraft:stripped_birch_log",
+     "minecraft:stripped_birch_wood",
+     "minecraft:jungle_log",
+     "minecraft:jungle_wood",
+     "minecraft:stripped_jungle_log",
+     "minecraft:stripped_jungle_wood",
+     "minecraft:spruce_log",
+     "minecraft:spruce_wood",
+     "minecraft:stripped_spruce_log",
+     "minecraft:stripped_spruce_wood",
+     "minecraft:mangrove_log",
+     "minecraft:mangrove_wood",
+     "minecraft:stripped_mangrove_log",
+     "minecraft:stripped_mangrove_wood",
+     "minecraft:cherry_log",
+     "minecraft:cherry_wood",
+     "minecraft:stripped_cherry_log",
+     "minecraft:stripped_cherry_wood",
+     "minecraft:crimson_stem",
+     "minecraft:stripped_crimson_stem",
+     "minecraft:crimson_hyphae",
+     "minecraft:stripped_crimson_hyphae",
+     "minecraft:warped_stem",
+     "minecraft:stripped_warped_stem",
+     "minecraft:warped_hyphae",
+     "minecraft:stripped_warped_hyphae"
+    ],
+    "tag": "minecraft:logs"
+   },
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:basic_lift_track",
+   "count": 8
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:candle"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:blaster",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:candle"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:candle_helmet",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:chest"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:comparator"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:cargo_rail",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:redstone"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:detector_rail"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:redstone"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:detector_lift_track",
+   "count": 8
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   null,
+   {
+    "ids": [
+     "minecraft:redstone"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:arrow"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:powered_lift_track"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:repeater"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:redstone"
+    ]
+   },
+   null
+  ],
+  "result": {
+   "id": "spelunkers_charm:directional_lift_track",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:piston"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:redstone"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:directional_rail",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "spelunkers_charm:dunestone"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:dunestone"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "spelunkers_charm:dunestone"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:dunestone"
+    ]
+   },
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "spelunkers_charm:dunestone_bricks",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:slime_ball"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:redstone"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:ejector_rail",
+   "count": 6
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:chain"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "spelunkers_charm:medium_lift"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:chain"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:large_lift",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:blast_furnace"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "spelunkers_charm:locomotive",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:chain"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "spelunkers_charm:small_lift"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:chain"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:medium_lift",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:string"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:string"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:string"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:string"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:string"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:string"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:string"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:string"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:string"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:packed_web",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "spelunkers_charm:permafrost"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:permafrost"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "spelunkers_charm:permafrost"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:permafrost"
+    ]
+   },
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "spelunkers_charm:permafrost_bricks",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:redstone"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:redstone"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:powered_lift_track",
+   "count": 8
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:chain"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:lever"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:small_lift",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "spelunkers_charm:wildstone"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:wildstone"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "spelunkers_charm:wildstone"
+    ]
+   },
+   {
+    "ids": [
+     "spelunkers_charm:wildstone"
+    ]
+   },
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "spelunkers_charm:wildstone_bricks",
+   "count": 4
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   },
+   null,
+   {
+    "ids": [
+     "minecraft:stick"
+    ]
+   }
+  ],
+  "result": {
+   "id": "spelunkers_charm:wooden_rail",
+   "count": 8
+  }
+ }
+]

@@ -1,0 +1,107 @@
+[
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "slimeranch:bouncy_slime_ball"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:piston"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "slimeranch:bouncy_piston",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": true,
+  "grid": [
+   {
+    "ids": [
+     "slimeranch:bouncy_slime_block"
+    ]
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "result": {
+   "id": "slimeranch:bouncy_slime_ball",
+   "count": 9
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "slimeranch:bouncy_slime_ball"
+    ]
+   },
+   {
+    "ids": [
+     "slimeranch:bouncy_slime_ball"
+    ]
+   },
+   {
+    "ids": [
+     "slimeranch:bouncy_slime_ball"
+    ]
+   },
+   {
+    "ids": [
+     "slimeranch:bouncy_slime_ball"
+    ]
+   },
+   {
+    "ids": [
+     "slimeranch:bouncy_slime_ball"
+    ]
+   },
+   {
+    "ids": [
+     "slimeranch:bouncy_slime_ball"
+    ]
+   },
+   {
+    "ids": [
+     "slimeranch:bouncy_slime_ball"
+    ]
+   },
+   {
+    "ids": [
+     "slimeranch:bouncy_slime_ball"
+    ]
+   },
+   {
+    "ids": [
+     "slimeranch:bouncy_slime_ball"
+    ]
+   }
+  ],
+  "result": {
+   "id": "slimeranch:bouncy_slime_block",
+   "count": 1
+  }
+ }
+]
