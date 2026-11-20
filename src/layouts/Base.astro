@@ -16,6 +16,19 @@ const mods = await allMods();
 const path = Astro.url.pathname;
 const canonical = new URL(path, Astro.site);
 
+// Structured data for Google: the site name on the home page, and a
+// Home > Mod > Item breadcrumb trail on mod and item pages.
+const abs = (p: string) => new URL(url(p), Astro.site).href;
+const jsonLd: object[] = [];
+if (path === url('/')) {
+  jsonLd.push({ '@context': 'https://schema.org', '@type': 'WebSite', name: site.name, alternateName: site.shortName, url: abs('/'), description: site.description });
+}
+if (mod) {
+  const crumbs = [{ name: 'Home', item: abs('/') }, { name: mod.data.name, item: abs(`/mods/${mod.id}/`) }];
+  if (canonical.href !== abs(`/mods/${mod.id}/`)) crumbs.push({ name: title?.replace(/ \(.*\)$/, '') ?? mod.data.name, item: canonical.href });
+  jsonLd.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, ...c })) });
+}
+
 // Top navigation dropdowns. Add or reorder tabs here.
 type NavItem = { label: string; href: string; icon?: string; hint?: string; external?: boolean };
 const nav: { label: string; items: NavItem[] }[] = [
@@ -75,6 +88,8 @@ const nav: { label: string; items: NavItem[] }[] = [
   {ads.enabled && ads.client && (
     <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ads.client}`} crossorigin="anonymous"></script>
   )}
+
+  {jsonLd.map((d) => <script type="application/ld+json" set:html={JSON.stringify(d)} />)}
 </head>
 <body class:list={[{ 'is-bare': bare }]}>
   <header class="topbar">
