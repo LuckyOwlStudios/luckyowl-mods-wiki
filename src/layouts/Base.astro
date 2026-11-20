@@ -85,6 +85,7 @@ const nav: { label: string; items: NavItem[] }[] = [
   <meta property="og:url" content={canonical} />
   {image && <meta property="og:image" content={new URL(url(image), Astro.site)} />}
   <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+  {ads.client && <meta name="google-adsense-account" content={ads.client} />}
   {ads.enabled && ads.client && (
     <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ads.client}`} crossorigin="anonymous"></script>
   )}

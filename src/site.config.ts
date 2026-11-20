@@ -21,10 +21,12 @@ export const site = {
 // ---- Ads ------------------------------------------------------------------
 // While `enabled` is false, ad slots render nothing on the live site (and a
 // dashed placeholder in `npm run dev`, so you can see where they go).
-// To turn on Google AdSense once your account is approved:
-//   1. set enabled: true and client: 'ca-pub-XXXXXXXXXXXXXXXX'
-//   2. paste each ad unit's slot id below
-//   3. put your publisher line in public/ads.txt
+// Setting up Google AdSense:
+//   1. Sign up, then paste your publisher id into `client` (e.g. 'ca-pub-1234567890123456')
+//      and deploy. That adds the verification meta tag and fills in /ads.txt,
+//      while ads stay off, so Google can review the site.
+//   2. Once approved, create ad units in AdSense and paste each slot id below.
+//   3. Set enabled: true.
 export const ads = {
   enabled: false,
   client: '',
