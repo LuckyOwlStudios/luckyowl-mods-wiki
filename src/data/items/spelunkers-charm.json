@@ -97,7 +97,8 @@
       "name": "Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/renders/boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/boulder.png",
+      "photo": "/mods/spelunkers-charm/photos/boulder.png"
     },
     {
       "id": "cargo_rail",
@@ -244,7 +245,8 @@
       "name": "Copper Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/renders/copper_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/copper_boulder.png",
+      "photo": "/mods/spelunkers-charm/photos/copper_boulder.png"
     },
     {
       "id": "deepslate_geyser",
@@ -412,7 +414,8 @@
       "name": "Gold Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/renders/gold_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/gold_boulder.png",
+      "photo": "/mods/spelunkers-charm/photos/gold_boulder.png"
     },
     {
       "id": "hanging_web",
@@ -440,14 +443,16 @@
       "name": "Iron Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/renders/iron_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/iron_boulder.png",
+      "photo": "/mods/spelunkers-charm/photos/iron_boulder.png"
     },
     {
       "id": "lead_boulder",
       "name": "Lead Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/renders/lead_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/lead_boulder.png",
+      "photo": "/mods/spelunkers-charm/photos/lead_boulder.png"
     },
     {
       "id": "lift_controller",
@@ -475,7 +480,8 @@
       "name": "Lush Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/renders/lush_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/lush_boulder.png",
+      "photo": "/mods/spelunkers-charm/photos/lush_boulder.png"
     },
     {
       "id": "lush_copper_boulder",
@@ -531,7 +537,8 @@
       "name": "Osmium Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/renders/osmium_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/osmium_boulder.png",
+      "photo": "/mods/spelunkers-charm/photos/osmium_boulder.png"
     },
     {
       "id": "packed_web",
@@ -734,7 +741,8 @@
       "name": "Tin Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/renders/tin_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/tin_boulder.png",
+      "photo": "/mods/spelunkers-charm/photos/tin_boulder.png"
     },
     {
       "id": "web_vein",
@@ -867,7 +875,8 @@
       "name": "Zinc Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/renders/zinc_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/zinc_boulder.png",
+      "photo": "/mods/spelunkers-charm/photos/zinc_boulder.png"
     }
   ]
 }

@@ -29,6 +29,7 @@ const desc = item.description || `${item.name} is ${kindLabel === 'Item' ? 'an i
       A write-up can still set its own intro line with `summary:` in its front matter. */}
   {notes?.data.summary ? <p class="lead">{notes.data.summary}</p> : !notes && <p class="lead">{desc}</p>}
   {notes?.data.obtain && <p><strong>How to get it:</strong> {notes.data.obtain}</p>}
+  {item.photo && <figure class="item-photo"><img src={url(item.photo)} alt={item.name} /></figure>}
   {Notes ? <article class="prose"><Notes /></article> : (
     <p style="color:var(--muted)">This page doesn't have a write-up yet. See the <a href={url(`/mods/${mod.id}/`)}>{mod.data.name} overview</a> for how it fits into the mod.</p>
   )}

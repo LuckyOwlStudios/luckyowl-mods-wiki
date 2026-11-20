@@ -1,6 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 
-export type Item = { id: string; name: string; kind: 'item' | 'block'; description: string; icon: string | null };
+export type Item = { id: string; name: string; kind: 'item' | 'block'; description: string; icon: string | null; photo?: string };
 
 const itemFiles = import.meta.glob<{ default: { namespace: string; items: Item[] } }>('./data/items/*.json', { eager: true });
 

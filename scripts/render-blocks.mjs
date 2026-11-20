@@ -6,7 +6,8 @@
 //
 // Writes public/mods/<wiki-slug>/renders/<id>.png for every block whose item model is a 3D model
 // (flat item models such as doors and plants keep their texture). Existing pictures are kept, so a
-// hand-made photo dropped into renders/ is never overwritten. Pass --force to redo generated ones;
+// hand-made icon dropped into renders/ is never overwritten. (In-game photos for a block's page go
+// in public/mods/<wiki-slug>/photos/<id>.png instead.) Pass --force to redo generated ones;
 // ids listed in renders/photos.txt (one per line) are kept even then.
 // Run `npm run import-mod` (or import-all) afterwards so the wiki picks the pictures up.
 //

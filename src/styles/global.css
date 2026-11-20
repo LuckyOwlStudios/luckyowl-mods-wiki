@@ -321,3 +321,7 @@ main.bare { display: block; }
 /* Anchor jumps land below the sticky header instead of under it */
 html { scroll-padding-top: calc(var(--header-h) + 16px); scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* In-game photo on an item or block page */
+.item-photo { margin: 1.25rem 0; padding: 1.5rem; background: var(--bg-2); border-radius: 8px; display: flex; justify-content: center; }
+.item-photo img { max-width: 100%; max-height: 360px; object-fit: contain; }

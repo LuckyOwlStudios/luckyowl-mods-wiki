@@ -111,7 +111,9 @@ for (const [key, name] of Object.entries(lang)) {
   // A 3D picture in public/mods/<slug>/renders/<id>.png (a photo, or made by `npm run render-blocks`) wins over the flat texture.
   const render = fs.existsSync(path.join(wikiRoot, 'public', 'mods', slug, 'renders', id + '.png'));
   const icon = render ? `/mods/${slug}/renders/${id}.png` : file || manual ? `/mods/${slug}/items/${id}.png` : null;
-  items.push({ id, name: clean(name), kind, description: clean([...new Set(desc.map(clean))].join(' ')), icon, _file: file });
+  // A screenshot in public/mods/<slug>/photos/<id>.png is shown on the item's page.
+  const photo = fs.existsSync(path.join(wikiRoot, 'public', 'mods', slug, 'photos', id + '.png')) ? `/mods/${slug}/photos/${id}.png` : undefined;
+  items.push({ id, name: clean(name), kind, description: clean([...new Set(desc.map(clean))].join(' ')), icon, photo, _file: file });
 }
 // Same display name twice (e.g. two "Banner Pattern"s): add the description to tell them apart.
 const nameCount = {};
