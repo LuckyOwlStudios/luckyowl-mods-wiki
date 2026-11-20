@@ -29,7 +29,7 @@ export const site = {
 //   3. Set enabled: true.
 export const ads = {
   enabled: false,
-  client: '',
+  client: 'ca-pub-5413374238588742',
   slots: {
     header: '',   // leaderboard under the top bar, every page
     sidebar: '',  // tall unit in the right column on wide screens
