@@ -7,7 +7,7 @@ import rehypeBase from './src/rehype-base.mjs';
 const base = process.env.BASE_PATH || '/';
 
 export default defineConfig({
-  site: process.env.SITE_URL || 'https://luckyowlstudios.github.io',
+  site: process.env.SITE_URL || 'https://luckyowlmods.com',
   base,
   trailingSlash: 'always',
   // sitemap-index.xml for search engines (pages marked noindex are left out)
