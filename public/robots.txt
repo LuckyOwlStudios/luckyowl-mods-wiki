@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://luckyowlstudios.github.io/luckyowl-mods-wiki/sitemap-index.xml
