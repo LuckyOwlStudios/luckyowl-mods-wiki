@@ -1,3 +1,9 @@
 boulder
+copper_boulder
+gold_boulder
 iron_boulder
+lead_boulder
 lush_boulder
+osmium_boulder
+tin_boulder
+zinc_boulder
