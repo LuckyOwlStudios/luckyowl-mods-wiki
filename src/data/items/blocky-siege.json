@@ -27,7 +27,7 @@
       "name": "Ballista",
       "kind": "block",
       "description": "",
-      "icon": "/mods/blocky-siege/items/ballista_block.png"
+      "icon": "/mods/blocky-siege/renders/ballista_block.png"
     },
     {
       "id": "multi_cannon",
@@ -55,7 +55,7 @@
       "name": "Explosive Barrel",
       "kind": "block",
       "description": "",
-      "icon": "/mods/blocky-siege/items/explosive_barrel.png"
+      "icon": "/mods/blocky-siege/renders/explosive_barrel.png"
     },
     {
       "id": "explosive_keg",

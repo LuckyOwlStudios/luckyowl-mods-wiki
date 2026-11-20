@@ -48,21 +48,21 @@
       "name": "Bouncy Piston",
       "kind": "block",
       "description": "",
-      "icon": "/mods/slime-ranch/items/bouncy_piston.png"
+      "icon": "/mods/slime-ranch/renders/bouncy_piston.png"
     },
     {
       "id": "bouncy_piston_head",
       "name": "Bouncy Piston Head",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/slime-ranch/renders/bouncy_piston_head.png"
     },
     {
       "id": "bouncy_slime_block",
       "name": "Bouncy Slime Block",
       "kind": "block",
       "description": "",
-      "icon": "/mods/slime-ranch/items/bouncy_slime_block.png"
+      "icon": "/mods/slime-ranch/renders/bouncy_slime_block.png"
     }
   ]
 }

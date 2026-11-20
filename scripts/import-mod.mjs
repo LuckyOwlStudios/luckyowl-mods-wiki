@@ -108,7 +108,10 @@ for (const [key, name] of Object.entries(lang)) {
   if (!file) file = findAsset(path.join(ns, 'textures', 'item', id + '.png')) || findAsset(path.join(ns, 'textures', 'block', id + '.png'));
 
   const manual = !file && fs.existsSync(path.join(wikiRoot, 'public', 'mods', slug, 'items', id + '.png'));
-  items.push({ id, name: clean(name), kind, description: clean([...new Set(desc.map(clean))].join(' ')), icon: file || manual ? `/mods/${slug}/items/${id}.png` : null, _file: file });
+  // A 3D picture in public/mods/<slug>/renders/<id>.png (a photo, or made by `npm run render-blocks`) wins over the flat texture.
+  const render = fs.existsSync(path.join(wikiRoot, 'public', 'mods', slug, 'renders', id + '.png'));
+  const icon = render ? `/mods/${slug}/renders/${id}.png` : file || manual ? `/mods/${slug}/items/${id}.png` : null;
+  items.push({ id, name: clean(name), kind, description: clean([...new Set(desc.map(clean))].join(' ')), icon, _file: file });
 }
 // Same display name twice (e.g. two "Banner Pattern"s): add the description to tell them apart.
 const nameCount = {};

@@ -6,7 +6,7 @@
       "name": "Pedestal",
       "kind": "block",
       "description": "",
-      "icon": "/mods/showcase/items/pedestal.png"
+      "icon": "/mods/showcase/renders/pedestal.png"
     },
     {
       "id": "tool_rack",

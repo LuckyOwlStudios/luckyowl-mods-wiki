@@ -134,6 +134,8 @@ blockquote { margin: 1rem 0; padding: .6rem 1rem; border-left: 4px solid var(--g
 .item-grid a:hover { border-color: var(--gold); color: var(--gold-2); }
 .item-icon { flex: 0 0 var(--s); width: var(--s); height: var(--s); display: inline-grid; place-items: center; background: var(--bg-2); border-radius: 4px; overflow: hidden; }
 .item-icon img { width: 100%; height: 100%; object-fit: cover; object-position: top; image-rendering: pixelated; }
+/* 3D block pictures are smooth renders: contain them and scale them smoothly */
+.item-icon img.render { object-fit: contain; object-position: center; image-rendering: auto; }
 .item-icon-missing { font-family: var(--pixel); color: var(--muted); font-size: calc(var(--s) * .5); }
 
 /* ---- feature media in markdown */

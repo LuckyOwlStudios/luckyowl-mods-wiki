@@ -2,32 +2,32 @@
   "namespace": "spelunkers_charm",
   "items": [
     {
-      "id": "large_lift",
-      "name": "[BETA] Large Lift",
-      "kind": "item",
-      "description": "",
-      "icon": "/mods/spelunkers-charm/items/large_lift.png"
-    },
-    {
-      "id": "medium_lift",
-      "name": "[BETA] Medium Lift",
-      "kind": "item",
-      "description": "",
-      "icon": "/mods/spelunkers-charm/items/medium_lift.png"
-    },
-    {
-      "id": "small_lift",
-      "name": "[BETA] Small Lift",
-      "kind": "item",
-      "description": "",
-      "icon": "/mods/spelunkers-charm/items/small_lift.png"
-    },
-    {
       "id": "candle_helmet",
       "name": "Candle Helmet",
       "kind": "item",
       "description": "",
       "icon": "/mods/spelunkers-charm/items/candle_helmet.png"
+    },
+    {
+      "id": "large_lift",
+      "name": "Large Lift",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/items/large_lift.png"
+    },
+    {
+      "id": "locomotive",
+      "name": "Locomotive",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/items/locomotive.png"
+    },
+    {
+      "id": "medium_lift",
+      "name": "Medium Lift",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/items/medium_lift.png"
     },
     {
       "id": "mining_helmet",
@@ -37,53 +37,46 @@
       "icon": "/mods/spelunkers-charm/items/mining_helmet.png"
     },
     {
-      "id": "powered_lift_track",
-      "name": "[BETA] Powered Lift Track",
-      "kind": "block",
+      "id": "small_lift",
+      "name": "Small Lift",
+      "kind": "item",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/powered_lift_track.png"
-    },
-    {
-      "id": "wooden_lift_track",
-      "name": "[BETA] Wooden Lift Track",
-      "kind": "block",
-      "description": "",
-      "icon": "/mods/spelunkers-charm/items/wooden_lift_track.png"
+      "icon": "/mods/spelunkers-charm/items/small_lift.png"
     },
     {
       "id": "amethyst_brick_slab",
       "name": "Amethyst Brick Slab",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/amethyst_brick_slab.png"
+      "icon": "/mods/spelunkers-charm/renders/amethyst_brick_slab.png"
     },
     {
       "id": "amethyst_brick_stairs",
       "name": "Amethyst Brick Stairs",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/amethyst_brick_stairs.png"
+      "icon": "/mods/spelunkers-charm/renders/amethyst_brick_stairs.png"
     },
     {
       "id": "amethyst_brick_wall",
       "name": "Amethyst Brick Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/amethyst_brick_wall.png"
+      "icon": "/mods/spelunkers-charm/renders/amethyst_brick_wall.png"
     },
     {
       "id": "amethyst_bricks",
       "name": "Amethyst Bricks",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/amethyst_bricks.png"
+      "icon": "/mods/spelunkers-charm/renders/amethyst_bricks.png"
     },
     {
       "id": "basalt_geyser",
       "name": "Basalt Geyser",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/spelunkers-charm/renders/basalt_geyser.png"
     },
     {
       "id": "basalt_rock",
@@ -97,14 +90,21 @@
       "name": "Blaster",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/blaster.png"
+      "icon": "/mods/spelunkers-charm/renders/blaster.png"
     },
     {
       "id": "boulder",
       "name": "Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/boulder.png"
+    },
+    {
+      "id": "cargo_rail",
+      "name": "Cargo Rail",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/items/cargo_rail.png"
     },
     {
       "id": "cave_mushroom",
@@ -118,35 +118,35 @@
       "name": "Cave Mushroom Block",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cave_mushroom_block.png"
+      "icon": "/mods/spelunkers-charm/renders/cave_mushroom_block.png"
     },
     {
       "id": "chiseled_amethyst_block",
       "name": "Chiseled Amethyst Block",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/chiseled_amethyst_block.png"
+      "icon": "/mods/spelunkers-charm/renders/chiseled_amethyst_block.png"
     },
     {
       "id": "chiseled_dunestone_bricks",
       "name": "Chiseled Dunestone Bricks",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/chiseled_dunestone_bricks.png"
+      "icon": "/mods/spelunkers-charm/renders/chiseled_dunestone_bricks.png"
     },
     {
       "id": "chiseled_permafrost_bricks",
       "name": "Chiseled Permafrost Bricks",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/chiseled_permafrost_bricks.png"
+      "icon": "/mods/spelunkers-charm/renders/chiseled_permafrost_bricks.png"
     },
     {
       "id": "chiseled_wildstone_bricks",
       "name": "Chiseled Wildstone Bricks",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/chiseled_wildstone_bricks.png"
+      "icon": "/mods/spelunkers-charm/renders/chiseled_wildstone_bricks.png"
     },
     {
       "id": "clay_ball",
@@ -160,98 +160,98 @@
       "name": "Cobbled Dunestone",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_dunestone.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_dunestone.png"
     },
     {
       "id": "cobbled_dunestone_slab",
       "name": "Cobbled Dunestone Slab",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_dunestone_slab.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_dunestone_slab.png"
     },
     {
       "id": "cobbled_dunestone_stairs",
       "name": "Cobbled Dunestone Stairs",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_dunestone_stairs.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_dunestone_stairs.png"
     },
     {
       "id": "cobbled_dunestone_wall",
       "name": "Cobbled Dunestone Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_dunestone_wall.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_dunestone_wall.png"
     },
     {
       "id": "cobbled_permafrost",
       "name": "Cobbled Permafrost",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_permafrost.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_permafrost.png"
     },
     {
       "id": "cobbled_permafrost_slab",
       "name": "Cobbled Permafrost Slab",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_permafrost_slab.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_permafrost_slab.png"
     },
     {
       "id": "cobbled_permafrost_stairs",
       "name": "Cobbled Permafrost Stairs",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_permafrost_stairs.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_permafrost_stairs.png"
     },
     {
       "id": "cobbled_permafrost_wall",
       "name": "Cobbled Permafrost Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_permafrost_wall.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_permafrost_wall.png"
     },
     {
       "id": "cobbled_wildstone",
       "name": "Cobbled Wildstone",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_wildstone.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_wildstone.png"
     },
     {
       "id": "cobbled_wildstone_slab",
       "name": "Cobbled Wildstone Slab",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_wildstone_slab.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_wildstone_slab.png"
     },
     {
       "id": "cobbled_wildstone_stairs",
       "name": "Cobbled Wildstone Stairs",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_wildstone_stairs.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_wildstone_stairs.png"
     },
     {
       "id": "cobbled_wildstone_wall",
       "name": "Cobbled Wildstone Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/cobbled_wildstone_wall.png"
+      "icon": "/mods/spelunkers-charm/renders/cobbled_wildstone_wall.png"
     },
     {
       "id": "copper_boulder",
       "name": "Copper Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/copper_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/copper_boulder.png"
     },
     {
       "id": "deepslate_geyser",
       "name": "Deepslate Geyser",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/spelunkers-charm/renders/deepslate_geyser.png"
     },
     {
       "id": "deepslate_rock",
@@ -259,6 +259,27 @@
       "kind": "block",
       "description": "",
       "icon": "/mods/spelunkers-charm/items/deepslate_rock.png"
+    },
+    {
+      "id": "detector_lift_track",
+      "name": "Detector Lift Track",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/renders/detector_lift_track.png"
+    },
+    {
+      "id": "directional_lift_track",
+      "name": "Directional Lift Track",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/renders/directional_lift_track.png"
+    },
+    {
+      "id": "directional_rail",
+      "name": "Directional Rail",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/items/directional_rail.png"
     },
     {
       "id": "dripstone_rock",
@@ -272,119 +293,126 @@
       "name": "Dunestone",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone.png"
     },
     {
       "id": "dunestone_brick_slab",
       "name": "Dunestone Brick Slab",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_brick_slab.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_brick_slab.png"
     },
     {
       "id": "dunestone_brick_stairs",
       "name": "Dunestone Brick Stairs",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_brick_stairs.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_brick_stairs.png"
     },
     {
       "id": "dunestone_brick_wall",
       "name": "Dunestone Brick Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_brick_wall.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_brick_wall.png"
     },
     {
       "id": "dunestone_bricks",
       "name": "Dunestone Bricks",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_bricks.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_bricks.png"
     },
     {
       "id": "dunestone_coal_ore",
       "name": "Dunestone Coal Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_coal_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_coal_ore.png"
     },
     {
       "id": "dunestone_copper_ore",
       "name": "Dunestone Copper Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_copper_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_copper_ore.png"
     },
     {
       "id": "dunestone_diamond_ore",
       "name": "Dunestone Diamond Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_diamond_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_diamond_ore.png"
     },
     {
       "id": "dunestone_emerald_ore",
       "name": "Dunestone Emerald Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_emerald_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_emerald_ore.png"
     },
     {
       "id": "dunestone_gold_ore",
       "name": "Dunestone Gold Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_gold_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_gold_ore.png"
     },
     {
       "id": "dunestone_iron_ore",
       "name": "Dunestone Iron Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_iron_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_iron_ore.png"
     },
     {
       "id": "dunestone_lapis_ore",
       "name": "Dunestone Lapis Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_lapis_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_lapis_ore.png"
     },
     {
       "id": "dunestone_redstone_ore",
       "name": "Dunestone Redstone Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_redstone_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_redstone_ore.png"
     },
     {
       "id": "dunestone_slab",
       "name": "Dunestone Slab",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_slab.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_slab.png"
     },
     {
       "id": "dunestone_stairs",
       "name": "Dunestone Stairs",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_stairs.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_stairs.png"
     },
     {
       "id": "dunestone_wall",
       "name": "Dunestone Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/dunestone_wall.png"
+      "icon": "/mods/spelunkers-charm/renders/dunestone_wall.png"
+    },
+    {
+      "id": "ejector_rail",
+      "name": "Ejector Rail",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/items/ejector_rail.png"
     },
     {
       "id": "gold_boulder",
       "name": "Gold Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/gold_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/gold_boulder.png"
     },
     {
       "id": "hanging_web",
@@ -412,196 +440,217 @@
       "name": "Iron Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/iron_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/iron_boulder.png"
     },
     {
       "id": "lead_boulder",
       "name": "Lead Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/lead_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/lead_boulder.png"
+    },
+    {
+      "id": "lift_controller",
+      "name": "Lift",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "lift_part",
+      "name": "Lift",
+      "kind": "block",
+      "description": "",
+      "icon": null
+    },
+    {
+      "id": "basic_lift_track",
+      "name": "Lift Track",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/renders/basic_lift_track.png"
     },
     {
       "id": "lush_boulder",
       "name": "Lush Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/lush_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/lush_boulder.png"
     },
     {
       "id": "lush_copper_boulder",
       "name": "Lush Copper Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/lush_copper_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/lush_copper_boulder.png"
     },
     {
       "id": "lush_gold_boulder",
       "name": "Lush Gold Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/lush_gold_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/lush_gold_boulder.png"
     },
     {
       "id": "lush_iron_boulder",
       "name": "Lush Iron Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/lush_iron_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/lush_iron_boulder.png"
     },
     {
       "id": "lush_lead_boulder",
       "name": "Lush Lead Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/lush_lead_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/lush_lead_boulder.png"
     },
     {
       "id": "lush_osmium_boulder",
       "name": "Lush Osmium Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/lush_osmium_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/lush_osmium_boulder.png"
     },
     {
       "id": "lush_tin_boulder",
       "name": "Lush Tin Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/lush_tin_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/lush_tin_boulder.png"
     },
     {
       "id": "lush_zinc_boulder",
       "name": "Lush Zinc Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/lush_zinc_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/lush_zinc_boulder.png"
     },
     {
       "id": "osmium_boulder",
       "name": "Osmium Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/osmium_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/osmium_boulder.png"
     },
     {
       "id": "packed_web",
       "name": "Packed Web",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/packed_web.png"
+      "icon": "/mods/spelunkers-charm/renders/packed_web.png"
     },
     {
       "id": "permafrost",
       "name": "Permafrost",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost.png"
     },
     {
       "id": "permafrost_brick_slab",
       "name": "Permafrost Brick Slab",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_brick_slab.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_brick_slab.png"
     },
     {
       "id": "permafrost_brick_stairs",
       "name": "Permafrost Brick Stairs",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_brick_stairs.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_brick_stairs.png"
     },
     {
       "id": "permafrost_brick_wall",
       "name": "Permafrost Brick Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_brick_wall.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_brick_wall.png"
     },
     {
       "id": "permafrost_bricks",
       "name": "Permafrost Bricks",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_bricks.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_bricks.png"
     },
     {
       "id": "permafrost_coal_ore",
       "name": "Permafrost Coal Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_coal_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_coal_ore.png"
     },
     {
       "id": "permafrost_copper_ore",
       "name": "Permafrost Copper Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_copper_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_copper_ore.png"
     },
     {
       "id": "permafrost_diamond_ore",
       "name": "Permafrost Diamond Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_diamond_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_diamond_ore.png"
     },
     {
       "id": "permafrost_emerald_ore",
       "name": "Permafrost Emerald Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_emerald_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_emerald_ore.png"
     },
     {
       "id": "permafrost_gold_ore",
       "name": "Permafrost Gold Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_gold_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_gold_ore.png"
     },
     {
       "id": "permafrost_iron_ore",
       "name": "Permafrost Iron Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_iron_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_iron_ore.png"
     },
     {
       "id": "permafrost_lapis_ore",
       "name": "Permafrost Lapis Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_lapis_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_lapis_ore.png"
     },
     {
       "id": "permafrost_redstone_ore",
       "name": "Permafrost Redstone Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_redstone_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_redstone_ore.png"
     },
     {
       "id": "permafrost_slab",
       "name": "Permafrost Slab",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_slab.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_slab.png"
     },
     {
       "id": "permafrost_stairs",
       "name": "Permafrost Stairs",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_stairs.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_stairs.png"
     },
     {
       "id": "permafrost_wall",
       "name": "Permafrost Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/permafrost_wall.png"
+      "icon": "/mods/spelunkers-charm/renders/permafrost_wall.png"
     },
     {
       "id": "polished_amethyst_block",
@@ -632,6 +681,20 @@
       "icon": null
     },
     {
+      "id": "powered_lift_track",
+      "name": "Powered Lift Track",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/renders/powered_lift_track.png"
+    },
+    {
+      "id": "crossing_rail",
+      "name": "Rail Crossing",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/renders/crossing_rail.png"
+    },
+    {
       "id": "rock",
       "name": "Rock",
       "kind": "block",
@@ -650,7 +713,7 @@
       "name": "Silt",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/silt.png"
+      "icon": "/mods/spelunkers-charm/renders/silt.png"
     },
     {
       "id": "spider_egg",
@@ -671,7 +734,7 @@
       "name": "Tin Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/tin_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/tin_boulder.png"
     },
     {
       "id": "web_vein",
@@ -685,119 +748,126 @@
       "name": "Wildstone",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone.png"
     },
     {
       "id": "wildstone_brick_slab",
       "name": "Wildstone Brick Slab",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_brick_slab.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_brick_slab.png"
     },
     {
       "id": "wildstone_brick_stairs",
       "name": "Wildstone Brick Stairs",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_brick_stairs.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_brick_stairs.png"
     },
     {
       "id": "wildstone_brick_wall",
       "name": "Wildstone Brick Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_brick_wall.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_brick_wall.png"
     },
     {
       "id": "wildstone_bricks",
       "name": "Wildstone Bricks",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_bricks.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_bricks.png"
     },
     {
       "id": "wildstone_coal_ore",
       "name": "Wildstone Coal Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_coal_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_coal_ore.png"
     },
     {
       "id": "wildstone_copper_ore",
       "name": "Wildstone Copper Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_copper_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_copper_ore.png"
     },
     {
       "id": "wildstone_diamond_ore",
       "name": "Wildstone Diamond Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_diamond_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_diamond_ore.png"
     },
     {
       "id": "wildstone_emerald_ore",
       "name": "Wildstone Emerald Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_emerald_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_emerald_ore.png"
     },
     {
       "id": "wildstone_gold_ore",
       "name": "Wildstone Gold Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_gold_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_gold_ore.png"
     },
     {
       "id": "wildstone_iron_ore",
       "name": "Wildstone Iron Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_iron_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_iron_ore.png"
     },
     {
       "id": "wildstone_lapis_ore",
       "name": "Wildstone Lapis Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_lapis_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_lapis_ore.png"
     },
     {
       "id": "wildstone_redstone_ore",
       "name": "Wildstone Redstone Ore",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_redstone_ore.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_redstone_ore.png"
     },
     {
       "id": "wildstone_slab",
       "name": "Wildstone Slab",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_slab.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_slab.png"
     },
     {
       "id": "wildstone_stairs",
       "name": "Wildstone Stairs",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_stairs.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_stairs.png"
     },
     {
       "id": "wildstone_wall",
       "name": "Wildstone Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/wildstone_wall.png"
+      "icon": "/mods/spelunkers-charm/renders/wildstone_wall.png"
+    },
+    {
+      "id": "wooden_rail",
+      "name": "Wooden Rail",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/spelunkers-charm/items/wooden_rail.png"
     },
     {
       "id": "zinc_boulder",
       "name": "Zinc Boulder",
       "kind": "block",
       "description": "",
-      "icon": "/mods/spelunkers-charm/items/zinc_boulder.png"
+      "icon": "/mods/spelunkers-charm/renders/zinc_boulder.png"
     }
   ]
 }

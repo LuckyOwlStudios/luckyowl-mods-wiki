@@ -41,28 +41,28 @@
       "name": "Acacia Couch",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/acacia_couch.png"
+      "icon": "/mods/cozyhome/renders/acacia_couch.png"
     },
     {
       "id": "acacia_counter",
       "name": "Acacia Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/acacia_counter.png"
+      "icon": "/mods/cozyhome/renders/acacia_counter.png"
     },
     {
       "id": "acacia_desk",
       "name": "Acacia Desk",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/acacia_desk.png"
+      "icon": "/mods/cozyhome/renders/acacia_desk.png"
     },
     {
       "id": "acacia_drawer",
       "name": "Acacia Drawer",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/acacia_drawer.png"
+      "icon": "/mods/cozyhome/renders/acacia_drawer.png"
     },
     {
       "id": "acacia_grandfather_clock",
@@ -76,28 +76,28 @@
       "name": "Acacia Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/acacia_lamp.png"
+      "icon": "/mods/cozyhome/renders/acacia_lamp.png"
     },
     {
       "id": "acacia_large_stump",
       "name": "Acacia Large Stump",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/cozyhome/renders/acacia_large_stump.png"
     },
     {
       "id": "acacia_planked_wall",
       "name": "Acacia Planked Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/acacia_planked_wall.png"
+      "icon": "/mods/cozyhome/renders/acacia_planked_wall.png"
     },
     {
       "id": "acacia_sink_counter",
       "name": "Acacia Sink Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/acacia_sink_counter.png"
+      "icon": "/mods/cozyhome/renders/acacia_sink_counter.png"
     },
     {
       "id": "acacia_sofa",
@@ -111,14 +111,14 @@
       "name": "Acacia Storage Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/acacia_storage_counter.png"
+      "icon": "/mods/cozyhome/renders/acacia_storage_counter.png"
     },
     {
       "id": "acacia_table",
       "name": "Acacia Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/acacia_table.png"
+      "icon": "/mods/cozyhome/renders/acacia_table.png"
     },
     {
       "id": "acacia_wall_clock",
@@ -132,7 +132,7 @@
       "name": "Acacia Wall Mirror",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/acacia_wall_mirror.png"
+      "icon": "/mods/cozyhome/renders/acacia_wall_mirror.png"
     },
     {
       "id": "andesite_bathtub",
@@ -146,28 +146,28 @@
       "name": "Andesite Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/andesite_chimney.png"
+      "icon": "/mods/cozyhome/renders/andesite_chimney.png"
     },
     {
       "id": "andesite_fountain",
       "name": "Andesite Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/andesite_fountain.png"
+      "icon": "/mods/cozyhome/renders/andesite_fountain.png"
     },
     {
       "id": "andesite_fountain_spout",
       "name": "Andesite Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/andesite_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/andesite_fountain_spout.png"
     },
     {
       "id": "andesite_sink",
       "name": "Andesite Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/andesite_sink.png"
+      "icon": "/mods/cozyhome/renders/andesite_sink.png"
     },
     {
       "id": "bamboo_chair",
@@ -181,28 +181,28 @@
       "name": "Bamboo Couch",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/bamboo_couch.png"
+      "icon": "/mods/cozyhome/renders/bamboo_couch.png"
     },
     {
       "id": "bamboo_counter",
       "name": "Bamboo Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/bamboo_counter.png"
+      "icon": "/mods/cozyhome/renders/bamboo_counter.png"
     },
     {
       "id": "bamboo_desk",
       "name": "Bamboo Desk",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/bamboo_desk.png"
+      "icon": "/mods/cozyhome/renders/bamboo_desk.png"
     },
     {
       "id": "bamboo_drawer",
       "name": "Bamboo Drawer",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/bamboo_drawer.png"
+      "icon": "/mods/cozyhome/renders/bamboo_drawer.png"
     },
     {
       "id": "bamboo_grandfather_clock",
@@ -216,28 +216,28 @@
       "name": "Bamboo Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/bamboo_lamp.png"
+      "icon": "/mods/cozyhome/renders/bamboo_lamp.png"
     },
     {
       "id": "bamboo_large_stump",
       "name": "Bamboo Large Stump",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/cozyhome/renders/bamboo_large_stump.png"
     },
     {
       "id": "bamboo_planked_wall",
       "name": "Bamboo Planked Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/bamboo_planked_wall.png"
+      "icon": "/mods/cozyhome/renders/bamboo_planked_wall.png"
     },
     {
       "id": "bamboo_sink_counter",
       "name": "Bamboo Sink Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/bamboo_sink_counter.png"
+      "icon": "/mods/cozyhome/renders/bamboo_sink_counter.png"
     },
     {
       "id": "bamboo_sofa",
@@ -251,14 +251,14 @@
       "name": "Bamboo Storage Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/bamboo_storage_counter.png"
+      "icon": "/mods/cozyhome/renders/bamboo_storage_counter.png"
     },
     {
       "id": "bamboo_table",
       "name": "Bamboo Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/bamboo_table.png"
+      "icon": "/mods/cozyhome/renders/bamboo_table.png"
     },
     {
       "id": "bamboo_wall_clock",
@@ -272,7 +272,7 @@
       "name": "Bamboo Wall Mirror",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/bamboo_wall_mirror.png"
+      "icon": "/mods/cozyhome/renders/bamboo_wall_mirror.png"
     },
     {
       "id": "birch_chair",
@@ -286,28 +286,28 @@
       "name": "Birch Couch",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/birch_couch.png"
+      "icon": "/mods/cozyhome/renders/birch_couch.png"
     },
     {
       "id": "birch_counter",
       "name": "Birch Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/birch_counter.png"
+      "icon": "/mods/cozyhome/renders/birch_counter.png"
     },
     {
       "id": "birch_desk",
       "name": "Birch Desk",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/birch_desk.png"
+      "icon": "/mods/cozyhome/renders/birch_desk.png"
     },
     {
       "id": "birch_drawer",
       "name": "Birch Drawer",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/birch_drawer.png"
+      "icon": "/mods/cozyhome/renders/birch_drawer.png"
     },
     {
       "id": "birch_grandfather_clock",
@@ -321,28 +321,28 @@
       "name": "Birch Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/birch_lamp.png"
+      "icon": "/mods/cozyhome/renders/birch_lamp.png"
     },
     {
       "id": "birch_large_stump",
       "name": "Birch Large Stump",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/cozyhome/renders/birch_large_stump.png"
     },
     {
       "id": "birch_planked_wall",
       "name": "Birch Planked Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/birch_planked_wall.png"
+      "icon": "/mods/cozyhome/renders/birch_planked_wall.png"
     },
     {
       "id": "birch_sink_counter",
       "name": "Birch Sink Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/birch_sink_counter.png"
+      "icon": "/mods/cozyhome/renders/birch_sink_counter.png"
     },
     {
       "id": "birch_sofa",
@@ -356,14 +356,14 @@
       "name": "Birch Storage Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/birch_storage_counter.png"
+      "icon": "/mods/cozyhome/renders/birch_storage_counter.png"
     },
     {
       "id": "birch_table",
       "name": "Birch Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/birch_table.png"
+      "icon": "/mods/cozyhome/renders/birch_table.png"
     },
     {
       "id": "birch_wall_clock",
@@ -377,7 +377,7 @@
       "name": "Birch Wall Mirror",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/birch_wall_mirror.png"
+      "icon": "/mods/cozyhome/renders/birch_wall_mirror.png"
     },
     {
       "id": "blackstone_bathtub",
@@ -391,28 +391,28 @@
       "name": "Blackstone Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/blackstone_chimney.png"
+      "icon": "/mods/cozyhome/renders/blackstone_chimney.png"
     },
     {
       "id": "blackstone_fountain",
       "name": "Blackstone Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/blackstone_fountain.png"
+      "icon": "/mods/cozyhome/renders/blackstone_fountain.png"
     },
     {
       "id": "blackstone_fountain_spout",
       "name": "Blackstone Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/blackstone_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/blackstone_fountain_spout.png"
     },
     {
       "id": "blackstone_sink",
       "name": "Blackstone Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/blackstone_sink.png"
+      "icon": "/mods/cozyhome/renders/blackstone_sink.png"
     },
     {
       "id": "brick_bathtub",
@@ -426,28 +426,28 @@
       "name": "Brick Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/brick_chimney.png"
+      "icon": "/mods/cozyhome/renders/brick_chimney.png"
     },
     {
       "id": "brick_fountain",
       "name": "Brick Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/brick_fountain.png"
+      "icon": "/mods/cozyhome/renders/brick_fountain.png"
     },
     {
       "id": "brick_fountain_spout",
       "name": "Brick Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/brick_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/brick_fountain_spout.png"
     },
     {
       "id": "brick_sink",
       "name": "Brick Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/brick_sink.png"
+      "icon": "/mods/cozyhome/renders/brick_sink.png"
     },
     {
       "id": "calcite_bathtub",
@@ -461,28 +461,28 @@
       "name": "Calcite Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/calcite_chimney.png"
+      "icon": "/mods/cozyhome/renders/calcite_chimney.png"
     },
     {
       "id": "calcite_fountain",
       "name": "Calcite Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/calcite_fountain.png"
+      "icon": "/mods/cozyhome/renders/calcite_fountain.png"
     },
     {
       "id": "calcite_fountain_spout",
       "name": "Calcite Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/calcite_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/calcite_fountain_spout.png"
     },
     {
       "id": "calcite_sink",
       "name": "Calcite Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/calcite_sink.png"
+      "icon": "/mods/cozyhome/renders/calcite_sink.png"
     },
     {
       "id": "cherry_chair",
@@ -496,28 +496,28 @@
       "name": "Cherry Couch",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/cherry_couch.png"
+      "icon": "/mods/cozyhome/renders/cherry_couch.png"
     },
     {
       "id": "cherry_counter",
       "name": "Cherry Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/cherry_counter.png"
+      "icon": "/mods/cozyhome/renders/cherry_counter.png"
     },
     {
       "id": "cherry_desk",
       "name": "Cherry Desk",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/cherry_desk.png"
+      "icon": "/mods/cozyhome/renders/cherry_desk.png"
     },
     {
       "id": "cherry_drawer",
       "name": "Cherry Drawer",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/cherry_drawer.png"
+      "icon": "/mods/cozyhome/renders/cherry_drawer.png"
     },
     {
       "id": "cherry_grandfather_clock",
@@ -531,28 +531,28 @@
       "name": "Cherry Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/cherry_lamp.png"
+      "icon": "/mods/cozyhome/renders/cherry_lamp.png"
     },
     {
       "id": "cherry_large_stump",
       "name": "Cherry Large Stump",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/cozyhome/renders/cherry_large_stump.png"
     },
     {
       "id": "cherry_planked_wall",
       "name": "Cherry Planked Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/cherry_planked_wall.png"
+      "icon": "/mods/cozyhome/renders/cherry_planked_wall.png"
     },
     {
       "id": "cherry_sink_counter",
       "name": "Cherry Sink Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/cherry_sink_counter.png"
+      "icon": "/mods/cozyhome/renders/cherry_sink_counter.png"
     },
     {
       "id": "cherry_sofa",
@@ -566,14 +566,14 @@
       "name": "Cherry Storage Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/cherry_storage_counter.png"
+      "icon": "/mods/cozyhome/renders/cherry_storage_counter.png"
     },
     {
       "id": "cherry_table",
       "name": "Cherry Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/cherry_table.png"
+      "icon": "/mods/cozyhome/renders/cherry_table.png"
     },
     {
       "id": "cherry_wall_clock",
@@ -587,7 +587,7 @@
       "name": "Cherry Wall Mirror",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/cherry_wall_mirror.png"
+      "icon": "/mods/cozyhome/renders/cherry_wall_mirror.png"
     },
     {
       "id": "crimson_chair",
@@ -601,28 +601,28 @@
       "name": "Crimson Couch",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/crimson_couch.png"
+      "icon": "/mods/cozyhome/renders/crimson_couch.png"
     },
     {
       "id": "crimson_counter",
       "name": "Crimson Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/crimson_counter.png"
+      "icon": "/mods/cozyhome/renders/crimson_counter.png"
     },
     {
       "id": "crimson_desk",
       "name": "Crimson Desk",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/crimson_desk.png"
+      "icon": "/mods/cozyhome/renders/crimson_desk.png"
     },
     {
       "id": "crimson_drawer",
       "name": "Crimson Drawer",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/crimson_drawer.png"
+      "icon": "/mods/cozyhome/renders/crimson_drawer.png"
     },
     {
       "id": "crimson_grandfather_clock",
@@ -636,28 +636,28 @@
       "name": "Crimson Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/crimson_lamp.png"
+      "icon": "/mods/cozyhome/renders/crimson_lamp.png"
     },
     {
       "id": "crimson_large_stump",
       "name": "Crimson Large Stump",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/cozyhome/renders/crimson_large_stump.png"
     },
     {
       "id": "crimson_planked_wall",
       "name": "Crimson Planked Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/crimson_planked_wall.png"
+      "icon": "/mods/cozyhome/renders/crimson_planked_wall.png"
     },
     {
       "id": "crimson_sink_counter",
       "name": "Crimson Sink Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/crimson_sink_counter.png"
+      "icon": "/mods/cozyhome/renders/crimson_sink_counter.png"
     },
     {
       "id": "crimson_sofa",
@@ -671,14 +671,14 @@
       "name": "Crimson Storage Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/crimson_storage_counter.png"
+      "icon": "/mods/cozyhome/renders/crimson_storage_counter.png"
     },
     {
       "id": "crimson_table",
       "name": "Crimson Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/crimson_table.png"
+      "icon": "/mods/cozyhome/renders/crimson_table.png"
     },
     {
       "id": "crimson_wall_clock",
@@ -692,7 +692,7 @@
       "name": "Crimson Wall Mirror",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/crimson_wall_mirror.png"
+      "icon": "/mods/cozyhome/renders/crimson_wall_mirror.png"
     },
     {
       "id": "dark_oak_chair",
@@ -706,28 +706,28 @@
       "name": "Dark Oak Couch",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/dark_oak_couch.png"
+      "icon": "/mods/cozyhome/renders/dark_oak_couch.png"
     },
     {
       "id": "dark_oak_counter",
       "name": "Dark Oak Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/dark_oak_counter.png"
+      "icon": "/mods/cozyhome/renders/dark_oak_counter.png"
     },
     {
       "id": "dark_oak_desk",
       "name": "Dark Oak Desk",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/dark_oak_desk.png"
+      "icon": "/mods/cozyhome/renders/dark_oak_desk.png"
     },
     {
       "id": "dark_oak_drawer",
       "name": "Dark Oak Drawer",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/dark_oak_drawer.png"
+      "icon": "/mods/cozyhome/renders/dark_oak_drawer.png"
     },
     {
       "id": "dark_oak_grandfather_clock",
@@ -741,28 +741,28 @@
       "name": "Dark Oak Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/dark_oak_lamp.png"
+      "icon": "/mods/cozyhome/renders/dark_oak_lamp.png"
     },
     {
       "id": "dark_oak_large_stump",
       "name": "Dark Oak Large Stump",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/cozyhome/renders/dark_oak_large_stump.png"
     },
     {
       "id": "dark_oak_planked_wall",
       "name": "Dark Oak Planked Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/dark_oak_planked_wall.png"
+      "icon": "/mods/cozyhome/renders/dark_oak_planked_wall.png"
     },
     {
       "id": "dark_oak_sink_counter",
       "name": "Dark Oak Sink Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/dark_oak_sink_counter.png"
+      "icon": "/mods/cozyhome/renders/dark_oak_sink_counter.png"
     },
     {
       "id": "dark_oak_sofa",
@@ -776,14 +776,14 @@
       "name": "Dark Oak Storage Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/dark_oak_storage_counter.png"
+      "icon": "/mods/cozyhome/renders/dark_oak_storage_counter.png"
     },
     {
       "id": "dark_oak_table",
       "name": "Dark Oak Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/dark_oak_table.png"
+      "icon": "/mods/cozyhome/renders/dark_oak_table.png"
     },
     {
       "id": "dark_oak_wall_clock",
@@ -797,7 +797,7 @@
       "name": "Dark Oak Wall Mirror",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/dark_oak_wall_mirror.png"
+      "icon": "/mods/cozyhome/renders/dark_oak_wall_mirror.png"
     },
     {
       "id": "deepslate_bathtub",
@@ -811,28 +811,28 @@
       "name": "Deepslate Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/deepslate_chimney.png"
+      "icon": "/mods/cozyhome/renders/deepslate_chimney.png"
     },
     {
       "id": "deepslate_fountain",
       "name": "Deepslate Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/deepslate_fountain.png"
+      "icon": "/mods/cozyhome/renders/deepslate_fountain.png"
     },
     {
       "id": "deepslate_fountain_spout",
       "name": "Deepslate Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/deepslate_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/deepslate_fountain_spout.png"
     },
     {
       "id": "deepslate_sink",
       "name": "Deepslate Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/deepslate_sink.png"
+      "icon": "/mods/cozyhome/renders/deepslate_sink.png"
     },
     {
       "id": "diorite_bathtub",
@@ -846,35 +846,35 @@
       "name": "Diorite Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/diorite_chimney.png"
+      "icon": "/mods/cozyhome/renders/diorite_chimney.png"
     },
     {
       "id": "diorite_fountain",
       "name": "Diorite Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/diorite_fountain.png"
+      "icon": "/mods/cozyhome/renders/diorite_fountain.png"
     },
     {
       "id": "diorite_fountain_spout",
       "name": "Diorite Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/diorite_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/diorite_fountain_spout.png"
     },
     {
       "id": "diorite_sink",
       "name": "Diorite Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/diorite_sink.png"
+      "icon": "/mods/cozyhome/renders/diorite_sink.png"
     },
     {
       "id": "dye_vat",
       "name": "Dye Vat",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/dye_vat.png"
+      "icon": "/mods/cozyhome/renders/dye_vat.png"
     },
     {
       "id": "endstone_bathtub",
@@ -888,28 +888,28 @@
       "name": "Endstone Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/endstone_chimney.png"
+      "icon": "/mods/cozyhome/renders/endstone_chimney.png"
     },
     {
       "id": "endstone_fountain",
       "name": "Endstone Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/endstone_fountain.png"
+      "icon": "/mods/cozyhome/renders/endstone_fountain.png"
     },
     {
       "id": "endstone_fountain_spout",
       "name": "Endstone Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/endstone_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/endstone_fountain_spout.png"
     },
     {
       "id": "endstone_sink",
       "name": "Endstone Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/endstone_sink.png"
+      "icon": "/mods/cozyhome/renders/endstone_sink.png"
     },
     {
       "id": "glass_chair",
@@ -930,14 +930,14 @@
       "name": "Glass Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/glass_lamp.png"
+      "icon": "/mods/cozyhome/renders/glass_lamp.png"
     },
     {
       "id": "glass_table",
       "name": "Glass Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/glass_table.png"
+      "icon": "/mods/cozyhome/renders/glass_table.png"
     },
     {
       "id": "glass_wall_clock",
@@ -958,14 +958,14 @@
       "name": "Gold Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/gold_chimney.png"
+      "icon": "/mods/cozyhome/renders/gold_chimney.png"
     },
     {
       "id": "gold_sink",
       "name": "Gold Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/gold_sink.png"
+      "icon": "/mods/cozyhome/renders/gold_sink.png"
     },
     {
       "id": "granite_bathtub",
@@ -979,28 +979,28 @@
       "name": "Granite Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/granite_chimney.png"
+      "icon": "/mods/cozyhome/renders/granite_chimney.png"
     },
     {
       "id": "granite_fountain",
       "name": "Granite Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/granite_fountain.png"
+      "icon": "/mods/cozyhome/renders/granite_fountain.png"
     },
     {
       "id": "granite_fountain_spout",
       "name": "Granite Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/granite_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/granite_fountain_spout.png"
     },
     {
       "id": "granite_sink",
       "name": "Granite Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/granite_sink.png"
+      "icon": "/mods/cozyhome/renders/granite_sink.png"
     },
     {
       "id": "iron_bathtub",
@@ -1021,7 +1021,7 @@
       "name": "Iron Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/iron_chimney.png"
+      "icon": "/mods/cozyhome/renders/iron_chimney.png"
     },
     {
       "id": "iron_grandfather_clock",
@@ -1035,21 +1035,21 @@
       "name": "Iron Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/iron_lamp.png"
+      "icon": "/mods/cozyhome/renders/iron_lamp.png"
     },
     {
       "id": "iron_sink",
       "name": "Iron Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/iron_sink.png"
+      "icon": "/mods/cozyhome/renders/iron_sink.png"
     },
     {
       "id": "iron_table",
       "name": "Iron Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/iron_table.png"
+      "icon": "/mods/cozyhome/renders/iron_table.png"
     },
     {
       "id": "iron_wall_clock",
@@ -1070,28 +1070,28 @@
       "name": "Jungle Couch",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/jungle_couch.png"
+      "icon": "/mods/cozyhome/renders/jungle_couch.png"
     },
     {
       "id": "jungle_counter",
       "name": "Jungle Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/jungle_counter.png"
+      "icon": "/mods/cozyhome/renders/jungle_counter.png"
     },
     {
       "id": "jungle_desk",
       "name": "Jungle Desk",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/jungle_desk.png"
+      "icon": "/mods/cozyhome/renders/jungle_desk.png"
     },
     {
       "id": "jungle_drawer",
       "name": "Jungle Drawer",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/jungle_drawer.png"
+      "icon": "/mods/cozyhome/renders/jungle_drawer.png"
     },
     {
       "id": "jungle_grandfather_clock",
@@ -1105,28 +1105,28 @@
       "name": "Jungle Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/jungle_lamp.png"
+      "icon": "/mods/cozyhome/renders/jungle_lamp.png"
     },
     {
       "id": "jungle_large_stump",
       "name": "Jungle Large Stump",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/cozyhome/renders/jungle_large_stump.png"
     },
     {
       "id": "jungle_planked_wall",
       "name": "Jungle Planked Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/jungle_planked_wall.png"
+      "icon": "/mods/cozyhome/renders/jungle_planked_wall.png"
     },
     {
       "id": "jungle_sink_counter",
       "name": "Jungle Sink Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/jungle_sink_counter.png"
+      "icon": "/mods/cozyhome/renders/jungle_sink_counter.png"
     },
     {
       "id": "jungle_sofa",
@@ -1140,14 +1140,14 @@
       "name": "Jungle Storage Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/jungle_storage_counter.png"
+      "icon": "/mods/cozyhome/renders/jungle_storage_counter.png"
     },
     {
       "id": "jungle_table",
       "name": "Jungle Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/jungle_table.png"
+      "icon": "/mods/cozyhome/renders/jungle_table.png"
     },
     {
       "id": "jungle_wall_clock",
@@ -1161,7 +1161,7 @@
       "name": "Jungle Wall Mirror",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/jungle_wall_mirror.png"
+      "icon": "/mods/cozyhome/renders/jungle_wall_mirror.png"
     },
     {
       "id": "mangrove_chair",
@@ -1175,28 +1175,28 @@
       "name": "Mangrove Couch",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mangrove_couch.png"
+      "icon": "/mods/cozyhome/renders/mangrove_couch.png"
     },
     {
       "id": "mangrove_counter",
       "name": "Mangrove Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mangrove_counter.png"
+      "icon": "/mods/cozyhome/renders/mangrove_counter.png"
     },
     {
       "id": "mangrove_desk",
       "name": "Mangrove Desk",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mangrove_desk.png"
+      "icon": "/mods/cozyhome/renders/mangrove_desk.png"
     },
     {
       "id": "mangrove_drawer",
       "name": "Mangrove Drawer",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mangrove_drawer.png"
+      "icon": "/mods/cozyhome/renders/mangrove_drawer.png"
     },
     {
       "id": "mangrove_grandfather_clock",
@@ -1210,28 +1210,28 @@
       "name": "Mangrove Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mangrove_lamp.png"
+      "icon": "/mods/cozyhome/renders/mangrove_lamp.png"
     },
     {
       "id": "mangrove_large_stump",
       "name": "Mangrove Large Stump",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/cozyhome/renders/mangrove_large_stump.png"
     },
     {
       "id": "mangrove_planked_wall",
       "name": "Mangrove Planked Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mangrove_planked_wall.png"
+      "icon": "/mods/cozyhome/renders/mangrove_planked_wall.png"
     },
     {
       "id": "mangrove_sink_counter",
       "name": "Mangrove Sink Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mangrove_sink_counter.png"
+      "icon": "/mods/cozyhome/renders/mangrove_sink_counter.png"
     },
     {
       "id": "mangrove_sofa",
@@ -1245,14 +1245,14 @@
       "name": "Mangrove Storage Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mangrove_storage_counter.png"
+      "icon": "/mods/cozyhome/renders/mangrove_storage_counter.png"
     },
     {
       "id": "mangrove_table",
       "name": "Mangrove Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mangrove_table.png"
+      "icon": "/mods/cozyhome/renders/mangrove_table.png"
     },
     {
       "id": "mangrove_wall_clock",
@@ -1266,7 +1266,7 @@
       "name": "Mangrove Wall Mirror",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mangrove_wall_mirror.png"
+      "icon": "/mods/cozyhome/renders/mangrove_wall_mirror.png"
     },
     {
       "id": "mossy_stone_brick_bathtub",
@@ -1280,28 +1280,28 @@
       "name": "Mossy Stone Brick Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mossy_stone_brick_chimney.png"
+      "icon": "/mods/cozyhome/renders/mossy_stone_brick_chimney.png"
     },
     {
       "id": "mossy_stone_brick_fountain",
       "name": "Mossy Stone Brick Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mossy_stone_brick_fountain.png"
+      "icon": "/mods/cozyhome/renders/mossy_stone_brick_fountain.png"
     },
     {
       "id": "mossy_stone_brick_fountain_spout",
       "name": "Mossy Stone Brick Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mossy_stone_brick_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/mossy_stone_brick_fountain_spout.png"
     },
     {
       "id": "mossy_stone_brick_sink",
       "name": "Mossy Stone Brick Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mossy_stone_brick_sink.png"
+      "icon": "/mods/cozyhome/renders/mossy_stone_brick_sink.png"
     },
     {
       "id": "mud_bathtub",
@@ -1315,28 +1315,28 @@
       "name": "Mud Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mud_chimney.png"
+      "icon": "/mods/cozyhome/renders/mud_chimney.png"
     },
     {
       "id": "mud_fountain",
       "name": "Mud Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mud_fountain.png"
+      "icon": "/mods/cozyhome/renders/mud_fountain.png"
     },
     {
       "id": "mud_fountain_spout",
       "name": "Mud Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mud_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/mud_fountain_spout.png"
     },
     {
       "id": "mud_sink",
       "name": "Mud Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/mud_sink.png"
+      "icon": "/mods/cozyhome/renders/mud_sink.png"
     },
     {
       "id": "nether_brick_bathtub",
@@ -1350,28 +1350,28 @@
       "name": "Nether Brick Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/nether_brick_chimney.png"
+      "icon": "/mods/cozyhome/renders/nether_brick_chimney.png"
     },
     {
       "id": "nether_brick_fountain",
       "name": "Nether Brick Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/nether_brick_fountain.png"
+      "icon": "/mods/cozyhome/renders/nether_brick_fountain.png"
     },
     {
       "id": "nether_brick_fountain_spout",
       "name": "Nether Brick Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/nether_brick_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/nether_brick_fountain_spout.png"
     },
     {
       "id": "nether_brick_sink",
       "name": "Nether Brick Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/nether_brick_sink.png"
+      "icon": "/mods/cozyhome/renders/nether_brick_sink.png"
     },
     {
       "id": "oak_chair",
@@ -1385,28 +1385,28 @@
       "name": "Oak Couch",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/oak_couch.png"
+      "icon": "/mods/cozyhome/renders/oak_couch.png"
     },
     {
       "id": "oak_counter",
       "name": "Oak Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/oak_counter.png"
+      "icon": "/mods/cozyhome/renders/oak_counter.png"
     },
     {
       "id": "oak_desk",
       "name": "Oak Desk",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/oak_desk.png"
+      "icon": "/mods/cozyhome/renders/oak_desk.png"
     },
     {
       "id": "oak_drawer",
       "name": "Oak Drawer",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/oak_drawer.png"
+      "icon": "/mods/cozyhome/renders/oak_drawer.png"
     },
     {
       "id": "oak_grandfather_clock",
@@ -1420,28 +1420,28 @@
       "name": "Oak Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/oak_lamp.png"
+      "icon": "/mods/cozyhome/renders/oak_lamp.png"
     },
     {
       "id": "oak_large_stump",
       "name": "Oak Large Stump",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/cozyhome/renders/oak_large_stump.png"
     },
     {
       "id": "oak_planked_wall",
       "name": "Oak Planked Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/oak_planked_wall.png"
+      "icon": "/mods/cozyhome/renders/oak_planked_wall.png"
     },
     {
       "id": "oak_sink_counter",
       "name": "Oak Sink Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/oak_sink_counter.png"
+      "icon": "/mods/cozyhome/renders/oak_sink_counter.png"
     },
     {
       "id": "oak_sofa",
@@ -1455,14 +1455,14 @@
       "name": "Oak Storage Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/oak_storage_counter.png"
+      "icon": "/mods/cozyhome/renders/oak_storage_counter.png"
     },
     {
       "id": "oak_table",
       "name": "Oak Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/oak_table.png"
+      "icon": "/mods/cozyhome/renders/oak_table.png"
     },
     {
       "id": "oak_wall_clock",
@@ -1476,7 +1476,7 @@
       "name": "Oak Wall Mirror",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/oak_wall_mirror.png"
+      "icon": "/mods/cozyhome/renders/oak_wall_mirror.png"
     },
     {
       "id": "ominous_chair",
@@ -1497,14 +1497,14 @@
       "name": "Ominous Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/ominous_lamp.png"
+      "icon": "/mods/cozyhome/renders/ominous_lamp.png"
     },
     {
       "id": "ominous_table",
       "name": "Ominous Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/ominous_table.png"
+      "icon": "/mods/cozyhome/renders/ominous_table.png"
     },
     {
       "id": "ominous_wall_clock",
@@ -1532,28 +1532,28 @@
       "name": "Prismarine Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/prismarine_chimney.png"
+      "icon": "/mods/cozyhome/renders/prismarine_chimney.png"
     },
     {
       "id": "prismarine_fountain",
       "name": "Prismarine Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/prismarine_fountain.png"
+      "icon": "/mods/cozyhome/renders/prismarine_fountain.png"
     },
     {
       "id": "prismarine_fountain_spout",
       "name": "Prismarine Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/prismarine_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/prismarine_fountain_spout.png"
     },
     {
       "id": "prismarine_sink",
       "name": "Prismarine Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/prismarine_sink.png"
+      "icon": "/mods/cozyhome/renders/prismarine_sink.png"
     },
     {
       "id": "purpur_bathtub",
@@ -1567,28 +1567,28 @@
       "name": "Purpur Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/purpur_chimney.png"
+      "icon": "/mods/cozyhome/renders/purpur_chimney.png"
     },
     {
       "id": "purpur_fountain",
       "name": "Purpur Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/purpur_fountain.png"
+      "icon": "/mods/cozyhome/renders/purpur_fountain.png"
     },
     {
       "id": "purpur_fountain_spout",
       "name": "Purpur Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/purpur_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/purpur_fountain_spout.png"
     },
     {
       "id": "purpur_sink",
       "name": "Purpur Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/purpur_sink.png"
+      "icon": "/mods/cozyhome/renders/purpur_sink.png"
     },
     {
       "id": "red_nether_brick_bathtub",
@@ -1602,28 +1602,28 @@
       "name": "Red Nether Brick Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/red_nether_brick_chimney.png"
+      "icon": "/mods/cozyhome/renders/red_nether_brick_chimney.png"
     },
     {
       "id": "red_nether_brick_fountain",
       "name": "Red Nether Brick Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/red_nether_brick_fountain.png"
+      "icon": "/mods/cozyhome/renders/red_nether_brick_fountain.png"
     },
     {
       "id": "red_nether_brick_fountain_spout",
       "name": "Red Nether Brick Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/red_nether_brick_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/red_nether_brick_fountain_spout.png"
     },
     {
       "id": "red_nether_brick_sink",
       "name": "Red Nether Brick Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/red_nether_brick_sink.png"
+      "icon": "/mods/cozyhome/renders/red_nether_brick_sink.png"
     },
     {
       "id": "red_sandstone_bathtub",
@@ -1637,28 +1637,28 @@
       "name": "Red Sandstone Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/red_sandstone_chimney.png"
+      "icon": "/mods/cozyhome/renders/red_sandstone_chimney.png"
     },
     {
       "id": "red_sandstone_fountain",
       "name": "Red Sandstone Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/red_sandstone_fountain.png"
+      "icon": "/mods/cozyhome/renders/red_sandstone_fountain.png"
     },
     {
       "id": "red_sandstone_fountain_spout",
       "name": "Red Sandstone Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/red_sandstone_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/red_sandstone_fountain_spout.png"
     },
     {
       "id": "red_sandstone_sink",
       "name": "Red Sandstone Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/red_sandstone_sink.png"
+      "icon": "/mods/cozyhome/renders/red_sandstone_sink.png"
     },
     {
       "id": "sandstone_bathtub",
@@ -1672,28 +1672,28 @@
       "name": "Sandstone Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/sandstone_chimney.png"
+      "icon": "/mods/cozyhome/renders/sandstone_chimney.png"
     },
     {
       "id": "sandstone_fountain",
       "name": "Sandstone Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/sandstone_fountain.png"
+      "icon": "/mods/cozyhome/renders/sandstone_fountain.png"
     },
     {
       "id": "sandstone_fountain_spout",
       "name": "Sandstone Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/sandstone_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/sandstone_fountain_spout.png"
     },
     {
       "id": "sandstone_sink",
       "name": "Sandstone Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/sandstone_sink.png"
+      "icon": "/mods/cozyhome/renders/sandstone_sink.png"
     },
     {
       "id": "spruce_chair",
@@ -1707,28 +1707,28 @@
       "name": "Spruce Couch",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/spruce_couch.png"
+      "icon": "/mods/cozyhome/renders/spruce_couch.png"
     },
     {
       "id": "spruce_counter",
       "name": "Spruce Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/spruce_counter.png"
+      "icon": "/mods/cozyhome/renders/spruce_counter.png"
     },
     {
       "id": "spruce_desk",
       "name": "Spruce Desk",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/spruce_desk.png"
+      "icon": "/mods/cozyhome/renders/spruce_desk.png"
     },
     {
       "id": "spruce_drawer",
       "name": "Spruce Drawer",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/spruce_drawer.png"
+      "icon": "/mods/cozyhome/renders/spruce_drawer.png"
     },
     {
       "id": "spruce_grandfather_clock",
@@ -1742,28 +1742,28 @@
       "name": "Spruce Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/spruce_lamp.png"
+      "icon": "/mods/cozyhome/renders/spruce_lamp.png"
     },
     {
       "id": "spruce_large_stump",
       "name": "Spruce Large Stump",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/cozyhome/renders/spruce_large_stump.png"
     },
     {
       "id": "spruce_planked_wall",
       "name": "Spruce Planked Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/spruce_planked_wall.png"
+      "icon": "/mods/cozyhome/renders/spruce_planked_wall.png"
     },
     {
       "id": "spruce_sink_counter",
       "name": "Spruce Sink Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/spruce_sink_counter.png"
+      "icon": "/mods/cozyhome/renders/spruce_sink_counter.png"
     },
     {
       "id": "spruce_sofa",
@@ -1777,14 +1777,14 @@
       "name": "Spruce Storage Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/spruce_storage_counter.png"
+      "icon": "/mods/cozyhome/renders/spruce_storage_counter.png"
     },
     {
       "id": "spruce_table",
       "name": "Spruce Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/spruce_table.png"
+      "icon": "/mods/cozyhome/renders/spruce_table.png"
     },
     {
       "id": "spruce_wall_clock",
@@ -1798,7 +1798,7 @@
       "name": "Spruce Wall Mirror",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/spruce_wall_mirror.png"
+      "icon": "/mods/cozyhome/renders/spruce_wall_mirror.png"
     },
     {
       "id": "stone_brick_bathtub",
@@ -1812,28 +1812,28 @@
       "name": "Stone Brick Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/stone_brick_chimney.png"
+      "icon": "/mods/cozyhome/renders/stone_brick_chimney.png"
     },
     {
       "id": "stone_brick_fountain",
       "name": "Stone Brick Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/stone_brick_fountain.png"
+      "icon": "/mods/cozyhome/renders/stone_brick_fountain.png"
     },
     {
       "id": "stone_brick_fountain_spout",
       "name": "Stone Brick Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/stone_brick_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/stone_brick_fountain_spout.png"
     },
     {
       "id": "stone_brick_sink",
       "name": "Stone Brick Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/stone_brick_sink.png"
+      "icon": "/mods/cozyhome/renders/stone_brick_sink.png"
     },
     {
       "id": "telescope",
@@ -1854,28 +1854,28 @@
       "name": "Tuff Chimney",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/tuff_chimney.png"
+      "icon": "/mods/cozyhome/renders/tuff_chimney.png"
     },
     {
       "id": "tuff_fountain",
       "name": "Tuff Fountain",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/tuff_fountain.png"
+      "icon": "/mods/cozyhome/renders/tuff_fountain.png"
     },
     {
       "id": "tuff_fountain_spout",
       "name": "Tuff Fountain Spout",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/tuff_fountain_spout.png"
+      "icon": "/mods/cozyhome/renders/tuff_fountain_spout.png"
     },
     {
       "id": "tuff_sink",
       "name": "Tuff Sink",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/tuff_sink.png"
+      "icon": "/mods/cozyhome/renders/tuff_sink.png"
     },
     {
       "id": "undead_chair",
@@ -1896,14 +1896,14 @@
       "name": "Undead Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/undead_lamp.png"
+      "icon": "/mods/cozyhome/renders/undead_lamp.png"
     },
     {
       "id": "undead_table",
       "name": "Undead Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/undead_table.png"
+      "icon": "/mods/cozyhome/renders/undead_table.png"
     },
     {
       "id": "undead_wall_clock",
@@ -1924,28 +1924,28 @@
       "name": "Warped Couch",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/warped_couch.png"
+      "icon": "/mods/cozyhome/renders/warped_couch.png"
     },
     {
       "id": "warped_counter",
       "name": "Warped Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/warped_counter.png"
+      "icon": "/mods/cozyhome/renders/warped_counter.png"
     },
     {
       "id": "warped_desk",
       "name": "Warped Desk",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/warped_desk.png"
+      "icon": "/mods/cozyhome/renders/warped_desk.png"
     },
     {
       "id": "warped_drawer",
       "name": "Warped Drawer",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/warped_drawer.png"
+      "icon": "/mods/cozyhome/renders/warped_drawer.png"
     },
     {
       "id": "warped_grandfather_clock",
@@ -1959,28 +1959,28 @@
       "name": "Warped Lamp",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/warped_lamp.png"
+      "icon": "/mods/cozyhome/renders/warped_lamp.png"
     },
     {
       "id": "warped_large_stump",
       "name": "Warped Large Stump",
       "kind": "block",
       "description": "",
-      "icon": null
+      "icon": "/mods/cozyhome/renders/warped_large_stump.png"
     },
     {
       "id": "warped_planked_wall",
       "name": "Warped Planked Wall",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/warped_planked_wall.png"
+      "icon": "/mods/cozyhome/renders/warped_planked_wall.png"
     },
     {
       "id": "warped_sink_counter",
       "name": "Warped Sink Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/warped_sink_counter.png"
+      "icon": "/mods/cozyhome/renders/warped_sink_counter.png"
     },
     {
       "id": "warped_sofa",
@@ -1994,14 +1994,14 @@
       "name": "Warped Storage Counter",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/warped_storage_counter.png"
+      "icon": "/mods/cozyhome/renders/warped_storage_counter.png"
     },
     {
       "id": "warped_table",
       "name": "Warped Table",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/warped_table.png"
+      "icon": "/mods/cozyhome/renders/warped_table.png"
     },
     {
       "id": "warped_wall_clock",
@@ -2015,7 +2015,7 @@
       "name": "Warped Wall Mirror",
       "kind": "block",
       "description": "",
-      "icon": "/mods/cozyhome/items/warped_wall_mirror.png"
+      "icon": "/mods/cozyhome/renders/warped_wall_mirror.png"
     }
   ]
 }
