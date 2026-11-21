@@ -1,0 +1,43 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import AdvancementCard from '../../../../components/AdvancementCard.astro';
+import AdSlot from '../../../../components/AdSlot.astro';
+import { allMods, advancementsFor, lookup, url } from '../../../../lib';
+
+export async function getStaticPaths() {
+  return (await allMods()).flatMap((mod) => advancementsFor(mod).map((adv) => ({ params: { mod: mod.id, adv: adv.id }, props: { mod, adv } })));
+}
+const { mod, adv } = Astro.props;
+const others = advancementsFor(mod).filter((a) => a.id !== adv.id);
+const icon = adv.icon ? lookup(adv.icon) : null;
+const FRAME = {
+  task: 'a normal advancement',
+  goal: 'a goal, a step up from a normal advancement',
+  challenge: 'a challenge, the hardest kind, announced with a special sound',
+};
+---
+<Base mod={mod} title={`${adv.title} (${mod.data.name} advancement)`} description={`${adv.title}: ${adv.description} An advancement from the ${mod.data.name} Minecraft mod.`}>
+  <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / <a href={url(`/mods/${mod.id}/`)}>{mod.data.name}</a> / <a href={url(`/mods/${mod.id}/#advancements`)}>Advancements</a> / {adv.title}</div>
+  <h1>{adv.title}</h1>
+  <p class="lead">{adv.description}</p>
+  <div class="adv-list"><AdvancementCard adv={adv} /></div>
+  <article class="prose">
+    <ul>
+      <li><strong>{adv.title}</strong> is {FRAME[adv.frame]}.</li>
+      {adv.parent && <li>It appears in the <strong>{adv.parent.tab ?? 'advancement'}</strong> tab, after <strong>{adv.parent.title}</strong>.</li>}
+      {adv.ownTab && <li>It opens its own <strong>{mod.data.name}</strong> tab in the advancements screen.</li>}
+      {adv.xp > 0 && <li>Completing it gives <strong>{adv.xp} XP</strong>.</li>}
+      {adv.hidden && <li>It's hidden until you complete it.</li>}
+      {icon?.href && <li>Its icon is the <a href={url(icon.href)}>{icon.name}</a>.</li>}
+    </ul>
+  </article>
+
+  <AdSlot slot="inContent" />
+
+  {others.length > 0 && (
+    <section class="item-section" data-pagefind-ignore>
+      <h2>More advancements from {mod.data.name}</h2>
+      <div class="adv-list">{others.map((a) => <AdvancementCard adv={a} href={`/mods/${mod.id}/advancements/${a.id}/`} />)}</div>
+    </section>
+  )}
+</Base>

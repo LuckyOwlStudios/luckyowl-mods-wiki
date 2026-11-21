@@ -34,4 +34,16 @@ const items = defineCollection({
   }).passthrough(),
 });
 
-export const collections = { mods, items };
+// Hand-written pages in extra groups (Biomes, Potions, ...): src/content/pages/<mod-slug>/<group>/<id>.md
+// The folder name becomes the sidebar group, e.g. biomes -> "Biomes".
+const pages = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/pages' }),
+  schema: z.object({
+    title: z.string(),
+    summary: z.string().optional(), // intro line under the title, also used in search results
+    icon: z.string().optional(),    // path under /public
+    order: z.number().default(100),
+  }),
+});
+
+export const collections = { mods, items, pages };

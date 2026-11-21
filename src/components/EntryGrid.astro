@@ -1,0 +1,19 @@
+---
+import ItemIcon from './ItemIcon.astro';
+import { url, type Group } from '../lib';
+interface Props { group: Group }
+const { group } = Astro.props;
+---
+<section class="item-section">
+  <h2 id={group.anchor}>{group.label} <span class="count">{group.entries.length}</span></h2>
+  <ul class="item-grid">
+    {group.entries.map((e) => (
+      <li>
+        <a href={url(e.href)} title={e.name}>
+          <ItemIcon item={{ id: e.id, name: e.name, kind: 'item', description: '', icon: e.icon }} />
+          <span>{e.name}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</section>

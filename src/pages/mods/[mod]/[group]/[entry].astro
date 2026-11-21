@@ -1,0 +1,31 @@
+---
+// Pages in hand-written groups: src/content/pages/<mod>/<group>/<id>.md -> /mods/<mod>/<group>/<id>/
+import { getCollection, render } from 'astro:content';
+import Base from '../../../../layouts/Base.astro';
+import AdSlot from '../../../../components/AdSlot.astro';
+import EntryGrid from '../../../../components/EntryGrid.astro';
+import { allMods, groupsFor, url } from '../../../../lib';
+
+export async function getStaticPaths() {
+  const mods = await allMods();
+  return (await getCollection('pages')).flatMap((page) => {
+    const parts = page.id.split("/");
+    if (parts.length !== 3) return [];
+    const [modId, group, entry] = parts;
+    const mod = mods.find((m) => m.id === modId);
+    return mod ? [{ params: { mod: modId, group, entry }, props: { mod, page, group } }] : [];
+  });
+}
+const { mod, page, group } = Astro.props;
+const { Content } = await render(page);
+const g = (await groupsFor(mod)).find((x) => x.anchor === group)!;
+const others = { ...g, entries: g.entries.filter((e) => e.href !== `/mods/${page.id}/`) };
+---
+<Base mod={mod} title={`${page.data.title} (${mod.data.name})`} description={page.data.summary ?? `${page.data.title} from the ${mod.data.name} Minecraft mod.`} image={page.data.icon}>
+  <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / <a href={url(`/mods/${mod.id}/`)}>{mod.data.name}</a> / <a href={url(`/mods/${mod.id}/#${group}`)}>{g.label}</a> / {page.data.title}</div>
+  <h1>{page.data.title}</h1>
+  {page.data.summary && <p class="lead">{page.data.summary}</p>}
+  <article class="prose"><Content /></article>
+  <AdSlot slot="inContent" />
+  {others.entries.length > 0 && <div data-pagefind-ignore><EntryGrid group={{ ...others, label: `More ${g.label.toLowerCase()}` }} /></div>}
+</Base>

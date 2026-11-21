@@ -1,0 +1,21 @@
+---
+// An advancement drawn like the in-game toast: framed icon, title (purple for challenges) and description.
+import { lookup, url, type Advancement } from '../lib';
+interface Props { adv: Advancement; href?: string }
+const { adv, href } = Astro.props;
+const icon = adv.icon ? lookup(adv.icon) : null;
+const FRAME = { task: 'Task', goal: 'Goal', challenge: 'Challenge' };
+const Tag = href ? 'a' : 'div';
+---
+<Tag class:list={['adv', `adv-${adv.frame}`]} href={href ? url(href) : undefined}>
+  <span class="adv-frame">{icon?.icon && <img src={url(icon.icon)} alt="" class:list={[{ render: icon.icon.includes('/renders/') }]} />}</span>
+  <span class="adv-text">
+    <strong class="adv-title">{adv.title}</strong>
+    <span class="adv-desc">{adv.description}</span>
+    <span class="adv-meta">
+      {FRAME[adv.frame]}
+      {adv.parent ? <> · after <em>{adv.parent.title}</em>{adv.parent.tab && ` (${adv.parent.tab} tab)`}</> : adv.ownTab && ' · its own tab'}
+      {adv.xp > 0 && ` · ${adv.xp} XP`}
+    </span>
+  </span>
+</Tag>

@@ -2,7 +2,9 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type Item = { id: string; name: string; kind: 'item' | 'block'; description: string; icon: string | null; photo?: string };
 
-const itemFiles = import.meta.glob<{ default: { namespace: string; items: Item[] } }>('./data/items/*.json', { eager: true });
+export type Advancement = { id: string; title: string; description: string; frame: 'task' | 'goal' | 'challenge'; icon: string | null; parent?: { id: string; title: string; tab?: string }; hidden: boolean; xp: number; ownTab: boolean };
+
+const itemFiles = import.meta.glob<{ default: { namespace: string; items: Item[]; advancements?: Advancement[] } }>('./data/items/*.json', { eager: true });
 
 export function itemsFor(mod: CollectionEntry<'mods'>): Item[] {
   const file = itemFiles[`./data/items/${mod.id}.json`];
@@ -73,4 +75,43 @@ export function usedIn(mod: CollectionEntry<'mods'>, itemId: string) {
   const out = new Map<string, Recipe>();
   for (const r of allRecipes) if (r.result.id !== id && inputsOf(r).some((i) => i.ids.includes(id))) out.set(r.result.id, r);
   return [...out].map(([rid, recipe]) => ({ id: rid, recipe, ...lookup(rid) }));
+}
+
+// ---- advancements (from import-mod) and hand-written page groups
+export function advancementsFor(mod: CollectionEntry<'mods'>): Advancement[] {
+  return itemFiles[`./data/items/${mod.id}.json`]?.default.advancements ?? [];
+}
+
+export type Entry = { id: string; name: string; href: string; icon: string | null };
+export type Group = { label: string; anchor: string; entries: Entry[] };
+const titleCase = (s: string) => s.replace(/[-_]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+/** Every sidebar group of a mod: Items, Blocks, hand-written groups (Biomes, ...), Advancements. */
+export async function groupsFor(mod: CollectionEntry<'mods'>): Promise<Group[]> {
+  const items = itemsFor(mod);
+  const asEntry = (i: Item): Entry => ({ id: i.id, name: i.name, href: `/mods/${mod.id}/items/${i.id}/`, icon: i.icon });
+  const groups: Group[] = [
+    { label: 'Items', anchor: 'items', entries: items.filter((i) => i.kind === 'item').map(asEntry) },
+    { label: 'Blocks', anchor: 'blocks', entries: items.filter((i) => i.kind === 'block').map(asEntry) },
+  ];
+  const pages = (await getCollection('pages')).filter((p) => p.id.startsWith(mod.id + '/') && p.id.split('/').length === 3);
+  const byGroup = new Map<string, typeof pages>();
+  for (const p of pages) {
+    const g = p.id.split('/')[1];
+    byGroup.set(g, [...(byGroup.get(g) ?? []), p]);
+  }
+  for (const [g, list] of [...byGroup].sort(([a], [b]) => a.localeCompare(b))) {
+    list.sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title));
+    groups.push({ label: titleCase(g), anchor: g, entries: list.map((p) => ({ id: p.id.split('/')[2], name: p.data.title, href: `/mods/${p.id}/`, icon: p.data.icon ?? null })) });
+  }
+  groups.push({ label: 'Advancements', anchor: 'advancements', entries: advancementsFor(mod).map((a) => ({ id: a.id, name: a.title, href: `/mods/${mod.id}/advancements/${a.id}/`, icon: a.icon ? lookup(a.icon).icon : null })) });
+  return groups.filter((g) => g.entries.length);
+}
+
+/** A mod's stand-alone pages, like Config: src/content/pages/<mod-slug>/<id>.md -> /mods/<mod>/<id>/ */
+export async function singlePagesFor(mod: CollectionEntry<'mods'>) {
+  return (await getCollection('pages'))
+    .filter((p) => p.id.startsWith(mod.id + '/') && p.id.split('/').length === 2)
+    .sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title))
+    .map((p) => ({ title: p.data.title, href: `/mods/${p.id}/` }));
 }

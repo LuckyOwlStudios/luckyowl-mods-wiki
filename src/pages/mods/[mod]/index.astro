@@ -1,9 +1,10 @@
 ---
 import { render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
-import ItemGrid from '../../../components/ItemGrid.astro';
+import EntryGrid from '../../../components/EntryGrid.astro';
+import AdvancementCard from '../../../components/AdvancementCard.astro';
 import AdSlot from '../../../components/AdSlot.astro';
-import { allMods, itemsFor, url } from '../../../lib';
+import { allMods, itemsFor, groupsFor, advancementsFor, url } from '../../../lib';
 
 export async function getStaticPaths() {
   return (await allMods()).map((mod) => ({ params: { mod: mod.id }, props: { mod } }));
@@ -14,11 +15,8 @@ const { Content, headings } = await render(mod);
 const items = itemsFor(mod);
 const itemList = items.filter((i) => i.kind === 'item');
 const blockList = items.filter((i) => i.kind === 'block');
-const toc = [
-  ...headings.filter((h) => h.depth <= 3),
-  ...(itemList.length ? [{ depth: 2, slug: 'items', text: 'Items' }] : []),
-  ...(blockList.length ? [{ depth: 2, slug: 'blocks', text: 'Blocks' }] : []),
-];
+const groups = await groupsFor(mod);
+const advancements = advancementsFor(mod);
 const statusLabel = { released: 'Released', beta: 'Beta', 'in-development': 'In development', upcoming: 'Upcoming', legacy: 'Legacy' }[d.status];
 ---
 <Base mod={mod} title={d.name} description={`${d.name}: ${d.tagline} Wiki with every item, block and feature.`} image={d.banner || d.icon}>
@@ -44,8 +42,14 @@ const statusLabel = { released: 'Released', beta: 'Beta', 'in-development': 'In 
 
   <AdSlot slot="inContent" />
 
-  <ItemGrid modSlug={mod.id} items={itemList} title="Items" />
-  <ItemGrid modSlug={mod.id} items={blockList} title="Blocks" />
+  {groups.filter((g) => g.anchor !== 'advancements').map((g) => <EntryGrid group={g} />)}
+
+  {advancements.length > 0 && (
+    <section class="item-section">
+      <h2 id="advancements">Advancements <span class="count">{advancements.length}</span></h2>
+      <div class="adv-list">{advancements.map((a) => <AdvancementCard adv={a} href={`/mods/${mod.id}/advancements/${a.id}/`} />)}</div>
+    </section>
+  )}
 
   <Fragment slot="rail">
     <div class="infobox">

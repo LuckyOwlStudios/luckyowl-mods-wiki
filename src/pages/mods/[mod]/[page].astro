@@ -1,0 +1,25 @@
+---
+// A mod's stand-alone pages, like Config: src/content/pages/<mod>/<id>.md -> /mods/<mod>/<id>/
+import { getCollection, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import AdSlot from '../../../components/AdSlot.astro';
+import { allMods, url } from '../../../lib';
+
+export async function getStaticPaths() {
+  const mods = await allMods();
+  return (await getCollection('pages')).flatMap((page) => {
+    const parts = page.id.split('/');
+    const mod = mods.find((m) => m.id === parts[0]);
+    return mod && parts.length === 2 ? [{ params: { mod: parts[0], page: parts[1] }, props: { mod, page } }] : [];
+  });
+}
+const { mod, page } = Astro.props;
+const { Content } = await render(page);
+---
+<Base mod={mod} title={`${page.data.title} (${mod.data.name})`} description={page.data.summary ?? `${page.data.title} for the ${mod.data.name} Minecraft mod.`}>
+  <div class="breadcrumbs" data-pagefind-ignore><a href={url('/')}>Home</a> / <a href={url(`/mods/${mod.id}/`)}>{mod.data.name}</a> / {page.data.title}</div>
+  <h1>{mod.data.name} {page.data.title.toLowerCase()}</h1>
+  {page.data.summary && <p class="lead">{page.data.summary}</p>}
+  <article class="prose"><Content /></article>
+  <AdSlot slot="inContent" />
+</Base>

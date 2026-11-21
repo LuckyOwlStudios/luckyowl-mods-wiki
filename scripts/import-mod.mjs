@@ -121,11 +121,45 @@ for (const it of items) nameCount[it.name] = (nameCount[it.name] || 0) + 1;
 for (const it of items) if (it.description && nameCount[it.name] > 1) it.name = `${it.name} (${it.description})`;
 items.sort((a, b) => (a.kind === b.kind ? a.name.localeCompare(b.name) : a.kind === 'item' ? -1 : 1));
 
+// ---- advancements: every data/<ns>/advancement(s)/*.json with a display (recipe unlocks have none)
+const vanillaLangFile = path.join(wikiRoot, '.cache', 'vanilla', '1.21.1', 'assets', 'minecraft', 'lang', 'en_us.json');
+const vanillaLang = fs.existsSync(vanillaLangFile) ? JSON.parse(fs.readFileSync(vanillaLangFile, 'utf8')) : {};
+const cleanText = (t) => t.replace(/§./g, '').replace(/\s+/g, ' ').trim();
+const text = (t) => cleanText(typeof t === 'string' ? t : t?.translate ? (lang[t.translate] ?? vanillaLang[t.translate] ?? '') : t?.text ?? '');
+const humanize = (s) => s.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+const TABS = { story: 'Minecraft', nether: 'Nether', end: 'The End', adventure: 'Adventure', husbandry: 'Husbandry' };
+const advancements = [];
+const dataRoots = assetRoots.map((a) => path.join(path.dirname(a), 'data')).filter((d) => fs.existsSync(d));
+for (const root of dataRoots) for (const dns of fs.readdirSync(root)) for (const dir of ['advancement', 'advancements']) {
+  const base = path.join(root, dns, dir);
+  if (!fs.existsSync(base)) continue;
+  for (const f of fs.readdirSync(base, { recursive: true }).filter((f) => f.endsWith('.json') && !f.startsWith('recipes'))) {
+    const a = readJson(path.join(base, f));
+    if (!a?.display) continue;
+    const id = path.basename(f, '.json');
+    if (advancements.some((x) => x.id === id)) continue;
+    const d = a.display;
+    let parent;
+    if (a.parent) {
+      const { n, p } = splitId(a.parent, dns);
+      const key = n === 'minecraft' ? `advancements.${p.replace(/\//g, '.')}.title` : null;
+      parent = { id: `${n}:${p}`, title: (key && vanillaLang[key]) || humanize(p.split('/').pop()), tab: n === 'minecraft' ? TABS[p.split('/')[0]] : undefined };
+    }
+    const icon = d.icon?.id || d.icon?.item;
+    advancements.push({
+      id, title: text(d.title) || humanize(id), description: text(d.description), frame: d.frame || 'task',
+      icon: icon ? (icon.includes(':') ? icon : `minecraft:${icon}`) : null, parent, hidden: !!d.hidden,
+      xp: a.rewards?.experience || 0, ownTab: !a.parent,
+    });
+  }
+}
+advancements.sort((a, b) => a.title.localeCompare(b.title));
+
 // ---- write output
 const iconDir = path.join(wikiRoot, 'public', 'mods', slug, 'items');
 // Existing icons are kept, so hand-made icons (e.g. for 3D blocks) survive a re-import.
 fs.mkdirSync(iconDir, { recursive: true });
 for (const it of items) { if (it._file) fs.copyFileSync(it._file, path.join(iconDir, it.id + '.png')); delete it._file; }
 fs.mkdirSync(path.join(wikiRoot, 'src', 'data', 'items'), { recursive: true });
-fs.writeFileSync(path.join(wikiRoot, 'src', 'data', 'items', slug + '.json'), JSON.stringify({ namespace: ns, items }, null, 2) + '\n');
-console.log(`${slug}: ${items.length} entries from namespace "${ns}" (${items.filter((i) => i.icon).length} with icons)`);
+fs.writeFileSync(path.join(wikiRoot, 'src', 'data', 'items', slug + '.json'), JSON.stringify({ namespace: ns, items, ...(advancements.length ? { advancements } : {}) }, null, 2) + '\n');
+console.log(`${slug}: ${items.length} entries from namespace "${ns}" (${items.filter((i) => i.icon).length} with icons)${advancements.length ? `, ${advancements.length} advancements` : ''}`);

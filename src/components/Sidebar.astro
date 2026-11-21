@@ -2,7 +2,7 @@
 // Left sidebar. On a mod's pages it shows that mod's own sections
 // (Overview, its guide headings, Items, Blocks); elsewhere it lists all mods.
 import { render, type CollectionEntry } from 'astro:content';
-import { url, itemsFor } from '../lib';
+import { url, groupsFor, singlePagesFor, type Group } from '../lib';
 import ItemIcon from './ItemIcon.astro';
 interface Props {
   nav: { label: string; items: { label: string; href: string }[] }[];
@@ -16,19 +16,17 @@ const { nav, mods, path, mod, mobileOnly = false } = Astro.props;
 let modNav: null | {
   base: string;
   guide: { slug: string; text: string }[];
-  groups: { label: string; anchor: string; items: ReturnType<typeof itemsFor> }[];
+  groups: Group[];
+  pages: { title: string; href: string }[];
 } = null;
 if (mod) {
   const base = url(`/mods/${mod.id}/`);
   const { headings } = await render(mod);
-  const items = itemsFor(mod);
   modNav = {
     base,
     guide: headings.filter((h) => h.depth === 2),
-    groups: [
-      { label: 'Items', anchor: 'items', items: items.filter((i) => i.kind === 'item') },
-      { label: 'Blocks', anchor: 'blocks', items: items.filter((i) => i.kind === 'block') },
-    ].filter((g) => g.items.length),
+    groups: await groupsFor(mod),
+    pages: await singlePagesFor(mod),
   };
 }
 const onOverview = modNav && path === modNav.base;
@@ -51,6 +49,7 @@ const onOverview = modNav && path === modNav.base;
       </a>
       <ul>
         <li><a href={modNav.base} class={onOverview ? 'active' : ''}>Overview</a></li>
+        {modNav.pages.map((p) => <li><a href={url(p.href)} class={path === url(p.href) ? 'active' : ''}>{p.title}</a></li>)}
       </ul>
 
       {modNav.guide.length > 0 && (
@@ -61,14 +60,14 @@ const onOverview = modNav && path === modNav.base;
       )}
 
       {modNav.groups.map((g) => {
-        const open = g.items.some((i) => path === url(`/mods/${mod.id}/items/${i.id}/`));
+        const open = g.entries.some((e) => path === url(e.href));
         return (
           <details class="modnav-group" open={open || undefined}>
-            <summary>{g.label} <span class="count">{g.items.length}</span></summary>
+            <summary>{g.label} <span class="count">{g.entries.length}</span></summary>
             <ul class="modnav-items">
-              {g.items.map((i) => {
-                const href = url(`/mods/${mod.id}/items/${i.id}/`);
-                return <li><a href={href} class={path === href ? 'active' : ''} aria-current={path === href ? 'page' : undefined}><ItemIcon item={i} size={20} /><span>{i.name}</span></a></li>;
+              {g.entries.map((e) => {
+                const href = url(e.href);
+                return <li><a href={href} class={path === href ? 'active' : ''} aria-current={path === href ? 'page' : undefined}><ItemIcon item={{ id: e.id, name: e.name, kind: 'item', description: '', icon: e.icon }} size={20} /><span>{e.name}</span></a></li>;
               })}
             </ul>
           </details>

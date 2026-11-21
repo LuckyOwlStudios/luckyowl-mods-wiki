@@ -7,6 +7,30 @@
       "kind": "item",
       "description": "Use to learn a random brewing recipe",
       "icon": "/mods/codex/items/potion_scroll.png"
+    },
+    {
+      "id": "traded_potion_scroll",
+      "name": "Wanderer's Potion Scroll",
+      "kind": "item",
+      "description": "",
+      "icon": "/mods/codex/items/traded_potion_scroll.png"
+    }
+  ],
+  "advancements": [
+    {
+      "id": "learn_all_brewing",
+      "title": "Master Alchemist",
+      "description": "Learn every brewing recipe",
+      "frame": "challenge",
+      "icon": "codex:potion_scroll",
+      "parent": {
+        "id": "minecraft:nether/brew_potion",
+        "title": "Local Brewery",
+        "tab": "Nether"
+      },
+      "hidden": false,
+      "xp": 0,
+      "ownTab": false
     }
   ]
 }

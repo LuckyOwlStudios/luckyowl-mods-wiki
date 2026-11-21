@@ -878,5 +878,22 @@
       "icon": "/mods/spelunkers-charm/renders/zinc_boulder.png",
       "photo": "/mods/spelunkers-charm/photos/zinc_boulder.png"
     }
+  ],
+  "advancements": [
+    {
+      "id": "sit_on_boulder",
+      "title": "It's not a Boulder, it's a Rock!",
+      "description": "Sit on a Boulder as it's falling down",
+      "frame": "challenge",
+      "icon": "spelunkers_charm:iron_boulder",
+      "parent": {
+        "id": "minecraft:adventure/adventuring_time",
+        "title": "Adventuring Time",
+        "tab": "Adventure"
+      },
+      "hidden": false,
+      "xp": 10,
+      "ownTab": false
+    }
   ]
 }

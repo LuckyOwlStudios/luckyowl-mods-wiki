@@ -349,3 +349,21 @@ a.slot:hover { border-color: var(--gold); background: #221a12; }
 .slot-missing { font-family: var(--pixel); color: var(--muted); text-align: center; line-height: 32px; }
 .slot-count { position: absolute; right: 3px; bottom: 0; font-family: var(--pixel); font-size: 1.05rem; color: #fff; text-shadow: 2px 2px 0 #3f3f3f; }
 .recipe-ings { margin: .8rem 0 0; font-size: .9rem; color: var(--muted); }
+
+/* ---- Advancements, drawn like the in-game toast */
+.adv-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: .75rem; margin: 1rem 0; }
+.adv { display: flex; gap: .9rem; align-items: center; padding: .75rem .9rem; background: #1b1511; border: 2px solid #4a3d2f; border-radius: 6px; color: var(--text); text-decoration: none; }
+a.adv:hover { border-color: var(--gold); }
+.adv-frame { flex: 0 0 52px; height: 52px; display: grid; place-items: center; background: #3d3226; border: 3px solid #8b7a66; border-radius: 4px; }
+.adv-goal .adv-frame { border-radius: 18px; border-color: #b9a27f; }
+.adv-challenge .adv-frame { border-color: #a35fd8; background: #33204a; clip-path: polygon(15% 0, 85% 0, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0 85%, 0 15%); }
+.adv-frame img { width: 32px; height: 32px; object-fit: contain; image-rendering: pixelated; }
+.adv-frame img.render { image-rendering: auto; }
+.adv-text { display: flex; flex-direction: column; gap: .15rem; min-width: 0; }
+.adv-title { font-family: var(--pixel); font-weight: 500; font-size: 1.05rem; color: #f2e14c; }
+.adv-challenge .adv-title { color: #d18cff; }
+.adv-desc { font-size: .92rem; color: #7fd36b; }
+.adv-meta { font-size: .78rem; color: var(--muted); }
+.adv-meta em { font-style: normal; color: var(--text); }
+.media-row.pixel-row { grid-template-columns: repeat(auto-fill, 96px); }
+.media-row.pixel-row img { width: 96px; height: 96px; image-rendering: pixelated; }

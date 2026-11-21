@@ -225,5 +225,37 @@
       "description": "",
       "icon": "/mods/armory/items/light_netherite_leggings.png"
     }
+  ],
+  "advancements": [
+    {
+      "id": "heavy_netherite_armor",
+      "title": "Crush Me in Debris",
+      "description": "Netherite just wasn't enough for you, was it?",
+      "frame": "challenge",
+      "icon": "luckysarmory:heavy_netherite_chestplate",
+      "parent": {
+        "id": "minecraft:nether/netherite_armor",
+        "title": "Cover Me in Debris",
+        "tab": "Nether"
+      },
+      "hidden": false,
+      "xp": 200,
+      "ownTab": false
+    },
+    {
+      "id": "heavy_iron_armor",
+      "title": "Ironclad",
+      "description": "Obtain a full set of Heavy Iron Armor",
+      "frame": "task",
+      "icon": "luckysarmory:heavy_iron_chestplate",
+      "parent": {
+        "id": "minecraft:story/obtain_armor",
+        "title": "Suit Up",
+        "tab": "Minecraft"
+      },
+      "hidden": false,
+      "xp": 10,
+      "ownTab": false
+    }
   ]
 }

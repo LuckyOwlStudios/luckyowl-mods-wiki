@@ -351,5 +351,17 @@
       "description": "",
       "icon": "/mods/wardrobe/items/wool_vest.png"
     }
+  ],
+  "advancements": [
+    {
+      "id": "self_expression",
+      "title": "Self-Expression",
+      "description": "Show off your unique style with a piece of clothing from Lucky's Wardrobe.",
+      "frame": "task",
+      "icon": "luckyswardrobe:hat",
+      "hidden": false,
+      "xp": 10,
+      "ownTab": true
+    }
   ]
 }

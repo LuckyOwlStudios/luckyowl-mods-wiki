@@ -81,6 +81,4 @@ More on the [Dungeon Slime Spawn Egg](items/dungeon_slime_spawn_egg/) page.
 
 Everything is in the **Locksmithing** creative tab.
 
-## Config
-
-On NeoForge, `fortressChestLockChance` (from `0.0` to `1.0`) sets how often Nether Fortress chests are golden locked. `0` turns it off. On Fabric it's fixed at 25%.
+See the [Config](config/) page for the settings.
