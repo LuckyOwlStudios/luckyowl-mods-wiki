@@ -88,10 +88,6 @@ A new underground biome (via TerraBlender) that's dark, quiet and crawling.
 
 Both helmets light up the area around you when paired with a dynamic lights mod such as **LambDynamicLights**.
 
-## Blaster
-
-A redstone-powered block built around a geyser. Load it with a **lava**, **water** or **powder snow bucket**, face it any direction, and power it: it fires a 5-block jet that pushes mobs and players, burning them with lava or freezing them with snow. Great for launchers, traps and mob funnels.
-
 ## Potion of Haste
 
 Brew an **Awkward Potion** with a **Cave Mushroom** to get a Potion of Haste. Add redstone to make it last longer or glowstone to make it stronger. Splash and lingering versions work as usual.
