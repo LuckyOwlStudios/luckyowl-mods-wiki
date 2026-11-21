@@ -2,6 +2,7 @@
 // resolving block/item models, and rendering 3D inventory pictures with three.js in Chromium.
 
 import fs from 'node:fs';
+import zlib from 'node:zlib';
 import path from 'node:path';
 import { createRequire } from 'node:module';
 
@@ -191,7 +192,7 @@ window.draw = async (job) => {
       g.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2));
       const shade = SHADE[dir] ?? 1;
       const color = new THREE.Color(shade, shade, shade);
-      if (face.tintindex !== undefined) color.multiply(new THREE.Color(0x79c05a));
+      if (face.tintindex !== undefined) color.multiply(new THREE.Color(job.tint ?? 0x79c05a));
       const m = new THREE.MeshBasicMaterial({ map: tex, color, alphaTest: 0.1, transparent: true, side: THREE.DoubleSide });
       group.add(new THREE.Mesh(g, m));
     }
@@ -250,4 +251,46 @@ export async function createRenderer() {
     },
     close: () => browser.close(),
   };
+}
+
+// The 16 dye colors furniture gets when dyed (DyeColor entity colors), in creative-menu order.
+export const DYES = {
+  white: 0xF9FFFE, light_gray: 0x9D9D97, gray: 0x474F52, black: 0x1D1D21, brown: 0x835432, red: 0xB02E26,
+  orange: 0xF9801D, yellow: 0xFED83D, lime: 0x80C71F, green: 0x5E7C16, cyan: 0x169C9C, light_blue: 0x3AB3DA,
+  blue: 0x3C44AA, purple: 0x8932B8, magenta: 0xC74EBD, pink: 0xF38BAA,
+};
+
+const CRC_TABLE = Array.from({ length: 256 }, (_, n) => { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1; return c >>> 0; });
+function crc32(buf) { let c = 0xffffffff; for (const b of buf) c = CRC_TABLE[(c ^ b) & 0xff] ^ (c >>> 8); return (c ^ 0xffffffff) >>> 0; }
+function chunk(type, data) {
+  const len = Buffer.alloc(4); len.writeUInt32BE(data.length);
+  const body = Buffer.concat([Buffer.from(type, 'ascii'), data]);
+  const crc = Buffer.alloc(4); crc.writeUInt32BE(crc32(body));
+  return Buffer.concat([len, body, crc]);
+}
+function chunks(png) {
+  const out = [];
+  for (let i = 8; i < png.length;) { const len = png.readUInt32BE(i); out.push({ type: png.toString('ascii', i + 4, i + 8), data: png.subarray(i + 8, i + 8 + len) }); i += 12 + len; }
+  return out;
+}
+/** Joins same-size PNG frames into one looping animated PNG (APNG); browsers without APNG show the first frame. */
+export function animatedPng(frames, delayMs = 700) {
+  const first = chunks(frames[0]);
+  const ihdr = first.find((c) => c.type === 'IHDR').data;
+  const parts = [frames[0].subarray(0, 8), chunk('IHDR', ihdr)];
+  const actl = Buffer.alloc(8); actl.writeUInt32BE(frames.length, 0); actl.writeUInt32BE(0, 4);
+  parts.push(chunk('acTL', actl));
+  let seq = 0;
+  frames.forEach((png, i) => {
+    const fctl = Buffer.alloc(26);
+    fctl.writeUInt32BE(seq++, 0); ihdr.copy(fctl, 4, 0, 8); // width, height; x/y offsets stay 0
+    fctl.writeUInt16BE(delayMs, 20); fctl.writeUInt16BE(1000, 22); // dispose 0, blend 0 (replace)
+    parts.push(chunk('fcTL', fctl));
+    // Re-pack each frame's image data at the best zlib level; the browser's PNG encoder favours speed.
+    const data = zlib.deflateSync(zlib.inflateSync(Buffer.concat(chunks(png).filter((c) => c.type === 'IDAT').map((c) => c.data))), { level: 9 });
+    if (i === 0) parts.push(chunk('IDAT', data));
+    else { const s = Buffer.alloc(4); s.writeUInt32BE(seq++); parts.push(chunk('fdAT', Buffer.concat([s, data]))); }
+  });
+  parts.push(chunk('IEND', Buffer.alloc(0)));
+  return Buffer.concat(parts);
 }

@@ -1,0 +1,22 @@
+oak_couch
+spruce_couch
+birch_couch
+jungle_couch
+acacia_couch
+dark_oak_couch
+mangrove_couch
+cherry_couch
+bamboo_couch
+crimson_couch
+warped_couch
+oak_lamp
+spruce_lamp
+birch_lamp
+jungle_lamp
+acacia_lamp
+dark_oak_lamp
+mangrove_lamp
+cherry_lamp
+bamboo_lamp
+glass_lamp
+undead_lamp #B02E26

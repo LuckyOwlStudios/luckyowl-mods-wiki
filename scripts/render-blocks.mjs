@@ -9,6 +9,9 @@
 // hand-made icon dropped into renders/ is never overwritten. (In-game photos for a block's page go
 // in public/mods/<wiki-slug>/photos/<id>.png instead.) Pass --force to redo generated ones;
 // ids listed in renders/photos.txt (one per line) are kept even then.
+// Dyeable blocks: list them in renders/dyeable.txt, one id per line, optionally followed by the undyed color
+// (e.g. `iron_lamp #F0A83C`, default #F9FFFE). Their picture becomes an animated PNG that starts with the
+// undyed look and then cycles through the 16 dye colors. Other tinted faces get grass green.
 // Run `npm run import-mod` (or import-all) afterwards so the wiki picks the pictures up.
 //
 // Needs Playwright with Chromium: `npm i -D playwright && npx playwright install chromium`.
@@ -16,7 +19,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { wikiRoot, createAssets, createRenderer } from './lib/assets.mjs';
+import { wikiRoot, createAssets, createRenderer, DYES, animatedPng } from './lib/assets.mjs';
 
 const args = process.argv.slice(2);
 const force = args.includes('--force');
@@ -37,6 +40,10 @@ fs.mkdirSync(outDir, { recursive: true });
 const photosFile = path.join(outDir, 'photos.txt');
 const photos = new Set(fs.existsSync(photosFile) ? fs.readFileSync(photosFile, 'utf8').split(/\s+/).filter(Boolean) : []);
 
+const dyeFile = path.join(outDir, 'dyeable.txt');
+const dyeable = new Map(fs.existsSync(dyeFile) ? fs.readFileSync(dyeFile, 'utf8').split('\n').map((l) => l.trim().split(/\s+/)).filter((l) => l[0] && !l[0].startsWith('#'))
+  .map(([id, c]) => [id, c ? parseInt(c.replace('#', ''), 16) : DYES.white]) : []);
+
 const renderer = await createRenderer();
 let made = 0, flat = 0, kept = 0;
 const failed = [];
@@ -46,7 +53,13 @@ for (const item of data.items.filter((i) => i.kind === 'block' && (!only || only
   try {
     const look = await assets.inventoryLook(`${data.namespace}:${item.id}`);
     if (look?.kind !== '3d') { flat++; continue; }
-    fs.writeFileSync(out, await renderer.render(look.job));
+    if (dyeable.has(item.id)) {
+      const undyed = dyeable.get(item.id);
+      const tints = [undyed, ...Object.values(DYES).filter((c) => c !== undyed)];
+      const frames = [];
+      for (const tint of tints) frames.push(await renderer.render({ ...look.job, tint }));
+      fs.writeFileSync(out, animatedPng(frames));
+    } else fs.writeFileSync(out, await renderer.render(look.job));
     made++;
   } catch (e) {
     failed.push(`${item.id}: ${e.message}`);

@@ -54,6 +54,8 @@ This rewrites `src/data/items/<slug>.json` and `public/mods/<slug>/items/`. Your
 
 Block icons are 3D: `npm run render-blocks -- <slug>` draws them from the block models into `public/mods/<slug>/renders/` (needs Playwright: `npm i -D playwright && npx playwright install chromium`). A photo for a block's page goes in `public/mods/<slug>/photos/<id>.png`.
 
+Dyeable blocks (like Cozy Home couches and lamps) are listed in `public/mods/<slug>/renders/dyeable.txt`, one id per line with an optional undyed color (`undead_lamp #B02E26`). Their icon becomes an animated PNG that starts undyed and cycles through the 16 dye colors.
+
 ## Ads
 
 Ad slots are already placed on every page (under the header, in the right column, mid-page and above the footer). They render nothing until you switch them on:
