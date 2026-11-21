@@ -2,7 +2,7 @@
 name: "Lucky's Wardrobe"
 tagline: "Cosmetic clothing that blends with the vanilla style: hats, coats, aprons, robes and more."
 order: 2
-icon: /mods/wardrobe/items/top_hat.png
+icon: /mods/wardrobe/logo.gif
 loaders: [NeoForge]
 minecraft: "1.21.1"
 version: "2.0.1 (Restitched)"
