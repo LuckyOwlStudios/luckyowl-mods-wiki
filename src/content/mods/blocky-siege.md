@@ -38,7 +38,7 @@ Weapons wear out. A full-power cannon shot has a small chance to damage the cann
 
 ## Crossbow Golem
 
-Craft it, or build it like an iron golem: an **iron block** on the ground, a **dispenser** on top, a **log** on each side of the dispenser, and a **carved pumpkin** on top. The golem joins your scoreboard team, so it leaves your teammates alone. Without a team, it shoots at every player. It has 50 health, loads its crossbow like a player would (so Quick Charge works), and fires a random stack from its ammo.
+Craft it, or build it like an iron golem: an **iron block** on the ground, a **dispenser** on top, a **log** on each side of the dispenser, and a **carved pumpkin** on top. The golem joins your scoreboard team, so it leaves your teammates alone. Without a team, it shoots at every player. It has 50 health, loads its crossbow like a player would (so Quick Charge works), and fires a random stack from its ammo. Right-click it with an **iron ingot** to repair it, and nearby Fletchers restock it with a few arrows each morning.
 
 ## Ammunition
 
