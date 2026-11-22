@@ -1,21 +1,23 @@
 ---
 title: "Config"
-summary: "Blocky Siege's settings for cannon damage and cannon volume."
+summary: "Blocky Siege's settings for cannon damage, siege crews and cannon volume."
 ---
 
-On **NeoForge**, settings live in two files. On **Fabric** there's no config file yet, so the defaults below are used.
+Settings live in two files, one for the game and one for your client. On **NeoForge** they're `config/blockysiege-common.toml` and `config/blockysiege-client.toml`. On **Fabric** they're `config/blockysiege-common.properties` and `config/blockysiege-client.properties`.
 
 ## Common
-
-In `config/blockysiege-common.toml`, under `worldGeneration`:
 
 | Option | Default | What it does |
 |---|---|---|
 | `cannonDamage` | `25.0` | How much damage cannons deal. |
+| `crewsBringAmmo` | `true` | Whether Pillagers and Piglins reload empty weapons with their own ammo. When `false`, they only use weapons that are already loaded. |
+| `crewSearchRadius` | `16` | How far, in blocks, a crew mob with a target looks for a weapon to man (4 to 48). |
+
+On NeoForge, `cannonDamage` is under `worldGeneration` and the crew options are under `siegeCrews`.
+
+To turn siege crews off completely, use the gamerule `/gamerule doSiegeWeaponCrews false`.
 
 ## Client
-
-In `config/blockysiege-client.toml`, under `client`:
 
 | Option | Default | What it does |
 |---|---|---|

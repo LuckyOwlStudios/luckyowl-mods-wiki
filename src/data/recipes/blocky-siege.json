@@ -10,116 +10,6 @@
    },
    {
     "ids": [
-     "minecraft:crossbow"
-    ]
-   },
-   {
-    "ids": [
-     "minecraft:iron_ingot"
-    ]
-   },
-   {
-    "ids": [
-     "minecraft:oak_planks",
-     "minecraft:spruce_planks",
-     "minecraft:birch_planks",
-     "minecraft:jungle_planks",
-     "minecraft:acacia_planks",
-     "minecraft:dark_oak_planks",
-     "minecraft:crimson_planks",
-     "minecraft:warped_planks",
-     "minecraft:mangrove_planks",
-     "minecraft:bamboo_planks",
-     "minecraft:cherry_planks"
-    ],
-    "tag": "minecraft:planks"
-   },
-   {
-    "ids": [
-     "minecraft:iron_block"
-    ]
-   },
-   {
-    "ids": [
-     "minecraft:oak_planks",
-     "minecraft:spruce_planks",
-     "minecraft:birch_planks",
-     "minecraft:jungle_planks",
-     "minecraft:acacia_planks",
-     "minecraft:dark_oak_planks",
-     "minecraft:crimson_planks",
-     "minecraft:warped_planks",
-     "minecraft:mangrove_planks",
-     "minecraft:bamboo_planks",
-     "minecraft:cherry_planks"
-    ],
-    "tag": "minecraft:planks"
-   },
-   {
-    "ids": [
-     "minecraft:oak_planks",
-     "minecraft:spruce_planks",
-     "minecraft:birch_planks",
-     "minecraft:jungle_planks",
-     "minecraft:acacia_planks",
-     "minecraft:dark_oak_planks",
-     "minecraft:crimson_planks",
-     "minecraft:warped_planks",
-     "minecraft:mangrove_planks",
-     "minecraft:bamboo_planks",
-     "minecraft:cherry_planks"
-    ],
-    "tag": "minecraft:planks"
-   },
-   {
-    "ids": [
-     "minecraft:oak_planks",
-     "minecraft:spruce_planks",
-     "minecraft:birch_planks",
-     "minecraft:jungle_planks",
-     "minecraft:acacia_planks",
-     "minecraft:dark_oak_planks",
-     "minecraft:crimson_planks",
-     "minecraft:warped_planks",
-     "minecraft:mangrove_planks",
-     "minecraft:bamboo_planks",
-     "minecraft:cherry_planks"
-    ],
-    "tag": "minecraft:planks"
-   },
-   {
-    "ids": [
-     "minecraft:oak_planks",
-     "minecraft:spruce_planks",
-     "minecraft:birch_planks",
-     "minecraft:jungle_planks",
-     "minecraft:acacia_planks",
-     "minecraft:dark_oak_planks",
-     "minecraft:crimson_planks",
-     "minecraft:warped_planks",
-     "minecraft:mangrove_planks",
-     "minecraft:bamboo_planks",
-     "minecraft:cherry_planks"
-    ],
-    "tag": "minecraft:planks"
-   }
-  ],
-  "result": {
-   "id": "blockysiege:ballista_block",
-   "count": 1
-  }
- },
- {
-  "station": "crafting",
-  "shapeless": false,
-  "grid": [
-   {
-    "ids": [
-     "minecraft:iron_ingot"
-    ]
-   },
-   {
-    "ids": [
      "minecraft:iron_block"
     ]
    },
@@ -232,6 +122,116 @@
   ],
   "result": {
    "id": "blockysiege:cannonball",
+   "count": 1
+  }
+ },
+ {
+  "station": "crafting",
+  "shapeless": false,
+  "grid": [
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:crossbow"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:iron_ingot"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:iron_block"
+    ]
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   },
+   {
+    "ids": [
+     "minecraft:oak_planks",
+     "minecraft:spruce_planks",
+     "minecraft:birch_planks",
+     "minecraft:jungle_planks",
+     "minecraft:acacia_planks",
+     "minecraft:dark_oak_planks",
+     "minecraft:crimson_planks",
+     "minecraft:warped_planks",
+     "minecraft:mangrove_planks",
+     "minecraft:bamboo_planks",
+     "minecraft:cherry_planks"
+    ],
+    "tag": "minecraft:planks"
+   }
+  ],
+  "result": {
+   "id": "blockysiege:crossbow_golem_block",
    "count": 1
   }
  },

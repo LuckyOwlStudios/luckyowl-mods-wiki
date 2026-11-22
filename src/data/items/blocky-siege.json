@@ -23,11 +23,11 @@
       "icon": "/mods/blocky-siege/items/bullet.png"
     },
     {
-      "id": "ballista_block",
-      "name": "Ballista",
-      "kind": "block",
+      "id": "crossbow_golem_spawn_egg",
+      "name": "Crossbow Golem Spawn Egg",
+      "kind": "item",
       "description": "",
-      "icon": "/mods/blocky-siege/renders/ballista_block.png"
+      "icon": null
     },
     {
       "id": "multi_cannon",
@@ -49,6 +49,13 @@
       "kind": "block",
       "description": "",
       "icon": "/mods/blocky-siege/items/cannonball.png"
+    },
+    {
+      "id": "crossbow_golem_block",
+      "name": "Crossbow Golem",
+      "kind": "block",
+      "description": "",
+      "icon": "/mods/blocky-siege/items/crossbow_golem_block.png"
     },
     {
       "id": "explosive_barrel",
