@@ -376,7 +376,7 @@ a.adv:hover { border-color: var(--gold); }
 .feature-row .feature-text > :first-child { margin-top: 0; }
 .feature-row .feature-text > :last-child { margin-bottom: 0; }
 .feature-row figure { margin: 0; }
-.feature-row figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; margin: 0; }
+.prose .feature-row figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; margin: 0; border: 0; border-radius: 0; }
 @media (max-width: 640px) {
   .feature-row { grid-template-columns: 1fr; }
   .feature-row figure { order: -1; max-width: 280px; }

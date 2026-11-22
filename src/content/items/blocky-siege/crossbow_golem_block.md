@@ -2,6 +2,8 @@
 summary: "An automatic turret that fires a crossbow at hostile mobs. Give it a crossbow and ammo, and it guards your base on its own."
 ---
 
+<figure class="item-photo"><img src="/mods/blocky-siege/media/crossbow-golem.webp" alt="The Crossbow Golem spinning" /></figure>
+
 ## How it works
 
 Right-click the golem to open it. Put a **crossbow** in its crossbow slot and up to **9 stacks** of arrows, tipped arrows, spectral arrows or fireworks in its ammo slots. It loads the crossbow like a player would, so **Quick Charge** works, and it fires a random stack each shot.

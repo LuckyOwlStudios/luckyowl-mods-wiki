@@ -66,7 +66,7 @@ Holds 8 stacks of arrows, fireworks or other projectiles and launches them in a 
 <figure><img src="/mods/blocky-siege/media/volley-rack.webp" alt="The Volley Rack spinning" loading="lazy" /></figure>
 </div>
 
-<div class="feature-row no-media">
+<div class="feature-row">
 <div class="feature-text">
 
 ### [Crossbow Golem](items/crossbow_golem_block/)
@@ -74,6 +74,7 @@ Holds 8 stacks of arrows, fireworks or other projectiles and launches them in a 
 An automatic turret. Give it a crossbow and up to 9 stacks of arrows or fireworks, and it shoots at monsters, and at players who aren't on your team, up to 48 blocks away. See [Crossbow Golem](#crossbow-golem) below.
 
 </div>
+<figure><img src="/mods/blocky-siege/media/crossbow-golem.webp" alt="The Crossbow Golem spinning" loading="lazy" /></figure>
 
 </div>
 

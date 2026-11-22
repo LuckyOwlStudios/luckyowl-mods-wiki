@@ -55,7 +55,7 @@
       "name": "Crossbow Golem",
       "kind": "block",
       "description": "",
-      "icon": "/mods/blocky-siege/items/crossbow_golem_block.png"
+      "icon": "/mods/blocky-siege/renders/crossbow_golem_block.png"
     },
     {
       "id": "explosive_barrel",
