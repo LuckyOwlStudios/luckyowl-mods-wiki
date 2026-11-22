@@ -16,18 +16,66 @@ downloads:
 
 ## Weapons
 
-<div class="media-row">
-  <figure><img src="/mods/blocky-siege/media/cannon.webp" alt="The Cannon spinning" loading="lazy" /><figcaption>Cannon</figcaption></figure>
-  <figure><img src="/mods/blocky-siege/media/burst-cannon.webp" alt="The Burst-Cannon spinning" loading="lazy" /><figcaption>Burst-Cannon</figcaption></figure>
-  <figure><img src="/mods/blocky-siege/media/spewer.webp" alt="The Spewer spinning" loading="lazy" /><figcaption>Spewer</figcaption></figure>
-  <figure><img src="/mods/blocky-siege/media/volley-rack.webp" alt="The Volley Rack spinning" loading="lazy" /><figcaption>Volley Rack</figcaption></figure>
+<div class="feature-row">
+<div class="feature-text">
+
+### [Cannon](items/cannon/)
+
+Shoots **any block**. Load gunpowder as the fuse and set the power from 1 to 4. Each point of power uses one gunpowder.
+
+Cannonballs and bombs have their own effects, TNT explodes on impact, melons and dried kelp blocks burst into their drops, and any other block lands and places itself where it hits.
+
+</div>
+<figure><img src="/mods/blocky-siege/media/cannon.webp" alt="The Cannon spinning" loading="lazy" /></figure>
 </div>
 
-- **[Cannon](items/cannon/):** shoots **any block**. Load gunpowder as the fuse and set the power from 1 to 4. Each point of power uses one gunpowder. Cannonballs and bombs have their own effects, TNT explodes on impact, melons and dried kelp blocks burst into their drops, and any other block lands and places itself where it hits.
-- **[Burst-Cannon](items/multi_cannon/):** shoots **any item**, in bursts of 1 to 4 rounds. Arrows, fire charges, snowballs and other throwables fly as themselves, firework stars burst, and anything else flies out and drops where it lands. Each round uses one gunpowder.
-- **[Spewer](items/spewer_cannon/):** shoots **any liquid** from a one-bucket tank. Fill it with buckets, potions or any modded fluid container. Water puts out fires and wets farmland, lava sprays burning embers, and potions splash their effect where they land. Hold fire to keep spraying.
-- **[Volley Rack](items/volley_rack/):** holds 8 stacks of arrows, fireworks or other projectiles and launches them in a rapid volley while it's powered. Each shot uses one gunpowder.
-- **[Crossbow Golem](items/crossbow_golem_block/):** an automatic turret. Give it a crossbow and up to 9 stacks of arrows or fireworks, and it shoots at monsters, and at players who aren't on your team, up to 48 blocks away. See [Crossbow Golem](#crossbow-golem) below.
+<div class="feature-row">
+<div class="feature-text">
+
+### [Burst-Cannon](items/multi_cannon/)
+
+Shoots **any item**, in bursts of 1 to 4 rounds. Each round uses one gunpowder.
+
+Arrows, fire charges, snowballs and other throwables fly as themselves, firework stars burst, and anything else flies out and drops where it lands.
+
+</div>
+<figure><img src="/mods/blocky-siege/media/burst-cannon.webp" alt="The Burst-Cannon spinning" loading="lazy" /></figure>
+</div>
+
+<div class="feature-row">
+<div class="feature-text">
+
+### [Spewer](items/spewer_cannon/)
+
+Shoots **any liquid** from a one-bucket tank. Fill it with buckets, potions or any modded fluid container. Hold fire to keep spraying.
+
+Water puts out fires and wets farmland, lava sprays burning embers, and potions splash their effect where they land.
+
+</div>
+<figure><img src="/mods/blocky-siege/media/spewer.webp" alt="The Spewer spinning" loading="lazy" /></figure>
+</div>
+
+<div class="feature-row">
+<div class="feature-text">
+
+### [Volley Rack](items/volley_rack/)
+
+Holds 8 stacks of arrows, fireworks or other projectiles and launches them in a rapid volley while it's powered, or while you hold the fire key. Each shot uses one gunpowder.
+
+</div>
+<figure><img src="/mods/blocky-siege/media/volley-rack.webp" alt="The Volley Rack spinning" loading="lazy" /></figure>
+</div>
+
+<div class="feature-row no-media">
+<div class="feature-text">
+
+### [Crossbow Golem](items/crossbow_golem_block/)
+
+An automatic turret. Give it a crossbow and up to 9 stacks of arrows or fireworks, and it shoots at monsters, and at players who aren't on your team, up to 48 blocks away. See [Crossbow Golem](#crossbow-golem) below.
+
+</div>
+
+</div>
 
 ## Using a weapon
 

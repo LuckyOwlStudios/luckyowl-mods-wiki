@@ -313,7 +313,7 @@ main.bare { display: block; }
 .renders figure { margin: 0; background: radial-gradient(circle at 50% 40%, var(--panel-2), var(--panel) 70%); border-radius: var(--radius); padding: 1.25rem 1rem .8rem; text-align: center; }
 .prose .renders img { border: 0; margin: 0 auto .6rem; max-height: 180px; width: auto; object-fit: contain; filter: drop-shadow(0 10px 14px rgba(0,0,0,.45)); }
 .renders figcaption { font-size: .85rem; color: var(--muted); }
-.prose .pixel-figure img { border: 0; max-width: 560px; }
+.prose .pixel-figure img { border: 0; width: 560px; max-width: 100%; height: auto; }
 .banner-title { margin: .25rem 0 .75rem; line-height: 0; }
 .banner-title img { display: block; width: 100%; max-width: 760px; height: auto; filter: drop-shadow(0 8px 16px rgba(0,0,0,.5)); }
 .mod-banner { border: 0 !important; }
@@ -368,3 +368,20 @@ a.adv:hover { border-color: var(--gold); }
 .adv-meta em { font-style: normal; color: var(--text); }
 .media-row.pixel-row { grid-template-columns: repeat(auto-fill, 96px); }
 .media-row.pixel-row img { width: 96px; height: 96px; image-rendering: pixelated; }
+
+/* A feature with its text on the left and an animation or picture on the right; stacks on small screens */
+.feature-row { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 1.5rem; align-items: center; margin: 1.5rem 0; padding-bottom: 1.5rem; border-bottom: 1px solid var(--line); }
+.feature-row.no-media { grid-template-columns: 1fr; }
+.feature-row:last-of-type { border-bottom: 0; }
+.feature-row .feature-text > :first-child { margin-top: 0; }
+.feature-row .feature-text > :last-child { margin-bottom: 0; }
+.feature-row figure { margin: 0; }
+.feature-row figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; margin: 0; }
+@media (max-width: 640px) {
+  .feature-row { grid-template-columns: 1fr; }
+  .feature-row figure { order: -1; max-width: 280px; }
+}
+
+/* Keep long code paths and wide pictures inside the column on phones */
+.prose code { overflow-wrap: anywhere; }
+.prose img { max-width: 100%; height: auto; }
