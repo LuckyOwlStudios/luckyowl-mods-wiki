@@ -144,6 +144,7 @@ blockquote { margin: 1rem 0; padding: .6rem 1rem; border-left: 4px solid var(--g
 .prose figcaption { color: var(--muted); font-size: .88rem; }
 .media-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1rem 0; }
 .media-row img, .media-row video { margin: 0; width: 100%; }
+.media-row figure > img, .media-row figure > video { aspect-ratio: 4 / 3; height: auto; object-fit: contain; }
 .pixel { image-rendering: pixelated; }
 
 .breadcrumbs { font-size: .88rem; color: var(--muted); margin-bottom: .5rem; }
