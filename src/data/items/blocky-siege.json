@@ -20,7 +20,7 @@
       "name": "Bullet",
       "kind": "item",
       "description": "",
-      "icon": "/mods/blocky-siege/items/bullet.png"
+      "icon": null
     },
     {
       "id": "crossbow_golem_spawn_egg",
@@ -112,6 +112,23 @@
       "kind": "block",
       "description": "",
       "icon": "/mods/blocky-siege/items/wind_bomb.png"
+    }
+  ],
+  "advancements": [
+    {
+      "id": "summon_crossbow_golem",
+      "title": "Iron Sentry",
+      "description": "Build a Crossbow Golem",
+      "frame": "task",
+      "icon": "minecraft:crossbow",
+      "parent": {
+        "id": "minecraft:adventure/summon_iron_golem",
+        "title": "Hired Help",
+        "tab": "Adventure"
+      },
+      "hidden": false,
+      "xp": 0,
+      "ownTab": false
     }
   ]
 }

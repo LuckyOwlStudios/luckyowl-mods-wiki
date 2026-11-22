@@ -2,6 +2,8 @@
 summary: "A heavy cannon that fires any block you load into it, from cannonballs and bombs to TNT, melons or plain stone."
 ---
 
+<figure class="item-photo"><img src="/mods/blocky-siege/media/cannon.webp" alt="The Cannon spinning" /></figure>
+
 ## How it works
 
 Load **gunpowder** as the fuse and a **block** as the ammo, set the power from 1 to 4, then fire it with flint and steel, a redstone signal, or by sitting at it and pressing the Fire Cannon key. Each point of power burns one gunpowder.

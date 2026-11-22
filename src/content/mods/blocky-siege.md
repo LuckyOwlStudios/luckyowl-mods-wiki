@@ -5,7 +5,7 @@ order: 3
 icon: /mods/blocky-siege/media/icon.png
 loaders: [NeoForge, Fabric]
 minecraft: "1.21.1"
-version: "3.0.0"
+version: "4.0.0"
 hideItems: [shoot, bullet, explosive_keg, crossbow_golem_spawn_egg]
 downloads:
   modrinth: https://modrinth.com/mod/luckys-blocky-siege
@@ -20,6 +20,7 @@ downloads:
   <figure><img src="/mods/blocky-siege/media/cannon.webp" alt="The Cannon spinning" loading="lazy" /><figcaption>Cannon</figcaption></figure>
   <figure><img src="/mods/blocky-siege/media/burst-cannon.webp" alt="The Burst-Cannon spinning" loading="lazy" /><figcaption>Burst-Cannon</figcaption></figure>
   <figure><img src="/mods/blocky-siege/media/spewer.webp" alt="The Spewer spinning" loading="lazy" /><figcaption>Spewer</figcaption></figure>
+  <figure><img src="/mods/blocky-siege/media/volley-rack.webp" alt="The Volley Rack spinning" loading="lazy" /><figcaption>Volley Rack</figcaption></figure>
 </div>
 
 - **[Cannon](items/cannon/):** shoots **any block**. Load gunpowder as the fuse and set the power from 1 to 4. Each point of power uses one gunpowder. Cannonballs and bombs have their own effects, TNT explodes on impact, melons and dried kelp blocks burst into their drops, and any other block lands and places itself where it hits.
@@ -38,15 +39,18 @@ Weapons wear out. A full-power cannon shot has a small chance to damage the cann
 
 ## Crossbow Golem
 
-Craft it, or build it like an iron golem: an **iron block** on the ground, a **dispenser** on top, a **log** on each side of the dispenser, and a **carved pumpkin** on top. The golem joins your scoreboard team, so it leaves your teammates alone. Without a team, it shoots at every player. It has 50 health, loads its crossbow like a player would (so Quick Charge works), and fires a random stack from its ammo. Right-click it with an **iron ingot** to repair it, and nearby Fletchers restock it with a few arrows each morning.
+Craft it, build it like an iron golem, or use its spawn egg. To build one, place an **iron block** on the ground, a **dispenser** on top, a **log** on each side of the dispenser, and a **carved pumpkin** on top. The golem joins your scoreboard team, so it leaves your teammates alone. Without a team, it shoots at every player. It has 50 health, loads its crossbow like a player would (so Quick Charge works), and fires a random stack from its ammo. It shows cracks as it takes damage, its ammo box sinks as it runs low, and it happily shoots mobs far below it, so it works well on top of a tower. Right-click it with an **iron ingot** to repair it, and nearby Fletchers restock it with a few arrows each morning.
 
 ## Ammunition
 
 - **[Cannonball](items/cannonball/):** punches through blocks, then skims, bounces and rolls to a stop. Hit a landed cannonball a few times to knock it loose and pick it up.
-- **[Fire Bomb](items/fire_bomb/):** bursts into flames and spreads burning embers around where it lands.
+- **Spectral Cannonball:** punches through several blocks in a row.
+- **[Fire Bomb](items/fire_bomb/):** bursts into flames and spreads burning embers around where it lands. With a dynamic lights mod, the bomb and its embers light up their surroundings.
 - **[Frost Bomb](items/frost_bomb/):** bursts into a spray of frost that leaves frost piles behind.
 - **[Wind Bomb](items/wind_bomb/):** a supersized wind charge that blasts everything away.
 - **[Explosive Barrel](items/explosive_barrel/):** light it like TNT, or fire it from a cannon. It blows up into a spray of wooden shrapnel, thrown forward if it's moving or all around if it isn't.
+
+Placed ammo can be taken back: right-click a stack of cannonballs or bombs to pick up one piece.
 
 ## Siege crews
 
@@ -60,4 +64,16 @@ The **Siege Engineer** is a new villager who works at a Cannon. They sell gunpow
 
 ## Compatibility
 
-With **Farmer's Delight**, its crop crates and rice bags burst into their crops when fired from a cannon. Datapacks can give any block its own cannon behavior in `data/<namespace>/blockysiege/block_projectile_behaviors/`.
+- **Sable and Create Aeronautics:** siege weapons work on moving ships. You can crew weapons on them, Crossbow Golems ride along and shoot from them, and cannonballs hit and break blocks on ships too.
+- **LambDynamicLights:** Fire Bombs and embers light up their surroundings.
+- **Farmer's Delight:** its crop crates and rice bags burst into their crops when fired from a cannon.
+- **Modded fluids** work in the Spewer.
+- **Datapacks** can give any block its own cannon behavior in `data/<namespace>/blockysiege/block_projectile_behaviors/`.
+
+## Details
+
+- **Cannonball deaths** show one of 8 death messages, like *"Steve was flattened by Alex's cannonball"* or *"Steve didn't see the cannonball coming"*.
+- **Advancement:** build a Crossbow Golem to earn **Iron Sentry**.
+- **Translations:** English, Russian, Ukrainian, Spanish (Spain) and Spanish (Mexico).
+- Everything is in the **Siege Weapons** creative tab.
+- See the [changelog](https://github.com/LuckyOwlStudios/Luckys-Blocky-Siege/blob/master/CHANGELOG.md) for everything new in 4.0.0.
