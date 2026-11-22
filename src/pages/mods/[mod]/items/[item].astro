@@ -45,7 +45,10 @@ const desc = item.description || `${item.name} is ${kindLabel === 'Item' ? 'an i
     <section class="item-section">
       <h2 id="build">How to build</h2>
       {notes.data.structure.intro && <p set:html={notes.data.structure.intro.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]!).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')} />}
-      <div class="recipes"><StructureCard structure={notes.data.structure} result={`${namespaceFor(mod)}:${item.id}`} /></div>
+      <div class="recipes build-row">
+        <StructureCard structure={notes.data.structure} result={`${namespaceFor(mod)}:${item.id}`} />
+        {notes.data.structure.image && <img class="build-image" src={url(notes.data.structure.image)} alt={`Building the ${item.name}`} loading="lazy" />}
+      </div>
     </section>
   )}
 

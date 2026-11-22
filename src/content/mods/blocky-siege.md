@@ -3,6 +3,8 @@ name: "Blocky Siege"
 tagline: "Siege weapons for Minecraft: cannons, burst cannons, spewers, volley racks, crossbow golems and bombs."
 order: 3
 icon: /mods/blocky-siege/media/icon.png
+banner: /mods/blocky-siege/media/banner.png
+bannerIsTitle: true
 loaders: [NeoForge, Fabric]
 minecraft: "1.21.1"
 version: "4.0.0"

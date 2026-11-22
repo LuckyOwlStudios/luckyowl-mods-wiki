@@ -7,6 +7,7 @@ structure:
     - [{ tag: "minecraft:logs", ids: [minecraft:oak_log, minecraft:spruce_log, minecraft:birch_log, minecraft:jungle_log, minecraft:acacia_log, minecraft:dark_oak_log, minecraft:mangrove_log, minecraft:cherry_log] }, "minecraft:dispenser", { tag: "minecraft:logs", ids: [minecraft:oak_log, minecraft:spruce_log, minecraft:birch_log, minecraft:jungle_log, minecraft:acacia_log, minecraft:dark_oak_log, minecraft:mangrove_log, minecraft:cherry_log] }]
     - ["", "minecraft:iron_block", ""]
   note: "Place the carved pumpkin last"
+  image: /mods/blocky-siege/media/crossbow-golem-build.webp
   intro: "Build it like an iron golem. Place an **iron block** on the ground, a **dispenser** on top of it, and a **log** of any kind on each side of the dispenser. Then put a **carved pumpkin** on top, and the blocks turn into a Crossbow Golem. Whatever was in the dispenser drops out, and the golem joins the team of the player who placed the pumpkin."
 ---
 

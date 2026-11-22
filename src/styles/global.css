@@ -385,3 +385,8 @@ a.adv:hover { border-color: var(--gold); }
 /* Keep long code paths and wide pictures inside the column on phones */
 .prose code { overflow-wrap: anywhere; }
 .prose img { max-width: 100%; height: auto; }
+
+/* "How to build": the structure card with an animation of the build beside it */
+.build-row { align-items: center; }
+.build-image { width: 260px; max-width: 100%; aspect-ratio: 4 / 3; object-fit: contain; }
+.build-row .recipe { max-width: 360px; }

@@ -38,6 +38,7 @@ const items = defineCollection({
       rows: z.array(z.array(z.union([z.string(), z.object({ tag: z.string(), ids: z.array(z.string()) })]))),
       note: z.string().optional(),
       intro: z.string().optional(), // a line above the card; **bold** works
+      image: z.string().optional(),  // picture or animation of it being built, shown beside the card
     }).optional(),
   }).passthrough(),
 });
