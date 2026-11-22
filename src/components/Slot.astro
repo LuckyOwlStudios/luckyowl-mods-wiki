@@ -1,29 +1,46 @@
 ---
 // One inventory slot. A tag ingredient cycles through the items it accepts.
+// Every slot links somewhere: a mod item to its page here, a vanilla item to the Minecraft Wiki.
 import { lookup, tagName, url, type Ingredient } from '../lib';
 interface Props { ing: Ingredient; count?: number; big?: boolean }
 const { ing, count, big = false } = Astro.props;
-const things = (ing?.ids ?? []).slice(0, 12).map(lookup);
+const ids = (ing?.ids ?? []).slice(0, 12);
+const things = ids.map((id) => {
+  const t = lookup(id);
+  const vanilla = !id.includes(':') || id.startsWith('minecraft:');
+  const link = t.href ? url(t.href) : vanilla ? `https://minecraft.wiki/w/${encodeURIComponent(t.name.replace(/ /g, '_'))}` : undefined;
+  return { ...t, link, external: !t.href && !!link };
+});
 const first = things[0];
 const label = ing?.tag ? tagName(ing.tag) : first?.name;
 const n = count ?? ing?.count;
-const Tag = first?.href && !ing?.tag ? 'a' : 'span';
+const linked = things.some((t) => t.link);
+const Tag = linked ? 'a' : 'span';
+const ext = first?.external;
 ---
-<Tag class:list={['slot', { big, cycle: things.length > 1 }]} href={Tag === 'a' ? url(first!.href!) : undefined} title={label} data-label={label}>
+<Tag class:list={['slot', { big, cycle: things.length > 1 }]} href={linked ? first?.link : undefined}
+  target={linked && ext ? '_blank' : undefined} rel={linked && ext ? 'noopener' : undefined}
+  title={ing?.tag ? `${label}: ${first?.name}` : label} data-label={label}>
   {things.map((t, i) => t.icon
-    ? <img src={url(t.icon)} alt={i === 0 ? label : ''} class:list={[{ on: i === 0, render: t.icon.includes('/renders/') }]} loading="lazy" />
-    : <span class:list={['slot-missing', { on: i === 0 }]}>?</span>)}
+    ? <img src={url(t.icon)} alt={i === 0 ? label : ''} data-name={t.name} data-href={t.link} data-ext={t.external ? '1' : undefined} class:list={[{ on: i === 0, render: t.icon.includes('/renders/') }]} loading="lazy" />
+    : <span class:list={['slot-missing', { on: i === 0 }]} data-name={t.name} data-href={t.link} data-ext={t.external ? '1' : undefined}>?</span>)}
   {n && n > 1 && <b class="slot-count">{n}</b>}
 </Tag>
 
 <script>
-  // Tag ingredients ("Any Planks") show each item they accept in turn.
+  // Tag ingredients ("Any Planks") show each item they accept in turn, and link to the one showing.
   setInterval(() => {
-    for (const slot of document.querySelectorAll('.slot.cycle')) {
-      const kids = [...slot.children].filter((c) => c.tagName !== 'B');
+    for (const slot of document.querySelectorAll<HTMLElement>('.slot.cycle')) {
+      const kids = [...slot.children].filter((c) => c.tagName !== 'B') as HTMLElement[];
       const i = kids.findIndex((c) => c.classList.contains('on'));
       kids[i]?.classList.remove('on');
-      kids[(i + 1) % kids.length]?.classList.add('on');
+      const next = kids[(i + 1) % kids.length];
+      next?.classList.add('on');
+      if (slot instanceof HTMLAnchorElement && next?.dataset.href) {
+        slot.href = next.dataset.href;
+        if (next.dataset.ext) { slot.target = '_blank'; slot.rel = 'noopener'; } else { slot.removeAttribute('target'); slot.removeAttribute('rel'); }
+        slot.title = `${slot.dataset.label}: ${next.dataset.name}`;
+      }
     }
   }, 1200);
 </script>
