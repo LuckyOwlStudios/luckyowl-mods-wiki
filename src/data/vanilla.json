@@ -103,6 +103,10 @@
   "name": "Candle",
   "icon": "/vanilla/candle.png"
  },
+ "carved_pumpkin": {
+  "name": "Carved Pumpkin",
+  "icon": "/vanilla/renders/carved_pumpkin.png"
+ },
  "cauldron": {
   "name": "Cauldron",
   "icon": "/vanilla/cauldron.png"
@@ -234,6 +238,10 @@
  "diamond_leggings": {
   "name": "Diamond Leggings",
   "icon": "/vanilla/diamond_leggings.png"
+ },
+ "dispenser": {
+  "name": "Dispenser",
+  "icon": "/vanilla/renders/dispenser.png"
  },
  "dripstone_block": {
   "name": "Dripstone Block",
@@ -378,6 +386,10 @@
  "lever": {
   "name": "Lever",
   "icon": "/vanilla/lever.png"
+ },
+ "logs": {
+  "name": "Logs",
+  "icon": null
  },
  "magma_block": {
   "name": "Magma Block",

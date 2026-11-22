@@ -4,6 +4,7 @@ import Base from '../../../../layouts/Base.astro';
 import ItemIcon from '../../../../components/ItemIcon.astro';
 import AdSlot from '../../../../components/AdSlot.astro';
 import RecipeCard from '../../../../components/RecipeCard.astro';
+import StructureCard from '../../../../components/StructureCard.astro';
 import { allMods, itemsFor, namespaceFor, recipesFor, usedIn, url } from '../../../../lib';
 
 export async function getStaticPaths() {
@@ -21,7 +22,7 @@ const kindLabel = item.kind === 'block' ? 'Block' : 'Item';
 const same = items.filter((i) => i.kind === item.kind && i.id !== item.id);
 const start = Math.max(0, Math.min(same.length - 12, items.filter((i) => i.kind === item.kind).indexOf(item) - 6));
 const related = same.slice(start, start + 12);
-const recipes = recipesFor(mod, item.id);
+const recipes = notes?.data.hideRecipe ? [] : recipesFor(mod, item.id);
 const used = usedIn(mod, item.id);
 const makes = used.filter((m) => m.href);
 // Things without a wiki page (like vanilla Coal from smelting an ore) show their recipe instead.
@@ -38,6 +39,14 @@ const desc = item.description || `${item.name} is ${kindLabel === 'Item' ? 'an i
   {item.photo && <figure class="item-photo"><img src={url(item.photo)} alt={item.name} /></figure>}
   {Notes ? <article class="prose"><Notes /></article> : (
     <p style="color:var(--muted)">This page doesn't have a write-up yet. See the <a href={url(`/mods/${mod.id}/`)}>{mod.data.name} overview</a> for how it fits into the mod.</p>
+  )}
+
+  {notes?.data.structure && (
+    <section class="item-section">
+      <h2 id="build">How to build</h2>
+      {notes.data.structure.intro && <p set:html={notes.data.structure.intro.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]!).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')} />}
+      <div class="recipes"><StructureCard structure={notes.data.structure} result={`${namespaceFor(mod)}:${item.id}`} /></div>
+    </section>
   )}
 
   {recipes.length > 0 && (

@@ -1,0 +1,30 @@
+---
+// A structure you build in the world (like an iron golem), drawn as a grid of blocks, top row first.
+import Slot from './Slot.astro';
+import { lookup, tagName, type Ingredient } from '../lib';
+type Cell = string | { tag: string; ids: string[] };
+interface Props { structure: { rows: Cell[][]; note?: string }; result: string }
+const { structure, result } = Astro.props;
+const ing = (c: Cell): Ingredient | null => (!c ? null : typeof c === 'string' ? { ids: [c] } : { ids: c.ids, tag: c.tag });
+const cols = Math.max(...structure.rows.map((r) => r.length));
+const parts = new Map<string, number>();
+for (const c of structure.rows.flat()) {
+  if (!c) continue;
+  const name = typeof c === 'string' ? lookup(c).name : tagName(c.tag);
+  parts.set(name, (parts.get(name) ?? 0) + 1);
+}
+---
+<figure class="recipe structure">
+  <figcaption class="recipe-head"><span>Build in the world</span></figcaption>
+  <div class="recipe-body">
+    <div class="recipe-grid" style={`grid-template-columns: repeat(${cols}, 44px)`}>
+      {structure.rows.flatMap((row) => Array.from({ length: cols }, (_, i) => row[i] ?? '')).map((c) => <Slot ing={ing(c)} />)}
+    </div>
+    <span class="recipe-arrow" aria-label="makes"></span>
+    <Slot ing={{ ids: [result] }} big />
+  </div>
+  <p class="recipe-ings">
+    {[...parts].map(([name, n], i) => <>{i > 0 && ' + '}{n > 1 && `${n} × `}{name}</>)}
+    {structure.note && <span class="recipe-meta"> · {structure.note}</span>}
+  </p>
+</figure>

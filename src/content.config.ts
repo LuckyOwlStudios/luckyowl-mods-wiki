@@ -31,6 +31,14 @@ const items = defineCollection({
   schema: z.object({
     obtain: z.string().optional(),  // short "how to get it" line
     summary: z.string().optional(), // optional intro line shown under the title
+    hideRecipe: z.boolean().optional(), // don't show its crafting recipe (e.g. it's meant to be built in the world)
+    // A structure built in the world, like an iron golem. rows go top to bottom; each cell is "" (anything),
+    // a block id, or { tag, ids } for "any log" style cells. Shown as a "How to build" card.
+    structure: z.object({
+      rows: z.array(z.array(z.union([z.string(), z.object({ tag: z.string(), ids: z.array(z.string()) })]))),
+      note: z.string().optional(),
+      intro: z.string().optional(), // a line above the card; **bold** works
+    }).optional(),
   }).passthrough(),
 });
 

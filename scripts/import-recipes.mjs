@@ -212,6 +212,12 @@ for (const slug of slugs) {
   for (const r of final) counts[r.station] = (counts[r.station] || 0) + 1;
   console.log(`${slug}: ${final.length} recipes ${JSON.stringify(counts)}`);
 }
+// Vanilla blocks named in a hand-written build structure (`structure:` in an item's notes) need icons too.
+const notesDir = path.join(wikiRoot, 'src', 'content', 'items');
+if (fs.existsSync(notesDir)) for (const f of fs.readdirSync(notesDir, { recursive: true }).filter((f) => f.endsWith('.md'))) {
+  const front = fs.readFileSync(path.join(notesDir, f), 'utf8').split('---')[1] || '';
+  if (/^structure:/m.test(front)) for (const [id] of front.matchAll(/minecraft:[a-z0-9_]+/g)) await ensureVanilla(id);
+}
 // Icons for the station shown on each recipe card.
 for (const id of ['crafting_table', 'furnace', 'blast_furnace', 'smoker', 'campfire', 'stonecutter', 'smithing_table']) await ensureVanilla(`minecraft:${id}`);
 if (renderer) await renderer.close();
